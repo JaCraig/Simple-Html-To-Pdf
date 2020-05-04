@@ -34,42 +34,42 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
 
         public void AddObject(IntPtr converter, IntPtr objectSettings, byte[] data)
         {
-            this.module.wkhtmltopdf_add_object(converter, objectSettings, data);
+            module.wkhtmltopdf_add_object(converter, objectSettings, data);
         }
 
         public void AddObject(IntPtr converter, IntPtr objectSettings, string data)
         {
-            this.module.wkhtmltopdf_add_object(converter, objectSettings, data);
+            module.wkhtmltopdf_add_object(converter, objectSettings, data);
         }
 
         public IntPtr CreateConverter(IntPtr globalSettings)
         {
-            return this.module.wkhtmltopdf_create_converter(globalSettings);
+            return module.wkhtmltopdf_create_converter(globalSettings);
         }
 
         public IntPtr CreateGlobalSettings()
         {
-            return this.module.wkhtmltopdf_create_global_settings();
+            return module.wkhtmltopdf_create_global_settings();
         }
 
         public IntPtr CreateObjectSettings()
         {
-            return this.module.wkhtmltopdf_create_object_settings();
+            return module.wkhtmltopdf_create_object_settings();
         }
 
         public void DestroyConverter(IntPtr converter)
         {
-            this.module.wkhtmltopdf_destroy_converter(converter);
+            module.wkhtmltopdf_destroy_converter(converter);
         }
 
         public void DestroyGlobalSetting(IntPtr settings)
         {
-            this.module.wkhtmltopdf_destroy_global_settings(settings);
+            module.wkhtmltopdf_destroy_global_settings(settings);
         }
 
         public void DestroyObjectSetting(IntPtr settings)
         {
-            this.module.wkhtmltopdf_destroy_object_settings(settings);
+            module.wkhtmltopdf_destroy_object_settings(settings);
         }
 
         // This code added to correctly implement the disposable pattern.
@@ -83,19 +83,17 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
 
         public bool DoConversion(IntPtr converter)
         {
-            return this.module.wkhtmltopdf_convert(converter);
+            return module.wkhtmltopdf_convert(converter);
         }
 
         public bool ExtendedQt()
         {
-            return this.module.wkhtmltopdf_extended_qt() == 1 ? true : false;
+            return module.wkhtmltopdf_extended_qt() == 1;
         }
 
         public byte[] GetConversionResult(IntPtr converter)
         {
-            IntPtr resultPointer;
-
-            int length = this.module.wkhtmltopdf_get_output(converter, out resultPointer);
+            int length = module.wkhtmltopdf_get_output(converter, out IntPtr resultPointer);
             var result = new byte[length];
             Marshal.Copy(resultPointer, result, 0, length);
 
@@ -104,7 +102,7 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
 
         public int GetCurrentPhase(IntPtr converter)
         {
-            return this.module.wkhtmltopdf_current_phase(converter);
+            return module.wkhtmltopdf_current_phase(converter);
         }
 
         public string GetGlobalSetting(IntPtr settings, string name)
@@ -112,14 +110,14 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
             //default const char * size is 2048 bytes
             byte[] buffer = new byte[2048];
 
-            this.module.wkhtmltopdf_get_global_setting(settings, name, buffer);
+            module.wkhtmltopdf_get_global_setting(settings, name, buffer);
 
             return GetString(buffer);
         }
 
         public string GetLibraryVersion()
         {
-            return Marshal.PtrToStringAnsi(this.module.wkhtmltopdf_version());
+            return Marshal.PtrToStringAnsi(module.wkhtmltopdf_version());
         }
 
         public string GetObjectSetting(IntPtr settings, string name)
@@ -127,24 +125,24 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
             //default const char * size is 2048 bytes
             byte[] buffer = new byte[2048];
 
-            this.module.wkhtmltopdf_get_object_setting(settings, name, buffer);
+            module.wkhtmltopdf_get_object_setting(settings, name, buffer);
 
             return GetString(buffer);
         }
 
         public int GetPhaseCount(IntPtr converter)
         {
-            return this.module.wkhtmltopdf_phase_count(converter);
+            return module.wkhtmltopdf_phase_count(converter);
         }
 
         public string GetPhaseDescription(IntPtr converter, int phase)
         {
-            return Marshal.PtrToStringAnsi(this.module.wkhtmltopdf_phase_description(converter, phase));
+            return Marshal.PtrToStringAnsi(module.wkhtmltopdf_phase_description(converter, phase));
         }
 
         public string GetProgressString(IntPtr converter)
         {
-            return Marshal.PtrToStringAnsi(this.module.wkhtmltopdf_progress_string(converter));
+            return Marshal.PtrToStringAnsi(module.wkhtmltopdf_progress_string(converter));
         }
 
         public void Load()
@@ -154,9 +152,9 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
                 return;
             }
 
-            this.module = new WkHtmlModule();
+            module = new WkHtmlModule();
 
-            if (this.module.wkhtmltopdf_init(0) == 1)
+            if (module.wkhtmltopdf_init(0) == 1)
             {
                 IsLoaded = true;
             }
@@ -164,47 +162,47 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
 
         public int SetErrorCallback(IntPtr converter, StringCallback callback)
         {
-            this.delegates.Add(callback);
+            delegates.Add(callback);
 
-            return this.module.wkhtmltopdf_set_error_callback(converter, callback);
+            return module.wkhtmltopdf_set_error_callback(converter, callback);
         }
 
         public int SetFinishedCallback(IntPtr converter, IntCallback callback)
         {
-            this.delegates.Add(callback);
+            delegates.Add(callback);
 
-            return this.module.wkhtmltopdf_set_finished_callback(converter, callback);
+            return module.wkhtmltopdf_set_finished_callback(converter, callback);
         }
 
         public int SetGlobalSetting(IntPtr settings, string name, string value)
         {
-            return this.module.wkhtmltopdf_set_global_setting(settings, name, value);
+            return module.wkhtmltopdf_set_global_setting(settings, name, value);
         }
 
         public int SetObjectSetting(IntPtr settings, string name, string value)
         {
-            return this.module.wkhtmltopdf_set_object_setting(settings, name, value);
+            return module.wkhtmltopdf_set_object_setting(settings, name, value);
         }
 
         public int SetPhaseChangedCallback(IntPtr converter, VoidCallback callback)
         {
-            this.delegates.Add(callback);
+            delegates.Add(callback);
 
-            return this.module.wkhtmltopdf_set_phase_changed_callback(converter, callback);
+            return module.wkhtmltopdf_set_phase_changed_callback(converter, callback);
         }
 
         public int SetProgressChangedCallback(IntPtr converter, VoidCallback callback)
         {
-            this.delegates.Add(callback);
+            delegates.Add(callback);
 
-            return this.module.wkhtmltopdf_set_progress_changed_callback(converter, callback);
+            return module.wkhtmltopdf_set_progress_changed_callback(converter, callback);
         }
 
         public int SetWarningCallback(IntPtr converter, StringCallback callback)
         {
-            this.delegates.Add(callback);
+            delegates.Add(callback);
 
-            return this.module.wkhtmltopdf_set_warning_callback(converter, callback);
+            return module.wkhtmltopdf_set_warning_callback(converter, callback);
         }
 
         // To detect redundant calls
@@ -219,7 +217,7 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
                 }
 
                 //free unmanaged resources (unmanaged objects) and override a finalizer below.
-                this.module.wkhtmltopdf_deinit();
+                module.wkhtmltopdf_deinit();
                 // TODO: set large fields to null.
 
                 disposedValue = true;
@@ -228,8 +226,6 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
 
         private string GetString(byte[] buffer)
         {
-            string value = "";
-
             int walk = 0;
 
             while (walk < buffer.Length && buffer[walk] != 0)
@@ -237,9 +233,7 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
                 walk++;
             }
 
-            value = Encoding.UTF8.GetString(buffer, 0, walk);
-
-            return value;
+            return Encoding.UTF8.GetString(buffer, 0, walk);
         }
     }
 }

@@ -49,6 +49,12 @@ namespace SimpleHtmlToPdf.BaseClasses
 
             IntPtr converter = CreateConverter(document);
 
+            Tools.SetPhaseChangedCallback(converter, OnPhaseChanged);
+            Tools.SetProgressChangedCallback(converter, OnProgressChanged);
+            Tools.SetFinishedCallback(converter, OnFinished);
+            Tools.SetWarningCallback(converter, OnWarning);
+            Tools.SetErrorCallback(converter, OnError);
+
             bool converted = Tools.DoConversion(converter);
 
             if (converted)
@@ -181,6 +187,26 @@ namespace SimpleHtmlToPdf.BaseClasses
             }
 
             return converter;
+        }
+
+        private void OnError(IntPtr converter, string message)
+        {
+        }
+
+        private void OnFinished(IntPtr converter, int success)
+        {
+        }
+
+        private void OnPhaseChanged(IntPtr converter)
+        {
+        }
+
+        private void OnProgressChanged(IntPtr converter)
+        {
+        }
+
+        private void OnWarning(IntPtr converter, string message)
+        {
         }
     }
 }
