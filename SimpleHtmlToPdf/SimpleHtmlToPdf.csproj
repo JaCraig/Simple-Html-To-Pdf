@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <BuildNumber Condition=" '$(APPVEYOR_BUILD_NUMBER)' != '' ">$(APPVEYOR_BUILD_NUMBER)</BuildNumber>
+    <!-- for AppVeyor -->
+    <BuildNumber Condition=" '$(BUILD_NUMBER)' != '' ">$(BUILD_NUMBER)</BuildNumber>
+    <!-- for Team City -->
+    <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
+    <!-- if not set -->
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>SimpleHtmlToPdf</AssemblyName>
+    <PackageId>SimpleHtmlToPdf</PackageId>
+    <PackageTags>HTML;PDF;converter;wkhtml</PackageTags>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/JaCraig/SimpleHtmlToPdf</PackageProjectUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Description>.Net standard wrapper of wkhtmltopdf library to convert HTML pages to PDF.</Description>
+
+    <AssemblyTitle>SimpleHtmlToPdf</AssemblyTitle>
+    <Authors>James Craig</Authors>
+    <Version>1.0.$(BuildNumber)</Version>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="build\wkhtmltox.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="runtimes\linux-x64\native\libwkhtmltox.so" Pack="true" PackagePath="runtimes\linux-x64\native">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="runtimes\linux-x86\native\libwkhtmltox.so" Pack="true" PackagePath="runtimes\linux-x86\native">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="runtimes\osx-x64\native\libwkhtmltox.dylib" Pack="true" PackagePath="runtimes\osx-x64\native">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="runtimes\wkhtmltox.dll" Pack="true" PackagePath="runtimes">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="runtimes\win-x64\native\wkhtmltox.dll" Pack="true" PackagePath="runtimes\win-x64\native">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="runtimes\win-x86\native\wkhtmltox.dll" Pack="true" PackagePath="runtimes\win-x86\native">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="runtimes\unmanaged.targets" Pack="true" PackagePath="runtimes">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Canister.IoC" Version="3.0.3" />
+  </ItemGroup>
+</Project>
