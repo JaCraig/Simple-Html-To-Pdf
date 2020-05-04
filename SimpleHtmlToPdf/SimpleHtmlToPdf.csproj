@@ -46,21 +46,11 @@
 
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
-    <None Include="runtimes\linux-x64\native\libwkhtmltox.so" Pack="true" PackagePath="runtimes\linux-x64\native">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="runtimes\linux-x86\native\libwkhtmltox.so" Pack="true" PackagePath="runtimes\linux-x86\native">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="runtimes\osx-x64\native\libwkhtmltox.dylib" Pack="true" PackagePath="runtimes\osx-x64\native">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="runtimes\win-x64\native\wkhtmltox.dll" Pack="true" PackagePath="runtimes\win-x64\native">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="runtimes\win-x86\native\wkhtmltox.dll" Pack="true" PackagePath="runtimes\win-x86\native">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="runtimes\linux-x64\native\libwkhtmltox.so" Pack="true" PackagePath="runtimes\linux-x64\native" />
+    <None Include="runtimes\linux-x86\native\libwkhtmltox.so" Pack="true" PackagePath="runtimes\linux-x86\native" />
+    <None Include="runtimes\osx-x64\native\libwkhtmltox.dylib" Pack="true" PackagePath="runtimes\osx-x64\native" />
+    <None Include="runtimes\win-x64\native\wkhtmltox.dll" Pack="true" PackagePath="runtimes\win-x64\native" />
+    <None Include="runtimes\win-x86\native\wkhtmltox.dll" Pack="true" PackagePath="runtimes\win-x86\native" />
   </ItemGroup>
 
   <ItemGroup>
