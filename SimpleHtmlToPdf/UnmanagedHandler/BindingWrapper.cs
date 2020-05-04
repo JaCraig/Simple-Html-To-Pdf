@@ -27,7 +27,7 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
         public bool IsLoaded { get; private set; }
 
         //used to maintain a reference to delegates to prevent them being garbage collected...
-        private List<object> delegates = new List<object>();
+        private readonly List<object> delegates = new List<object>();
 
         private bool disposedValue = false;
         private IWkHtmlModule module;

@@ -9,7 +9,7 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
     internal unsafe static class WkHtmlBindings
     {
         private const CharSet CHARSET = CharSet.Unicode;
-        private const string DLLNAME = "runtimes/wkhtmltox";
+        private const string DLLNAME = "wkhtmltox";
 
         [DllImport(DLLNAME, CharSet = CHARSET, CallingConvention = CallingConvention.Cdecl)]
         public static extern void wkhtmltopdf_add_object(IntPtr converter,

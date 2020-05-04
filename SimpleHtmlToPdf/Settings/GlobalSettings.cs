@@ -30,7 +30,7 @@ namespace SimpleHtmlToPdf.Settings
         /// </summary>
         /// <value>The cookie jar.</value>
         [WkHtml("load.cookieJar")]
-        public string CookieJar { get; set; }
+        public string? CookieJar { get; set; }
 
         /// <summary>
         /// How many copies should we print. Default = 1
@@ -44,7 +44,7 @@ namespace SimpleHtmlToPdf.Settings
         /// </summary>
         /// <value>The document title.</value>
         [WkHtml("documentTitle")]
-        public string DocumentTitle { get; set; }
+        public string? DocumentTitle { get; set; }
 
         /// <summary>
         /// What dpi should we use when printing. Default = 96
@@ -59,7 +59,7 @@ namespace SimpleHtmlToPdf.Settings
         /// </summary>
         /// <value>The dump outline.</value>
         [WkHtml("dumpOutline")]
-        public string DumpOutline { get; set; }
+        public string? DumpOutline { get; set; }
 
         /// <summary>
         /// The maximal DPI to use for images in the pdf document. Default = 600
@@ -95,7 +95,7 @@ namespace SimpleHtmlToPdf.Settings
         /// </summary>
         /// <value>The out.</value>
         [WkHtml("out")]
-        public string Out { get; set; }
+        public string? Out { get; set; }
 
         /// <summary>
         /// Should a outline (table of content in the sidebar) be generated and put into the PDF.
@@ -124,7 +124,7 @@ namespace SimpleHtmlToPdf.Settings
         /// Size of output paper
         /// </summary>
         /// <value>The size of the paper.</value>
-        public PechkinPaperSize PaperSize { get; set; }
+        public PechkinPaperSize? PaperSize { get; set; }
 
         /// <summary>
         /// Should we use loss less compression when creating the pdf file. Default = true
@@ -138,7 +138,7 @@ namespace SimpleHtmlToPdf.Settings
         /// </summary>
         /// <value>The size of the viewport.</value>
         [WkHtml("viewportSize")]
-        public string ViewportSize { get; set; }
+        public string? ViewportSize { get; set; }
 
         /// <summary>
         /// Size of the bottom margin
@@ -197,11 +197,11 @@ namespace SimpleHtmlToPdf.Settings
         /// </summary>
         /// <value>The height of the paper.</value>
         [WkHtml("size.height")]
-        private string PaperHeight
+        private string? PaperHeight
         {
             get
             {
-                return PaperSize == null ? null : PaperSize.Height;
+                return PaperSize?.Height;
             }
         }
 
@@ -210,11 +210,11 @@ namespace SimpleHtmlToPdf.Settings
         /// </summary>
         /// <value>The width of the paper.</value>
         [WkHtml("size.width")]
-        private string PaperWidth
+        private string? PaperWidth
         {
             get
             {
-                return PaperSize == null ? null : PaperSize.Width;
+                return PaperSize?.Width;
             }
         }
     }

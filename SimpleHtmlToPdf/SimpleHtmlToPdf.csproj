@@ -55,16 +55,10 @@
     <None Include="runtimes\osx-x64\native\libwkhtmltox.dylib" Pack="true" PackagePath="runtimes\osx-x64\native">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="runtimes\wkhtmltox.dll" Pack="true" PackagePath="runtimes">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="runtimes\win-x64\native\wkhtmltox.dll" Pack="true" PackagePath="runtimes\win-x64\native">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="runtimes\win-x86\native\wkhtmltox.dll" Pack="true" PackagePath="runtimes\win-x86\native">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="runtimes\unmanaged.targets" Pack="true" PackagePath="runtimes">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

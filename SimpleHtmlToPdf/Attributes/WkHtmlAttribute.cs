@@ -7,7 +7,7 @@ namespace SimpleHtmlToPdf.Attributes
     /// </summary>
     /// <seealso cref="System.Attribute"/>
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
-    public class WkHtmlAttribute : Attribute
+    public sealed class WkHtmlAttribute : Attribute
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="WkHtmlAttribute"/> class.
