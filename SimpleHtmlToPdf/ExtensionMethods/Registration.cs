@@ -1,10 +1,13 @@
 ﻿using Canister.Interfaces;
-using Microsoft.Extensions.DependencyInjection;
+using SimpleHtmlToPdf;
 using SimpleHtmlToPdf.Interfaces;
 using SimpleHtmlToPdf.UnmanagedHandler;
 
-namespace SimpleHtmlToPdf.ExtensionMethods
+namespace Microsoft.Extensions.DependencyInjection
 {
+    /// <summary>
+    /// Registration extension methods
+    /// </summary>
     public static class Registration
     {
         /// <summary>
@@ -22,7 +25,7 @@ namespace SimpleHtmlToPdf.ExtensionMethods
         /// </summary>
         /// <param name="bootstrapper">The bootstrapper.</param>
         /// <returns></returns>
-        public static IBootstrapper? RegisterSimpleHtmlToPdf(this IBootstrapper? bootstrapper)
+        public static ICanisterConfiguration? RegisterSimpleHtmlToPdf(this ICanisterConfiguration? bootstrapper)
         {
             return bootstrapper?.AddAssembly(typeof(Registration).Assembly);
         }
