@@ -217,7 +217,8 @@ namespace SimpleHtmlToPdf.UnmanagedHandler
                 }
 
                 //free unmanaged resources (unmanaged objects) and override a finalizer below.
-                module.wkhtmltopdf_deinit();
+                module?.wkhtmltopdf_deinit();
+                module = null;
                 // TODO: set large fields to null.
 
                 disposedValue = true;

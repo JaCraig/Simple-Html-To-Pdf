@@ -8,7 +8,7 @@ namespace Microsoft.Extensions.DependencyInjection
     /// <summary>
     /// Registration extension methods
     /// </summary>
-    public static class Registration
+    public static class SimpleHtmlToPdfRegistration
     {
         /// <summary>
         /// Registers the simple HTML to PDF.
@@ -27,7 +27,7 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <returns></returns>
         public static ICanisterConfiguration? RegisterSimpleHtmlToPdf(this ICanisterConfiguration? bootstrapper)
         {
-            return bootstrapper?.AddAssembly(typeof(Registration).Assembly);
+            return bootstrapper?.AddAssembly(typeof(SimpleHtmlToPdfRegistration).Assembly);
         }
     }
 }
