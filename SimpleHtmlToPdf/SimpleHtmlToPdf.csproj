@@ -54,6 +54,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Canister.IoC" Version="4.0.0" />
+    <PackageReference Include="Canister.IoC" Version="4.0.6" />
   </ItemGroup>
 </Project>
