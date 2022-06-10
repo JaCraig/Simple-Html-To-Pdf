@@ -7,388 +7,625 @@
     /// </summary>
     public enum PaperKind : int
     {
-        // Summary: The paper size is defined by the user.
+        /// <summary>
+        /// Summary: The paper size is defined by the user.
+        /// </summary>
         Custom = 0,
 
-        // Summary: Letter paper (8.5 in. by 11 in.).
+        /// <summary>
+        /// Summary: Letter paper (8.5 in. by 11 in.).
+        /// </summary>
         Letter = 1,
 
-        // Summary: Letter small paper (8.5 in. by 11 in.).
+        /// <summary>
+        /// Summary: Letter small paper (8.5 in. by 11 in.).
+        /// </summary>
         LetterSmall = 2,
 
-        // Summary: Tabloid paper (11 in. by 17 in.).
+        /// <summary>
+        /// Summary: Tabloid paper (11 in. by 17 in.).
+        /// </summary>
         Tabloid = 3,
 
-        // Summary: Ledger paper (17 in. by 11 in.).
+        /// <summary>
+        /// Summary: Ledger paper (17 in. by 11 in.).
+        /// </summary>
         Ledger = 4,
 
-        // Summary: Legal paper (8.5 in. by 14 in.).
+        /// <summary>
+        /// Summary: Legal paper (8.5 in. by 14 in.).
+        /// </summary>
         Legal = 5,
 
-        // Summary: Statement paper (5.5 in. by 8.5 in.).
+        /// <summary>
+        /// Summary: Statement paper (5.5 in. by 8.5 in.).
+        /// </summary>
         Statement = 6,
 
-        // Summary: Executive paper (7.25 in. by 10.5 in.).
+        /// <summary>
+        /// Summary: Executive paper (7.25 in. by 10.5 in.).
+        /// </summary>
         Executive = 7,
 
-        // Summary: A3 paper (297 mm by 420 mm).
+        /// <summary>
+        /// Summary: A3 paper (297 mm by 420 mm).
+        /// </summary>
         A3 = 8,
 
-        // Summary: A4 paper (210 mm by 297 mm).
+        /// <summary>
+        /// Summary: A4 paper (210 mm by 297 mm).
+        /// </summary>
         A4 = 9,
 
-        // Summary: A4 small paper (210 mm by 297 mm).
+        /// <summary>
+        /// Summary: A4 small paper (210 mm by 297 mm).
+        /// </summary>
         A4Small = 10,
 
-        // Summary: A5 paper (148 mm by 210 mm).
+        /// <summary>
+        /// Summary: A5 paper (148 mm by 210 mm).
+        /// </summary>
         A5 = 11,
 
-        // Summary: B4 paper (250 mm by 353 mm).
+        /// <summary>
+        /// Summary: B4 paper (250 mm by 353 mm).
+        /// </summary>
         B4 = 12,
 
-        // Summary: B5 paper (176 mm by 250 mm).
+        /// <summary>
+        /// Summary: B5 paper (176 mm by 250 mm).
+        /// </summary>
         B5 = 13,
 
-        // Summary: Folio paper (8.5 in. by 13 in.).
+        /// <summary>
+        /// Summary: Folio paper (8.5 in. by 13 in.).
+        /// </summary>
         Folio = 14,
 
-        // Summary: Quarto paper (215 mm by 275 mm).
+        /// <summary>
+        /// Summary: Quarto paper (215 mm by 275 mm).
+        /// </summary>
         Quarto = 15,
 
-        // Summary: Standard paper (10 in. by 14 in.).
+        /// <summary>
+        /// Summary: Standard paper (10 in. by 14 in.).
+        /// </summary>
         Standard10x14 = 16,
 
-        // Summary: Standard paper (11 in. by 17 in.).
+        /// <summary>
+        /// Summary: Standard paper (11 in. by 17 in.).
+        /// </summary>
         Standard11x17 = 17,
 
-        // Summary: Note paper (8.5 in. by 11 in.).
+        /// <summary>
+        /// Summary: Note paper (8.5 in. by 11 in.).
+        /// </summary>
         Note = 18,
 
-        // Summary: #9 envelope (3.875 in. by 8.875 in.).
+        /// <summary>
+        /// Summary: #9 envelope (3.875 in. by 8.875 in.).
+        /// </summary>
         Number9Envelope = 19,
 
-        // Summary: #10 envelope (4.125 in. by 9.5 in.).
+        /// <summary>
+        /// Summary: #10 envelope (4.125 in. by 9.5 in.).
+        /// </summary>
         Number10Envelope = 20,
 
-        // Summary: #11 envelope (4.5 in. by 10.375 in.).
+        /// <summary>
+        /// Summary: #11 envelope (4.5 in. by 10.375 in.).
+        /// </summary>
         Number11Envelope = 21,
 
-        // Summary: #12 envelope (4.75 in. by 11 in.).
+        /// <summary>
+        /// Summary: #12 envelope (4.75 in. by 11 in.).
+        /// </summary>
         Number12Envelope = 22,
 
-        // Summary: #14 envelope (5 in. by 11.5 in.).
+        /// <summary>
+        /// Summary: #14 envelope (5 in. by 11.5 in.).
+        /// </summary>
         Number14Envelope = 23,
 
-        // Summary: C paper (17 in. by 22 in.).
+        /// <summary>
+        /// Summary: C paper (17 in. by 22 in.).
+        /// </summary>
         CSheet = 24,
 
-        // Summary: D paper (22 in. by 34 in.).
+        /// <summary>
+        /// Summary: D paper (22 in. by 34 in.).
+        /// </summary>
         DSheet = 25,
 
-        // Summary: E paper (34 in. by 44 in.).
+        /// <summary>
+        /// Summary: E paper (34 in. by 44 in.).
+        /// </summary>
         ESheet = 26,
 
-        // Summary: DL envelope (110 mm by 220 mm).
+        /// <summary>
+        /// Summary: DL envelope (110 mm by 220 mm).
+        /// </summary>
         DLEnvelope = 27,
 
-        // Summary: C5 envelope (162 mm by 229 mm).
+        /// <summary>
+        /// Summary: C5 envelope (162 mm by 229 mm).
+        /// </summary>
         C5Envelope = 28,
 
-        // Summary: C3 envelope (324 mm by 458 mm).
+        /// <summary>
+        /// Summary: C3 envelope (324 mm by 458 mm).
+        /// </summary>
         C3Envelope = 29,
 
-        // Summary: C4 envelope (229 mm by 324 mm).
+        /// <summary>
+        /// Summary: C4 envelope (229 mm by 324 mm).
+        /// </summary>
         C4Envelope = 30,
 
-        // Summary: C6 envelope (114 mm by 162 mm).
+        /// <summary>
+        /// Summary: C6 envelope (114 mm by 162 mm).
+        /// </summary>
         C6Envelope = 31,
 
-        // Summary: C65 envelope (114 mm by 229 mm).
+        /// <summary>
+        /// Summary: C65 envelope (114 mm by 229 mm).
+        /// </summary>
         C65Envelope = 32,
 
-        // Summary: B4 envelope (250 mm by 353 mm).
+        /// <summary>
+        /// Summary: B4 envelope (250 mm by 353 mm).
+        /// </summary>
         B4Envelope = 33,
 
-        // Summary: B5 envelope (176 mm by 250 mm).
+        /// <summary>
+        /// Summary: B5 envelope (176 mm by 250 mm).
+        /// </summary>
         B5Envelope = 34,
 
-        // Summary: B6 envelope (176 mm by 125 mm).
+        /// <summary>
+        /// Summary: B6 envelope (176 mm by 125 mm).
+        /// </summary>
         B6Envelope = 35,
 
-        // Summary: Italy envelope (110 mm by 230 mm).
+        /// <summary>
+        /// Summary: Italy envelope (110 mm by 230 mm).
+        /// </summary>
         ItalyEnvelope = 36,
 
-        // Summary: Monarch envelope (3.875 in. by 7.5 in.).
+        /// <summary>
+        /// Summary: Monarch envelope (3.875 in. by 7.5 in.).
+        /// </summary>
         MonarchEnvelope = 37,
 
-        // Summary: 6 3/4 envelope (3.625 in. by 6.5 in.).
+        /// <summary>
+        /// Summary: 6 3/4 envelope (3.625 in. by 6.5 in.).
+        /// </summary>
         PersonalEnvelope = 38,
 
-        // Summary: US standard fanfold (14.875 in. by 11 in.).
+        /// <summary>
+        /// Summary: US standard fanfold (14.875 in. by 11 in.).
+        /// </summary>
         USStandardFanfold = 39,
 
-        // Summary: German standard fanfold (8.5 in. by 12 in.).
+        /// <summary>
+        /// Summary: German standard fanfold (8.5 in. by 12 in.).
+        /// </summary>
         GermanStandardFanfold = 40,
 
-        // Summary: German legal fanfold (8.5 in. by 13 in.).
+        /// <summary>
+        /// Summary: German legal fanfold (8.5 in. by 13 in.).
+        /// </summary>
         GermanLegalFanfold = 41,
 
-        // Summary: ISO B4 (250 mm by 353 mm).
+        /// <summary>
+        /// Summary: ISO B4 (250 mm by 353 mm).
+        /// </summary>
         IsoB4 = 42,
 
-        // Summary: Japanese postcard (100 mm by 148 mm).
+        /// <summary>
+        /// Summary: Japanese postcard (100 mm by 148 mm).
+        /// </summary>
         JapanesePostcard = 43,
 
-        // Summary: Standard paper (9 in. by 11 in.).
+        /// <summary>
+        /// Summary: Standard paper (9 in. by 11 in.).
+        /// </summary>
         Standard9x11 = 44,
 
-        // Summary: Standard paper (10 in. by 11 in.).
+        /// <summary>
+        /// Summary: Standard paper (10 in. by 11 in.).
+        /// </summary>
         Standard10x11 = 45,
 
-        // Summary: Standard paper (15 in. by 11 in.).
+        /// <summary>
+        /// Summary: Standard paper (15 in. by 11 in.).
+        /// </summary>
         Standard15x11 = 46,
 
-        // Summary: Invitation envelope (220 mm by 220 mm).
+        /// <summary>
+        /// Summary: Invitation envelope (220 mm by 220 mm).
+        /// </summary>
         InviteEnvelope = 47,
 
-        // Summary: Letter extra paper (9.275 in. by 12 in.). This value is specific to the
-        // PostScript driver and is used only by Linotronic printers in order to conserve paper.
+        /// <summary>
+        /// Summary: Letter extra paper (9.275 in. by 12 in.). This value is specific to the
+        ///          PostScript driver and is used only by Linotronic printers in order to conserve paper.
+        /// </summary>
         LetterExtra = 50,
 
-        // Summary: Legal extra paper (9.275 in. by 15 in.). This value is specific to the
-        // PostScript driver and is used only by Linotronic printers in order to conserve paper.
+        /// <summary>
+        /// Summary: Legal extra paper (9.275 in. by 15 in.). This value is specific to the
+        ///          PostScript driver and is used only by Linotronic printers in order to conserve paper.
+        /// </summary>
         LegalExtra = 51,
 
-        // Summary: Tabloid extra paper (11.69 in. by 18 in.). This value is specific to the
-        // PostScript driver and is used only by Linotronic printers in order to conserve paper.
+        /// <summary>
+        /// Summary: Tabloid extra paper (11.69 in. by 18 in.). This value is specific to the
+        ///          PostScript driver and is used only by Linotronic printers in order to conserve paper.
+        /// </summary>
         TabloidExtra = 52,
 
-        // Summary: A4 extra paper (236 mm by 322 mm). This value is specific to the PostScript
-        // driver and is used only by Linotronic printers to help save paper.
+        /// <summary>
+        /// Summary: A4 extra paper (236 mm by 322 mm). This value is specific to the PostScript
+        ///          driver and is used only by Linotronic printers to help save paper.
+        /// </summary>
         A4Extra = 53,
 
-        // Summary: Letter transverse paper (8.275 in. by 11 in.).
+        /// <summary>
+        /// Summary: Letter transverse paper (8.275 in. by 11 in.).
+        /// </summary>
         LetterTransverse = 54,
 
-        // Summary: A4 transverse paper (210 mm by 297 mm).
+        /// <summary>
+        /// Summary: A4 transverse paper (210 mm by 297 mm).
+        /// </summary>
         A4Transverse = 55,
 
-        // Summary: Letter extra transverse paper (9.275 in. by 12 in.).
+        /// <summary>
+        /// Summary: Letter extra transverse paper (9.275 in. by 12 in.).
+        /// </summary>
         LetterExtraTransverse = 56,
 
-        // Summary: SuperA/SuperA/A4 paper (227 mm by 356 mm).
+        /// <summary>
+        /// Summary: SuperA/SuperA/A4 paper (227 mm by 356 mm).
+        /// </summary>
         APlus = 57,
 
-        // Summary: SuperB/SuperB/A3 paper (305 mm by 487 mm).
+        /// <summary>
+        /// Summary: SuperB/SuperB/A3 paper (305 mm by 487 mm).
+        /// </summary>
         BPlus = 58,
 
-        // Summary: Letter plus paper (8.5 in. by 12.69 in.).
+        /// <summary>
+        /// Summary: Letter plus paper (8.5 in. by 12.69 in.).
+        /// </summary>
         LetterPlus = 59,
 
-        // Summary: A4 plus paper (210 mm by 330 mm).
+        /// <summary>
+        /// Summary: A4 plus paper (210 mm by 330 mm).
+        /// </summary>
         A4Plus = 60,
 
-        // Summary: A5 transverse paper (148 mm by 210 mm).
+        /// <summary>
+        /// Summary: A5 transverse paper (148 mm by 210 mm).
+        /// </summary>
         A5Transverse = 61,
 
-        // Summary: JIS B5 transverse paper (182 mm by 257 mm).
+        /// <summary>
+        /// Summary: JIS B5 transverse paper (182 mm by 257 mm).
+        /// </summary>
         B5Transverse = 62,
 
-        // Summary: A3 extra paper (322 mm by 445 mm).
+        /// <summary>
+        /// Summary: A3 extra paper (322 mm by 445 mm).
+        /// </summary>
         A3Extra = 63,
 
-        // Summary: A5 extra paper (174 mm by 235 mm).
+        /// <summary>
+        /// Summary: A5 extra paper (174 mm by 235 mm).
+        /// </summary>
         A5Extra = 64,
 
-        // Summary: ISO B5 extra paper (201 mm by 276 mm).
+        /// <summary>
+        /// Summary: ISO B5 extra paper (201 mm by 276 mm).
+        /// </summary>
         B5Extra = 65,
 
-        // Summary: A2 paper (420 mm by 594 mm).
+        /// <summary>
+        /// Summary: A2 paper (420 mm by 594 mm).
+        /// </summary>
         A2 = 66,
 
-        // Summary: A3 transverse paper (297 mm by 420 mm).
+        /// <summary>
+        /// Summary: A3 transverse paper (297 mm by 420 mm).
+        /// </summary>
         A3Transverse = 67,
 
-        // Summary: A3 extra transverse paper (322 mm by 445 mm).
+        /// <summary>
+        /// Summary: A3 extra transverse paper (322 mm by 445 mm).
+        /// </summary>
         A3ExtraTransverse = 68,
 
-        // Summary: Japanese double postcard (200 mm by 148 mm). Requires Windows 98, Windows NT
-        // 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese double postcard (200 mm by 148 mm). Requires Windows 98, Windows NT
+        ///          4.0, or later.
+        /// </summary>
         JapaneseDoublePostcard = 69,
 
-        // Summary: A6 paper (105 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: A6 paper (105 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         A6 = 70,
 
-        // Summary: Japanese Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeKakuNumber2 = 71,
 
-        // Summary: Japanese Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeKakuNumber3 = 72,
 
-        // Summary: Japanese Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeChouNumber3 = 73,
 
-        // Summary: Japanese Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeChouNumber4 = 74,
 
-        // Summary: Letter rotated paper (11 in. by 8.5 in.).
+        /// <summary>
+        /// Summary: Letter rotated paper (11 in. by 8.5 in.).
+        /// </summary>
         LetterRotated = 75,
 
-        // Summary: A3 rotated paper (420 mm by 297 mm).
+        /// <summary>
+        /// Summary: A3 rotated paper (420 mm by 297 mm).
+        /// </summary>
         A3Rotated = 76,
 
-        // Summary: A4 rotated paper (297 mm by 210 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: A4 rotated paper (297 mm by 210 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         A4Rotated = 77,
 
-        // Summary: A5 rotated paper (210 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: A5 rotated paper (210 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         A5Rotated = 78,
 
-        // Summary: JIS B4 rotated paper (364 mm by 257 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: JIS B4 rotated paper (364 mm by 257 mm). Requires Windows 98, Windows NT 4.0,
+        ///          or later.
+        /// </summary>
         B4JisRotated = 79,
 
-        // Summary: JIS B5 rotated paper (257 mm by 182 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: JIS B5 rotated paper (257 mm by 182 mm). Requires Windows 98, Windows NT 4.0,
+        ///          or later.
+        /// </summary>
         B5JisRotated = 80,
 
-        // Summary: Japanese rotated postcard (148 mm by 100 mm). Requires Windows 98, Windows NT
-        // 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese rotated postcard (148 mm by 100 mm). Requires Windows 98, Windows NT
+        ///          4.0, or later.
+        /// </summary>
         JapanesePostcardRotated = 81,
 
-        // Summary: Japanese rotated double postcard (148 mm by 200 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese rotated double postcard (148 mm by 200 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         JapaneseDoublePostcardRotated = 82,
 
-        // Summary: A6 rotated paper (148 mm by 105 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: A6 rotated paper (148 mm by 105 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         A6Rotated = 83,
 
-        // Summary: Japanese rotated Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese rotated Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeKakuNumber2Rotated = 84,
 
-        // Summary: Japanese rotated Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese rotated Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeKakuNumber3Rotated = 85,
 
-        // Summary: Japanese rotated Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese rotated Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeChouNumber3Rotated = 86,
 
-        // Summary: Japanese rotated Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese rotated Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeChouNumber4Rotated = 87,
 
-        // Summary: JIS B6 paper (128 mm by 182 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: JIS B6 paper (128 mm by 182 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         B6Jis = 88,
 
-        // Summary: JIS B6 rotated paper (182 mm by 128 mm). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: JIS B6 rotated paper (182 mm by 128 mm). Requires Windows 98, Windows NT 4.0,
+        ///          or later.
+        /// </summary>
         B6JisRotated = 89,
 
-        // Summary: Standard paper (12 in. by 11 in.). Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Standard paper (12 in. by 11 in.). Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         Standard12x11 = 90,
 
-        // Summary: Japanese You #4 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese You #4 envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeYouNumber4 = 91,
 
-        // Summary: Japanese You #4 rotated envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: Japanese You #4 rotated envelope. Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         JapaneseEnvelopeYouNumber4Rotated = 92,
 
-        // Summary: People's Republic of China 16K paper (146 mm by 215 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China 16K paper (146 mm by 215 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         Prc16K = 93,
 
-        // Summary: People's Republic of China 32K paper (97 mm by 151 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China 32K paper (97 mm by 151 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         Prc32K = 94,
 
-        // Summary: People's Republic of China 32K big paper (97 mm by 151 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China 32K big paper (97 mm by 151 mm). Requires Windows
+        ///          98, Windows NT 4.0, or later.
+        /// </summary>
         Prc32KBig = 95,
 
-        // Summary: People's Republic of China #1 envelope (102 mm by 165 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #1 envelope (102 mm by 165 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber1 = 96,
 
-        // Summary: People's Republic of China #2 envelope (102 mm by 176 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #2 envelope (102 mm by 176 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber2 = 97,
 
-        // Summary: People's Republic of China #3 envelope (125 mm by 176 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #3 envelope (125 mm by 176 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber3 = 98,
 
-        // Summary: People's Republic of China #4 envelope (110 mm by 208 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #4 envelope (110 mm by 208 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber4 = 99,
 
-        // Summary: People's Republic of China #5 envelope (110 mm by 220 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #5 envelope (110 mm by 220 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber5 = 100,
 
-        // Summary: People's Republic of China #6 envelope (120 mm by 230 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #6 envelope (120 mm by 230 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber6 = 101,
 
-        // Summary: People's Republic of China #7 envelope (160 mm by 230 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #7 envelope (160 mm by 230 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber7 = 102,
 
-        // Summary: People's Republic of China #8 envelope (120 mm by 309 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #8 envelope (120 mm by 309 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber8 = 103,
 
-        // Summary: People's Republic of China #9 envelope (229 mm by 324 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #9 envelope (229 mm by 324 mm). Requires Windows 98,
+        ///          Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber9 = 104,
 
-        // Summary: People's Republic of China #10 envelope (324 mm by 458 mm). Requires Windows 98,
-        // Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #10 envelope (324 mm by 458 mm). Requires Windows
+        ///          98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber10 = 105,
 
-        // Summary: People's Republic of China 16K rotated paper (146 mm by 215 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China 16K rotated paper (146 mm by 215 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         Prc16KRotated = 106,
 
-        // Summary: People's Republic of China 32K rotated paper (97 mm by 151 mm). Requires Windows
-        // 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China 32K rotated paper (97 mm by 151 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         Prc32KRotated = 107,
 
-        // Summary: People's Republic of China 32K big rotated paper (97 mm by 151 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China 32K big rotated paper (97 mm by 151 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         Prc32KBigRotated = 108,
 
-        // Summary: People's Republic of China #1 rotated envelope (165 mm by 102 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #1 rotated envelope (165 mm by 102 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber1Rotated = 109,
 
-        // Summary: People's Republic of China #2 rotated envelope (176 mm by 102 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #2 rotated envelope (176 mm by 102 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber2Rotated = 110,
 
-        // Summary: People's Republic of China #3 rotated envelope (176 mm by 125 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #3 rotated envelope (176 mm by 125 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber3Rotated = 111,
 
-        // Summary: People's Republic of China #4 rotated envelope (208 mm by 110 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #4 rotated envelope (208 mm by 110 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber4Rotated = 112,
 
-        // Summary: People's Republic of China Envelope #5 rotated envelope (220 mm by 110 mm).
-        // Requires Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China Envelope #5 rotated envelope (220 mm by 110 mm).
+        ///          Requires Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber5Rotated = 113,
 
-        // Summary: People's Republic of China #6 rotated envelope (230 mm by 120 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #6 rotated envelope (230 mm by 120 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber6Rotated = 114,
 
-        // Summary: People's Republic of China #7 rotated envelope (230 mm by 160 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #7 rotated envelope (230 mm by 160 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber7Rotated = 115,
 
-        // Summary: People's Republic of China #8 rotated envelope (309 mm by 120 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #8 rotated envelope (309 mm by 120 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber8Rotated = 116,
 
-        // Summary: People's Republic of China #9 rotated envelope (324 mm by 229 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #9 rotated envelope (324 mm by 229 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber9Rotated = 117,
 
-        // Summary: People's Republic of China #10 rotated envelope (458 mm by 324 mm). Requires
-        // Windows 98, Windows NT 4.0, or later.
+        /// <summary>
+        /// Summary: People's Republic of China #10 rotated envelope (458 mm by 324 mm). Requires
+        ///          Windows 98, Windows NT 4.0, or later.
+        /// </summary>
         PrcEnvelopeNumber10Rotated = 118
     }
 }

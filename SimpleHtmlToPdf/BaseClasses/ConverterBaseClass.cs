@@ -139,7 +139,7 @@ namespace SimpleHtmlToPdf.BaseClasses
             foreach (var prop in settings.GetType().GetProperties(bindingFlags))
             {
                 Attribute[] attrs = (Attribute[])prop.GetCustomAttributes();
-                object propValue = prop.GetValue(settings);
+                object? propValue = prop.GetValue(settings);
 
                 if (propValue is null)
                 {
@@ -149,7 +149,7 @@ namespace SimpleHtmlToPdf.BaseClasses
                 {
                     var attr = attrs[0] as WkHtmlAttribute;
 
-                    Apply(config, attr.Name, propValue, isGlobal);
+                    Apply(config, attr?.Name ?? "", propValue, isGlobal);
                 }
                 else if (propValue is ISettings)
                 {

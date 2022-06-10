@@ -3,6 +3,10 @@ using SimpleHtmlToPdf.Interfaces;
 
 namespace SimpleHtmlToPdf.Settings
 {
+    /// <summary>
+    /// Footer settings
+    /// </summary>
+    /// <seealso cref="SimpleHtmlToPdf.Interfaces.ISettings"/>
     public class FooterSettings : ISettings
     {
         /// <summary>

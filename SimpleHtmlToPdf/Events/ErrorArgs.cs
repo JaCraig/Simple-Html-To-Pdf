@@ -13,12 +13,12 @@ namespace SimpleHtmlToPdf.Events
         /// Gets or sets the document.
         /// </summary>
         /// <value>The document.</value>
-        public IDocument Document { get; set; }
+        public IDocument? Document { get; set; }
 
         /// <summary>
         /// Gets or sets the message.
         /// </summary>
         /// <value>The message.</value>
-        public string Message { get; set; }
+        public string? Message { get; set; }
     }
 }
