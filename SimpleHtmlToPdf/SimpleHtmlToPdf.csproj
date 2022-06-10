@@ -7,7 +7,7 @@
     <!-- for Team City -->
     <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
     <!-- if not set -->
-	  <TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
+	  <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>SimpleHtmlToPdf</AssemblyName>
     <PackageId>SimpleHtmlToPdf</PackageId>
