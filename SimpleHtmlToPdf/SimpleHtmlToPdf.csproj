@@ -7,7 +7,7 @@
     <!-- for Team City -->
     <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
     <!-- if not set -->
-    <TargetFramework>netstandard2.1</TargetFramework>
+	  <TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>SimpleHtmlToPdf</AssemblyName>
     <PackageId>SimpleHtmlToPdf</PackageId>
@@ -54,6 +54,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Canister.IoC" Version="4.0.6" />
+    <PackageReference Include="Canister.IoC" Version="4.0.11" />
   </ItemGroup>
 </Project>
