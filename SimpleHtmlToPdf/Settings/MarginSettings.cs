@@ -71,7 +71,7 @@ namespace SimpleHtmlToPdf.Settings
         /// <returns></returns>
         public string? GetMarginValue(double? value)
         {
-            return value.HasValue
+            return !value.HasValue
                 ? null
                 : value.Value.ToString("0.##", CultureInfo.InvariantCulture) + (Unit switch
                 {
