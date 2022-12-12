@@ -7,7 +7,7 @@
     <!-- for Team City -->
     <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
     <!-- if not set -->
-	  <TargetFrameworks>netstandard2.1</TargetFrameworks>
+	  <TargetFrameworks>net6.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>SimpleHtmlToPdf</AssemblyName>
     <PackageId>SimpleHtmlToPdf</PackageId>
@@ -23,12 +23,7 @@
 
     <AssemblyTitle>SimpleHtmlToPdf</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <Version>1.0.$(BuildNumber)</Version>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>2.0.$(BuildNumber)</Version>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -54,6 +49,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Canister.IoC" Version="4.0.14" />
+    <PackageReference Include="Canister.IoC" Version="5.0.1" />
   </ItemGroup>
 </Project>

@@ -20,10 +20,10 @@ namespace SimpleHtmlToPdf.CanisterModules
         /// Loads the module using the bootstrapper
         /// </summary>
         /// <param name="bootstrapper">The bootstrapper.</param>
-        public void Load(IBootstrapper? bootstrapper)
+        public void Load(IServiceCollection? bootstrapper)
         {
-            bootstrapper?.Register<IConverter, HtmlConverter>(ServiceLifetime.Singleton)
-                .Register<BindingWrapper>(ServiceLifetime.Singleton);
+            bootstrapper?.AddSingleton<IConverter, HtmlConverter>()
+                .AddSingleton<BindingWrapper>();
         }
     }
 }
