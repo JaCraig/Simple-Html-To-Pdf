@@ -1,8 +1,6 @@
-Apologies for the confusion. Here's the revised README.md file with the correct project name:
-
 # Simple HTML to PDF
 
-
+[![.NET Publish](https://github.com/JaCraig/Simple-Html-To-Pdf/actions/workflows/dotnet-publish.yml/badge.svg)](https://github.com/JaCraig/Simple-Html-To-Pdf/actions/workflows/dotnet-publish.yml)
 
 Simple HTML to PDF is a lightweight NuGet package that provides a simple HTML to PDF converter library for .NET projects. It allows you to easily convert HTML content to PDF documents using the `wkhtmltopdf` command-line tool.
 
