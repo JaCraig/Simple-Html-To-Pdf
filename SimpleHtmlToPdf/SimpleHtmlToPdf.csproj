@@ -1,12 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <BuildNumber Condition=" '$(APPVEYOR_BUILD_NUMBER)' != '' ">$(APPVEYOR_BUILD_NUMBER)</BuildNumber>
-    <!-- for AppVeyor -->
-    <BuildNumber Condition=" '$(BUILD_NUMBER)' != '' ">$(BUILD_NUMBER)</BuildNumber>
-    <!-- for Team City -->
-    <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
-    <!-- if not set -->
 	  <TargetFrameworks>net6.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>SimpleHtmlToPdf</AssemblyName>
@@ -19,12 +13,30 @@
     <PackageProjectUrl>https://github.com/JaCraig/SimpleHtmlToPdf</PackageProjectUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Description>.Net standard wrapper of wkhtmltopdf library to convert HTML pages to PDF.</Description>
+    <Description>.Net wrapper of wkhtmltopdf library to convert HTML pages to PDF.</Description>
 
     <AssemblyTitle>SimpleHtmlToPdf</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <Version>2.0.$(BuildNumber)</Version>
+    <Version>2.0.1</Version>
     <Nullable>enable</Nullable>
+    <Title>SimpleHtmlToPdf</Title>
+    <Copyright>Copyright © James Craig 2020</Copyright>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/JaCraig/SimpleHtmlToPdf</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/CHANGELOG.md</PackageReleaseNotes>
+    <RootNamespace>SimpleHtmlToPdf</RootNamespace>
+    
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -41,6 +53,14 @@
 
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="..\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="runtimes\linux-x64\native\libwkhtmltox.so" Pack="true" PackagePath="runtimes\linux-x64\native" />
     <None Include="runtimes\linux-x86\native\libwkhtmltox.so" Pack="true" PackagePath="runtimes\linux-x86\native" />
     <None Include="runtimes\osx-x64\native\libwkhtmltox.dylib" Pack="true" PackagePath="runtimes\osx-x64\native" />
@@ -49,6 +69,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Canister.IoC" Version="5.0.1" />
+    <PackageReference Include="Canister.IoC" Version="5.1.1" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
+  <Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences" Condition="'$(HUSKY)' != 0">
+    <Exec Command="dotnet tool restore" StandardOutputImportance="Low" StandardErrorImportance="High" />
+    <Exec Command="dotnet husky install" StandardOutputImportance="Low" StandardErrorImportance="High" WorkingDirectory=".." />
+  </Target>
 </Project>
