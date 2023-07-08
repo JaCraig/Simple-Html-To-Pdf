@@ -1,0 +1,521 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/Simple-Html-To-Pdf/Simple-Html-To-Pdf/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.SimpleHtmlToPdfRegistration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.SimpleHtmlToPdfRegistration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Attributes.WkHtmlAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Attributes.WkHtmlAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.BaseClasses.ConverterBaseClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.BaseClasses.ConverterBaseClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.BaseClasses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.BaseClasses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.CanisterModules.CanisterModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.CanisterModules.CanisterModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.CanisterModules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.CanisterModules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Events.ErrorArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Events.ErrorArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Events.FinishedArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Events.FinishedArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.HtmlConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.HtmlConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.HtmlToPdfDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.HtmlToPdfDocument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Interfaces.IConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Interfaces.IConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Interfaces.IDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Interfaces.IDocument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Interfaces.IObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Interfaces.IObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Interfaces.ISettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Interfaces.ISettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.Enums.ColorMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.ColorMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.Enums.ContentErrorHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.ContentErrorHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.Enums.Orientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.Orientation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.Enums.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.Unit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.FooterSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.FooterSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.GlobalSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.GlobalSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.HeaderSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.HeaderSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.LoadSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.LoadSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.MarginSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.MarginSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.ObjectSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.ObjectSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.WebSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.WebSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.CustomUnmanagedType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.CustomUnmanagedType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.IntCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.IntCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.PaperKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.PaperKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.StringCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.StringCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SimpleHtmlToPdf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SimpleHtmlToPdf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
