@@ -553,6 +553,19 @@ references:
   isSpec: "True"
   fullName: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Height
   nameWithType: PechkinPaperSize.Height
+- uid: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
+  name: Width
+  href: api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.html#SimpleHtmlToPdf_Settings_Enums_PechkinPaperSize_Width
+  commentId: P:SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
+  fullName: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
+  nameWithType: PechkinPaperSize.Width
+- uid: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width*
+  name: Width
+  href: api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.html#SimpleHtmlToPdf_Settings_Enums_PechkinPaperSize_Width_
+  commentId: Overload:SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
+  isSpec: "True"
+  fullName: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
+  nameWithType: PechkinPaperSize.Width
 - uid: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.op_Implicit(SimpleHtmlToPdf.UnmanagedHandler.PaperKind)~SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize
   name: implicit operator PechkinPaperSize(PaperKind)
   href: api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.html#SimpleHtmlToPdf_Settings_Enums_PechkinPaperSize_op_Implicit_SimpleHtmlToPdf_UnmanagedHandler_PaperKind__SimpleHtmlToPdf_Settings_Enums_PechkinPaperSize
@@ -572,19 +585,6 @@ references:
   fullName.vb: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.CType
   nameWithType: PechkinPaperSize.implicit operator
   nameWithType.vb: PechkinPaperSize.CType
-- uid: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
-  name: Width
-  href: api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.html#SimpleHtmlToPdf_Settings_Enums_PechkinPaperSize_Width
-  commentId: P:SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
-  fullName: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
-  nameWithType: PechkinPaperSize.Width
-- uid: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width*
-  name: Width
-  href: api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.html#SimpleHtmlToPdf_Settings_Enums_PechkinPaperSize_Width_
-  commentId: Overload:SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
-  isSpec: "True"
-  fullName: SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.Width
-  nameWithType: PechkinPaperSize.Width
 - uid: SimpleHtmlToPdf.Settings.Enums.Unit
   name: Unit
   href: api/SimpleHtmlToPdf.Settings.Enums.Unit.html
@@ -777,19 +777,6 @@ references:
   isSpec: "True"
   fullName: SimpleHtmlToPdf.Settings.GlobalSettings.Copies
   nameWithType: GlobalSettings.Copies
-- uid: SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
-  name: DocumentTitle
-  href: api/SimpleHtmlToPdf.Settings.GlobalSettings.html#SimpleHtmlToPdf_Settings_GlobalSettings_DocumentTitle
-  commentId: P:SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
-  fullName: SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
-  nameWithType: GlobalSettings.DocumentTitle
-- uid: SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle*
-  name: DocumentTitle
-  href: api/SimpleHtmlToPdf.Settings.GlobalSettings.html#SimpleHtmlToPdf_Settings_GlobalSettings_DocumentTitle_
-  commentId: Overload:SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
-  isSpec: "True"
-  fullName: SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
-  nameWithType: GlobalSettings.DocumentTitle
 - uid: SimpleHtmlToPdf.Settings.GlobalSettings.DPI
   name: DPI
   href: api/SimpleHtmlToPdf.Settings.GlobalSettings.html#SimpleHtmlToPdf_Settings_GlobalSettings_DPI
@@ -803,6 +790,19 @@ references:
   isSpec: "True"
   fullName: SimpleHtmlToPdf.Settings.GlobalSettings.DPI
   nameWithType: GlobalSettings.DPI
+- uid: SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
+  name: DocumentTitle
+  href: api/SimpleHtmlToPdf.Settings.GlobalSettings.html#SimpleHtmlToPdf_Settings_GlobalSettings_DocumentTitle
+  commentId: P:SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
+  fullName: SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
+  nameWithType: GlobalSettings.DocumentTitle
+- uid: SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle*
+  name: DocumentTitle
+  href: api/SimpleHtmlToPdf.Settings.GlobalSettings.html#SimpleHtmlToPdf_Settings_GlobalSettings_DocumentTitle_
+  commentId: Overload:SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
+  isSpec: "True"
+  fullName: SimpleHtmlToPdf.Settings.GlobalSettings.DocumentTitle
+  nameWithType: GlobalSettings.DocumentTitle
 - uid: SimpleHtmlToPdf.Settings.GlobalSettings.DumpOutline
   name: DumpOutline
   href: api/SimpleHtmlToPdf.Settings.GlobalSettings.html#SimpleHtmlToPdf_Settings_GlobalSettings_DumpOutline
