@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "/home/runner/work/Simple-Html-To-Pdf/Simple-Html-To-Pdf/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -512,7 +511,6 @@
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
