@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.0.23"></a>
+## [2.0.23](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.0.23) (2023-10-31)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([0a1f298](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/0a1f298bede83c67447095a30af564b5e8739595))
+
+### Other
+
+* Merge pull request #21 from JaCraig/dependabot/nuget/dependencies-249395c324 ([a412ea8](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/a412ea84d28913bf3e3dbac1bd03c49dc9202a8d))
+
 <a name="2.0.22"></a>
 ## [2.0.22](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.0.22) (2023-10-30)
 
