@@ -1,122 +1,134 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
       <title>Class BindingWrapper
  | Simple Html To Pdf API Reference </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class BindingWrapper
  | Simple Html To Pdf API Reference ">
-      <meta name="generator" content="docfx ">
-  
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
-      <link rel="stylesheet" href="../styles/config.css">
-      <link rel="stylesheet" href="../styles/discord.css">
-      <link rel="stylesheet" href="../styles/singulink.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
-    </head>
-    <body>
-        <div class="top-navbar">
-            <a class="burger-icon" onclick="toggleMenu()">
-                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
-            </a>
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
 
 
-            <a class="brand" href="../index.html">
-              <img src="../images/icon.png" alt="Simple Html To Pdf" class="logomark">
-              <span class="brand-title">Simple Html To Pdf</span>
-            </a>        </div>
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/icon.png" alt="Simple Html To Pdf">
+            Simple Html To Pdf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <div class="body-content">
-            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
 
-            <nav id="sidebar" role="navigation">
-                <div class="sidebar">
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
 
-                    <div>
-                      <div class="mobile-hide">
+          <nav id="breadcrumb"></nav>
+        </div>
 
-                        <a class="brand" href="../index.html">
-                          <img src="../images/icon.png" alt="Simple Html To Pdf" class="logomark">
-                          <span class="brand-title">Simple Html To Pdf</span>
-                        </a>                      </div>
-
-                      <div class="sidesearch">
-                        <form id="search" role="search" class="search">
-                            <i class="bi bi-search search-icon"></i>
-                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
-                        </form>
-                      </div>
-
-                      <div id="navbar">
-                      </div>
-                    </div>                    <div class="sidebar-item-separator"></div>
-
-                        <div id="sidetoggle">
-                          <div id="sidetoc"></div>
-                        </div>
-                </div>
-                <div class="footer">
-  <strong><a href='https://github.com/JaCraig/Simple-Html-To-Pdf'>Open in Github</a></strong>
-  
-                </div>            </nav>
-
-            <main class="main-panel">
-
-                <div id="search-results" style="display: none;">
-                  <h1 class="search-list">Search Results for <span></span></h1>
-                  <div class="sr-items">
-                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
-                  </div>
-                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
-                </div>
- 
-
-                <div role="main" class="hide-when-search">
-
-                        <div class="subnav navbar navbar-default">
-                          <div class="container hide-when-search" id="breadcrumb">
-                            <ul class="breadcrumb">
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-
-                         <div id="contribution">
-                               <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
-                         </div>
-
-                    <article class="content wrap" id="_content" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper">
+        <article data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper">
 
 
 
-  <h1 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper" class="text-break">Class BindingWrapper
-</h1>
-  <div class="markdown level0 summary"><p>Binding wrapper</p>
+  <h1 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper" class="text-break">
+    Class BindingWrapper
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SimpleHtmlToPdf.html">SimpleHtmlToPdf</a>.<a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.html">UnmanagedHandler</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SimpleHtmlToPdf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Binding wrapper</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">BindingWrapper</span></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BindingWrapper : IDisposable</code></pre>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">BindingWrapper</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -138,1417 +150,1115 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SimpleHtmlToPdf.html">SimpleHtmlToPdf</a>.<a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.html">UnmanagedHandler</a></h6>
-  <h6><strong>Assembly</strong>: SimpleHtmlToPdf.dll</h6>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BindingWrapper : IDisposable</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper__ctor.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L18">View Source</a>
-  </span>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper__ctor_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.#ctor*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper__ctor" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.#ctor">BindingWrapper()</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper__ctor" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.#ctor">
+  BindingWrapper()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html">BindingWrapper</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public BindingWrapper()</code></pre>
   </div>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper__ctor_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_IsLoaded.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.IsLoaded%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L37">View Source</a>
-  </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_IsLoaded_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.IsLoaded*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_IsLoaded" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.IsLoaded">IsLoaded</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_IsLoaded" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.IsLoaded">
+  IsLoaded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is loaded.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsLoaded { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><p><code>true</code> if this instance is loaded; otherwise, <code>false</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_IsLoaded_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_Byte___.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr%2CSystem.IntPtr%2CSystem.Byte%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L61">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if this instance is loaded; otherwise, <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_Byte___" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.Byte[])">AddObject(IntPtr, IntPtr, byte[])</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_Byte___" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.Byte[])">
+  AddObject(IntPtr, IntPtr, byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Adds the object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void AddObject(IntPtr converter, IntPtr objectSettings, byte[] data)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">objectSettings</span></td>
-        <td><p>The object settings.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
-        <td><span class="parametername">data</span></td>
-        <td><p>The data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_Byte____seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_String_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr%2CSystem.IntPtr%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L72">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+    <dt><code>objectSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The object settings.</p>
+</dd>
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>The data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.String)">AddObject(IntPtr, IntPtr, string)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.String)">
+  AddObject(IntPtr, IntPtr, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Adds the object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void AddObject(IntPtr converter, IntPtr objectSettings, string data)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">objectSettings</span></td>
-        <td><p>The object settings.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">data</span></td>
-        <td><p>The data.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_String__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L82">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+    <dt><code>objectSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The object settings.</p>
+</dd>
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(System.IntPtr)">CreateConverter(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(System.IntPtr)">
+  CreateConverter(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates the converter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IntPtr CreateConverter(IntPtr globalSettings)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">globalSettings</span></td>
-        <td><p>The global settings.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateGlobalSettings.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateGlobalSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L91">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>globalSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The global settings.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateGlobalSettings_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateGlobalSettings*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateGlobalSettings" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateGlobalSettings">CreateGlobalSettings()</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateGlobalSettings" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateGlobalSettings">
+  CreateGlobalSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates the global settings.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IntPtr CreateGlobalSettings()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateGlobalSettings_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateObjectSettings.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateObjectSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L100">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateObjectSettings_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateObjectSettings*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateObjectSettings" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateObjectSettings">CreateObjectSettings()</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateObjectSettings" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateObjectSettings">
+  CreateObjectSettings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates the object settings.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IntPtr CreateObjectSettings()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateObjectSettings_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L109">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(System.IntPtr)">DestroyConverter(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(System.IntPtr)">
+  DestroyConverter(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Destroys the converter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DestroyConverter(IntPtr converter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L118">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(System.IntPtr)">DestroyGlobalSetting(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(System.IntPtr)">
+  DestroyGlobalSetting(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Destroys the global setting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DestroyGlobalSetting(IntPtr settings)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p>The settings.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L127">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The settings.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(System.IntPtr)">DestroyObjectSetting(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(System.IntPtr)">
+  DestroyObjectSetting(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Destroys the object setting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void DestroyObjectSetting(IntPtr settings)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p>The settings.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L150">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The settings.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(System.IntPtr)">DoConversion(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(System.IntPtr)">
+  DoConversion(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Does the conversion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool DoConversion(IntPtr converter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_ExtendedQt.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.ExtendedQt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L159">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_ExtendedQt_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.ExtendedQt*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_ExtendedQt" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.ExtendedQt">ExtendedQt()</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_ExtendedQt" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.ExtendedQt">
+  ExtendedQt()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Extendeds the qt.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ExtendedQt()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_ExtendedQt_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Finalize.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Finalize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L27">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Finalize_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Finalize*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Finalize" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Finalize">~BindingWrapper()</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Finalize" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Finalize">
+  ~BindingWrapper()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Finalizes an instance of the <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html">BindingWrapper</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected ~BindingWrapper()</code></pre>
   </div>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Finalize_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L169">View Source</a>
-  </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(System.IntPtr)">GetConversionResult(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(System.IntPtr)">
+  GetConversionResult(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the conversion result.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public byte[] GetConversionResult(IntPtr converter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L183">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(System.IntPtr)">GetCurrentPhase(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(System.IntPtr)">
+  GetCurrentPhase(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the current phase.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int GetCurrentPhase(IntPtr converter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetGlobalSetting_System_IntPtr_System_String_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(System.IntPtr%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L194">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetGlobalSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetGlobalSetting_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(System.IntPtr,System.String)">GetGlobalSetting(IntPtr, string)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetGlobalSetting_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(System.IntPtr,System.String)">
+  GetGlobalSetting(IntPtr, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the global setting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string GetGlobalSetting(IntPtr settings, string name)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p>The settings.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetGlobalSetting_System_IntPtr_System_String__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetLibraryVersion.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetLibraryVersion%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L208">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The settings.</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetLibraryVersion_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetLibraryVersion*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetLibraryVersion" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetLibraryVersion">GetLibraryVersion()</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetLibraryVersion" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetLibraryVersion">
+  GetLibraryVersion()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the library version.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string GetLibraryVersion()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetLibraryVersion_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetObjectSetting_System_IntPtr_System_String_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(System.IntPtr%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L219">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetObjectSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetObjectSetting_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(System.IntPtr,System.String)">GetObjectSetting(IntPtr, string)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetObjectSetting_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(System.IntPtr,System.String)">
+  GetObjectSetting(IntPtr, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the object setting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string GetObjectSetting(IntPtr settings, string name)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p>The settings.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetObjectSetting_System_IntPtr_System_String__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L234">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The settings.</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(System.IntPtr)">GetPhaseCount(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(System.IntPtr)">
+  GetPhaseCount(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the phase count.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int GetPhaseCount(IntPtr converter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseDescription_System_IntPtr_System_Int32_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(System.IntPtr%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L245">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseDescription_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseDescription_System_IntPtr_System_Int32_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(System.IntPtr,System.Int32)">GetPhaseDescription(IntPtr, int)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseDescription_System_IntPtr_System_Int32_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(System.IntPtr,System.Int32)">
+  GetPhaseDescription(IntPtr, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the phase description.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string GetPhaseDescription(IntPtr converter, int phase)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">phase</span></td>
-        <td><p>The phase.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseDescription_System_IntPtr_System_Int32__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_System_IntPtr_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(System.IntPtr)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L255">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+    <dt><code>phase</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The phase.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(System.IntPtr)">GetProgressString(IntPtr)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(System.IntPtr)">
+  GetProgressString(IntPtr)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Gets the progress string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string GetProgressString(IntPtr converter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_System_IntPtr__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Load.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Load%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L263">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Load_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Load*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Load" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Load">Load()</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Load" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Load">
+  Load()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Loads this instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Load()</code></pre>
   </div>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_Load_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(System.IntPtr%2CSimpleHtmlToPdf.UnmanagedHandler.StringCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L284">View Source</a>
-  </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)">SetErrorCallback(IntPtr, StringCallback)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)">
+  SetErrorCallback(IntPtr, StringCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the error callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SetErrorCallback(IntPtr converter, StringCallback callback)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.StringCallback.html">StringCallback</a></td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>The callback.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_IntCallback_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(System.IntPtr%2CSimpleHtmlToPdf.UnmanagedHandler.IntCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L297">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.StringCallback.html">StringCallback</a></dt>
+    <dd><p>The callback.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_IntCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)">SetFinishedCallback(IntPtr, IntCallback)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_IntCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)">
+  SetFinishedCallback(IntPtr, IntCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the finished callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SetFinishedCallback(IntPtr converter, IntCallback callback)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.IntCallback.html">IntCallback</a></td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>The callback.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_IntCallback__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetGlobalSetting_System_IntPtr_System_String_System_String_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(System.IntPtr%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L311">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.IntCallback.html">IntCallback</a></dt>
+    <dd><p>The callback.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetGlobalSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetGlobalSetting_System_IntPtr_System_String_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(System.IntPtr,System.String,System.String)">SetGlobalSetting(IntPtr, string, string)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetGlobalSetting_System_IntPtr_System_String_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(System.IntPtr,System.String,System.String)">
+  SetGlobalSetting(IntPtr, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the global setting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SetGlobalSetting(IntPtr settings, string name, string value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p>The settings.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetGlobalSetting_System_IntPtr_System_String_System_String__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetObjectSetting_System_IntPtr_System_String_System_String_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(System.IntPtr%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L323">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The settings.</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetObjectSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetObjectSetting_System_IntPtr_System_String_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(System.IntPtr,System.String,System.String)">SetObjectSetting(IntPtr, string, string)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetObjectSetting_System_IntPtr_System_String_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(System.IntPtr,System.String,System.String)">
+  SetObjectSetting(IntPtr, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the object setting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SetObjectSetting(IntPtr settings, string name, string value)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">settings</span></td>
-        <td><p>The settings.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetObjectSetting_System_IntPtr_System_String_System_String__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(System.IntPtr%2CSimpleHtmlToPdf.UnmanagedHandler.VoidCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L334">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The settings.</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)">SetPhaseChangedCallback(IntPtr, VoidCallback)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)">
+  SetPhaseChangedCallback(IntPtr, VoidCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the phase changed callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SetPhaseChangedCallback(IntPtr converter, VoidCallback callback)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.html">VoidCallback</a></td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>The callback.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(System.IntPtr%2CSimpleHtmlToPdf.UnmanagedHandler.VoidCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L347">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.html">VoidCallback</a></dt>
+    <dd><p>The callback.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)">SetProgressChangedCallback(IntPtr, VoidCallback)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)">
+  SetProgressChangedCallback(IntPtr, VoidCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the progress changed callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SetProgressChangedCallback(IntPtr converter, VoidCallback callback)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.html">VoidCallback</a></td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>The callback.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(System.IntPtr%2CSimpleHtmlToPdf.UnmanagedHandler.StringCallback)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L360">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.html">VoidCallback</a></dt>
+    <dd><p>The callback.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback*"></a>
-  <h4 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)">SetWarningCallback(IntPtr, StringCallback)</h4>
+
+  <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)">
+  SetWarningCallback(IntPtr, StringCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the warning callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SetWarningCallback(IntPtr converter, StringCallback callback)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
-        <td><span class="parametername">converter</span></td>
-        <td><p>The converter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.StringCallback.html">StringCallback</a></td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>The callback.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback__seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
-  </div>
-  <h3 id="seealso">See Also</h3>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd><p>The converter.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.StringCallback.html">StringCallback</a></dt>
+    <dd><p>The callback.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 id="seealso">See Also</h2>
   <div class="seealso">
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
 
 </article>
-                </div>
 
-                <div class="copyright-footer">
-                    <span>&#169; James Craig. All rights reserved.</span>
-                </div>
-            </main>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
-        <script type="text/javascript" src="../styles/url.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
-        <script type="text/javascript" src="../styles/docfx.js"></script>
-        <script type="text/javascript" src="../styles/main.js"></script>
-        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <strong><a href='https://github.com/JaCraig/Simple-Html-To-Pdf'>Open in Github</a></strong>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

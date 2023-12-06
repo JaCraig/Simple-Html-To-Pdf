@@ -1,122 +1,134 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
       <title>Class LoadSettings
  | Simple Html To Pdf API Reference </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class LoadSettings
  | Simple Html To Pdf API Reference ">
-      <meta name="generator" content="docfx ">
-  
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
-      <link rel="stylesheet" href="../styles/config.css">
-      <link rel="stylesheet" href="../styles/discord.css">
-      <link rel="stylesheet" href="../styles/singulink.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
-    </head>
-    <body>
-        <div class="top-navbar">
-            <a class="burger-icon" onclick="toggleMenu()">
-                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
-            </a>
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
 
 
-            <a class="brand" href="../index.html">
-              <img src="../images/icon.png" alt="Simple Html To Pdf" class="logomark">
-              <span class="brand-title">Simple Html To Pdf</span>
-            </a>        </div>
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/icon.png" alt="Simple Html To Pdf">
+            Simple Html To Pdf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <div class="body-content">
-            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
 
-            <nav id="sidebar" role="navigation">
-                <div class="sidebar">
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
 
-                    <div>
-                      <div class="mobile-hide">
+          <nav id="breadcrumb"></nav>
+        </div>
 
-                        <a class="brand" href="../index.html">
-                          <img src="../images/icon.png" alt="Simple Html To Pdf" class="logomark">
-                          <span class="brand-title">Simple Html To Pdf</span>
-                        </a>                      </div>
-
-                      <div class="sidesearch">
-                        <form id="search" role="search" class="search">
-                            <i class="bi bi-search search-icon"></i>
-                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
-                        </form>
-                      </div>
-
-                      <div id="navbar">
-                      </div>
-                    </div>                    <div class="sidebar-item-separator"></div>
-
-                        <div id="sidetoggle">
-                          <div id="sidetoc"></div>
-                        </div>
-                </div>
-                <div class="footer">
-  <strong><a href='https://github.com/JaCraig/Simple-Html-To-Pdf'>Open in Github</a></strong>
-  
-                </div>            </nav>
-
-            <main class="main-panel">
-
-                <div id="search-results" style="display: none;">
-                  <h1 class="search-list">Search Results for <span></span></h1>
-                  <div class="sr-items">
-                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
-                  </div>
-                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
-                </div>
- 
-
-                <div role="main" class="hide-when-search">
-
-                        <div class="subnav navbar navbar-default">
-                          <div class="container hide-when-search" id="breadcrumb">
-                            <ul class="breadcrumb">
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-
-                         <div id="contribution">
-                               <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
-                         </div>
-
-                    <article class="content wrap" id="_content" data-uid="SimpleHtmlToPdf.Settings.LoadSettings">
+        <article data-uid="SimpleHtmlToPdf.Settings.LoadSettings">
 
 
 
-  <h1 id="SimpleHtmlToPdf_Settings_LoadSettings" data-uid="SimpleHtmlToPdf.Settings.LoadSettings" class="text-break">Class LoadSettings
-</h1>
-  <div class="markdown level0 summary"><p>Load settings</p>
+  <h1 id="SimpleHtmlToPdf_Settings_LoadSettings" data-uid="SimpleHtmlToPdf.Settings.LoadSettings" class="text-break">
+    Class LoadSettings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SimpleHtmlToPdf.html">SimpleHtmlToPdf</a>.<a class="xref" href="SimpleHtmlToPdf.Settings.html">Settings</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SimpleHtmlToPdf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Load settings</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">LoadSettings</span></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LoadSettings : ISettings</code></pre>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">LoadSettings</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -138,489 +150,454 @@
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SimpleHtmlToPdf.html">SimpleHtmlToPdf</a>.<a class="xref" href="SimpleHtmlToPdf.Settings.html">Settings</a></h6>
-  <h6><strong>Assembly</strong>: SimpleHtmlToPdf.dll</h6>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LoadSettings : ISettings</code></pre>
-  </div>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_BlockLocalFileAccess.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.BlockLocalFileAccess%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L18">View Source</a>
-  </span>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_BlockLocalFileAccess_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.BlockLocalFileAccess*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_BlockLocalFileAccess" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.BlockLocalFileAccess">BlockLocalFileAccess</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_BlockLocalFileAccess" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.BlockLocalFileAccess">
+  BlockLocalFileAccess
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Disallow local and piped files to access other local files. Default = false</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.blockLocalFileAccess&quot;)]
 public bool? BlockLocalFileAccess { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
-        <td><p>The block local file access.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_BlockLocalFileAccess_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_Cookies.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.Cookies%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L25">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd><p>The block local file access.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_Cookies_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Cookies*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_Cookies" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Cookies">Cookies</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_Cookies" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Cookies">
+  Cookies
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Cookies used when requesting page. Default = empty</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.cookies&quot;)]
 public Dictionary&lt;string, string&gt; Cookies { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
-        <td><p>The cookies.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_Cookies_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_CustomHeaders.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.CustomHeaders%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L32">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The cookies.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_CustomHeaders_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.CustomHeaders*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_CustomHeaders" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.CustomHeaders">CustomHeaders</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_CustomHeaders" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.CustomHeaders">
+  CustomHeaders
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Custom headers used when requesting page. Defaulty = empty</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.customHeaders&quot;)]
 public Dictionary&lt;string, string&gt; CustomHeaders { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
-        <td><p>The custom headers.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_CustomHeaders_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_DebugJavascript.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.DebugJavascript%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L39">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The custom headers.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_DebugJavascript_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.DebugJavascript*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_DebugJavascript" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.DebugJavascript">DebugJavascript</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_DebugJavascript" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.DebugJavascript">
+  DebugJavascript
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Forward javascript warnings and errors to the warning callback. Default = false</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.debugJavascript&quot;)]
 public bool? DebugJavascript { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
-        <td><p>The debug javascript.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_DebugJavascript_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_JSDelay.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.JSDelay%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L48">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd><p>The debug javascript.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_JSDelay_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.JSDelay*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_JSDelay" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.JSDelay">JSDelay</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_JSDelay" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.JSDelay">
+  JSDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The mount of time in milliseconds to wait after a page has done loading until it is
 actually printed. E.g. &quot;1200&quot;. We will wait this amount of time or until, javascript
 calls window.print(). Default = 200</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.jsdelay&quot;)]
 public int? JSDelay { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</td>
-        <td><p>The js delay.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_JSDelay_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_LoadErrorHandling.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.LoadErrorHandling%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L55">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The js delay.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_LoadErrorHandling_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.LoadErrorHandling*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_LoadErrorHandling" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.LoadErrorHandling">LoadErrorHandling</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_LoadErrorHandling" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.LoadErrorHandling">
+  LoadErrorHandling
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>How should we handle obejcts that fail to load. Default = Abort</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.loadErrorHandling&quot;)]
 public ContentErrorHandling? LoadErrorHandling { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SimpleHtmlToPdf.Settings.Enums.ContentErrorHandling.html">ContentErrorHandling</a>?</td>
-        <td><p>The load error handling.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_LoadErrorHandling_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_Password.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.Password%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L61">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SimpleHtmlToPdf.Settings.Enums.ContentErrorHandling.html">ContentErrorHandling</a>?</dt>
+    <dd><p>The load error handling.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_Password_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Password*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_Password" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Password">Password</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_Password" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Password">
+  Password
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The password to used when logging into a website. Default = &quot;&quot;</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.password&quot;)]
 public string Password { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_Password_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_Proxy.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.Proxy%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L68">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_Proxy_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Proxy*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_Proxy" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Proxy">Proxy</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_Proxy" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Proxy">
+  Proxy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>String describing what proxy to use when loading the object. Default = &quot;&quot;</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.proxy&quot;)]
 public string Proxy { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>The proxy.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_Proxy_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_RepeatCustomHeaders.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.RepeatCustomHeaders%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L76">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The proxy.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_RepeatCustomHeaders_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.RepeatCustomHeaders*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_RepeatCustomHeaders" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.RepeatCustomHeaders">RepeatCustomHeaders</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_RepeatCustomHeaders" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.RepeatCustomHeaders">
+  RepeatCustomHeaders
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Should the custom headers be sent all elements loaded instead of only the main page.
 Default = false</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.repeatCustomHeaders&quot;)]
 public bool? RepeatCustomHeaders { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
-        <td><p>The repeat custom headers.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_RepeatCustomHeaders_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_StopSlowScript.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.StopSlowScript%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L83">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd><p>The repeat custom headers.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_StopSlowScript_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.StopSlowScript*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_StopSlowScript" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.StopSlowScript">StopSlowScript</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_StopSlowScript" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.StopSlowScript">
+  StopSlowScript
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Stop slow running javascript. Default = true</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.stopSlowScript&quot;)]
 public bool? StopSlowScript { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
-        <td><p>The stop slow script.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_StopSlowScript_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_Username.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.Username%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L90">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd><p>The stop slow script.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_Username_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Username*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_Username" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Username">Username</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_Username" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.Username">
+  Username
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The user name to use when loging into a website. Default = &quot;&quot;</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.username&quot;)]
 public string Username { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>The username.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_Username_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_Settings_LoadSettings_ZoomFactor.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.Settings.LoadSettings.ZoomFactor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L97">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The username.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="SimpleHtmlToPdf_Settings_LoadSettings_ZoomFactor_" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.ZoomFactor*"></a>
-  <h4 id="SimpleHtmlToPdf_Settings_LoadSettings_ZoomFactor" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.ZoomFactor">ZoomFactor</h4>
+
+  <h3 id="SimpleHtmlToPdf_Settings_LoadSettings_ZoomFactor" data-uid="SimpleHtmlToPdf.Settings.LoadSettings.ZoomFactor">
+  ZoomFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>How much should we zoom in on the content. Default = 1.0</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[WkHtml(&quot;load.zoomFactor&quot;)]
 public double? ZoomFactor { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</td>
-        <td><p>The zoom factor.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="SimpleHtmlToPdf_Settings_LoadSettings_ZoomFactor_seealso">See Also</h5>
-  <div class="seealso">
-      <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a>
-  </div>
-  <h3 id="seealso">See Also</h3>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd><p>The zoom factor.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 id="seealso">See Also</h2>
   <div class="seealso">
       <div><a class="xref" href="SimpleHtmlToPdf.Interfaces.ISettings.html">ISettings</a></div>
   </div>
 
 </article>
-                </div>
 
-                <div class="copyright-footer">
-                    <span>&#169; James Craig. All rights reserved.</span>
-                </div>
-            </main>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/Settings/LoadSettings.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
-        <script type="text/javascript" src="../styles/url.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
-        <script type="text/javascript" src="../styles/docfx.js"></script>
-        <script type="text/javascript" src="../styles/main.js"></script>
-        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <strong><a href='https://github.com/JaCraig/Simple-Html-To-Pdf'>Open in Github</a></strong>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

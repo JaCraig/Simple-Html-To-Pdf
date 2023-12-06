@@ -1,772 +1,539 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
       <title>Enum PaperKind
  | Simple Html To Pdf API Reference </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Enum PaperKind
  | Simple Html To Pdf API Reference ">
-      <meta name="generator" content="docfx ">
-  
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
-      <link rel="stylesheet" href="../styles/config.css">
-      <link rel="stylesheet" href="../styles/discord.css">
-      <link rel="stylesheet" href="../styles/singulink.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
-    </head>
-    <body>
-        <div class="top-navbar">
-            <a class="burger-icon" onclick="toggleMenu()">
-                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
-            </a>
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_PaperKind.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.PaperKind%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
 
 
-            <a class="brand" href="../index.html">
-              <img src="../images/icon.png" alt="Simple Html To Pdf" class="logomark">
-              <span class="brand-title">Simple Html To Pdf</span>
-            </a>        </div>
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/icon.png" alt="Simple Html To Pdf">
+            Simple Html To Pdf
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <div class="body-content">
-            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
 
-            <nav id="sidebar" role="navigation">
-                <div class="sidebar">
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
 
-                    <div>
-                      <div class="mobile-hide">
+          <nav id="breadcrumb"></nav>
+        </div>
 
-                        <a class="brand" href="../index.html">
-                          <img src="../images/icon.png" alt="Simple Html To Pdf" class="logomark">
-                          <span class="brand-title">Simple Html To Pdf</span>
-                        </a>                      </div>
-
-                      <div class="sidesearch">
-                        <form id="search" role="search" class="search">
-                            <i class="bi bi-search search-icon"></i>
-                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
-                        </form>
-                      </div>
-
-                      <div id="navbar">
-                      </div>
-                    </div>                    <div class="sidebar-item-separator"></div>
-
-                        <div id="sidetoggle">
-                          <div id="sidetoc"></div>
-                        </div>
-                </div>
-                <div class="footer">
-  <strong><a href='https://github.com/JaCraig/Simple-Html-To-Pdf'>Open in Github</a></strong>
-  
-                </div>            </nav>
-
-            <main class="main-panel">
-
-                <div id="search-results" style="display: none;">
-                  <h1 class="search-list">Search Results for <span></span></h1>
-                  <div class="sr-items">
-                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
-                  </div>
-                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
-                </div>
- 
-
-                <div role="main" class="hide-when-search">
-
-                        <div class="subnav navbar navbar-default">
-                          <div class="container hide-when-search" id="breadcrumb">
-                            <ul class="breadcrumb">
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-
-                         <div id="contribution">
-                               <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/new/master/apiSpec/new?filename=SimpleHtmlToPdf_UnmanagedHandler_PaperKind.md&amp;value=---%0Auid%3A%20SimpleHtmlToPdf.UnmanagedHandler.PaperKind%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
-                         </div>
-
-                    <article class="content wrap" id="_content" data-uid="SimpleHtmlToPdf.UnmanagedHandler.PaperKind">
+        <article data-uid="SimpleHtmlToPdf.UnmanagedHandler.PaperKind">
 
 
 
 
-  <h1 id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind" data-uid="SimpleHtmlToPdf.UnmanagedHandler.PaperKind" class="text-break">Enum PaperKind
-</h1>
-  <div class="markdown level0 summary"><p>Enumaration of paper kinds from
+  <h1 id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind" data-uid="SimpleHtmlToPdf.UnmanagedHandler.PaperKind" class="text-break">
+    Enum PaperKind
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/PaperKind.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SimpleHtmlToPdf.html">SimpleHtmlToPdf</a>.<a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.html">UnmanagedHandler</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SimpleHtmlToPdf.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Enumaration of paper kinds from
 <a href="http://msdn.microsoft.com/en-us/library/system.drawing.printing.paperkind.aspx">http://msdn.microsoft.com/en-us/library/system.drawing.printing.paperkind.aspx</a> Implemented
 here because Syste.Drawing.Printing is not ported to NET Core</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SimpleHtmlToPdf.html">SimpleHtmlToPdf</a>.<a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.html">UnmanagedHandler</a></h6>
-  <h6><strong>Assembly</strong>: SimpleHtmlToPdf.dll</h6>
-  <h5 id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_syntax">Syntax</h5>
+  <div class="markdown conceptual"></div>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum PaperKind</code></pre>
   </div>
-  <h3 id="fields">Fields
-</h3>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    <tbody>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A2">A2</td>
-        <td><p>Summary: A2 paper (420 mm by 594 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3">A3</td>
-        <td><p>Summary: A3 paper (297 mm by 420 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3Extra">A3Extra</td>
-        <td><p>Summary: A3 extra paper (322 mm by 445 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3ExtraTransverse">A3ExtraTransverse</td>
-        <td><p>Summary: A3 extra transverse paper (322 mm by 445 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3Rotated">A3Rotated</td>
-        <td><p>Summary: A3 rotated paper (420 mm by 297 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3Transverse">A3Transverse</td>
-        <td><p>Summary: A3 transverse paper (297 mm by 420 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4">A4</td>
-        <td><p>Summary: A4 paper (210 mm by 297 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Extra">A4Extra</td>
-        <td><p>Summary: A4 extra paper (236 mm by 322 mm). This value is specific to the PostScript
-driver and is used only by Linotronic printers to help save paper.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Plus">A4Plus</td>
-        <td><p>Summary: A4 plus paper (210 mm by 330 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Rotated">A4Rotated</td>
-        <td><p>Summary: A4 rotated paper (297 mm by 210 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Small">A4Small</td>
-        <td><p>Summary: A4 small paper (210 mm by 297 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Transverse">A4Transverse</td>
-        <td><p>Summary: A4 transverse paper (210 mm by 297 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A5">A5</td>
-        <td><p>Summary: A5 paper (148 mm by 210 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A5Extra">A5Extra</td>
-        <td><p>Summary: A5 extra paper (174 mm by 235 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A5Rotated">A5Rotated</td>
-        <td><p>Summary: A5 rotated paper (210 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A5Transverse">A5Transverse</td>
-        <td><p>Summary: A5 transverse paper (148 mm by 210 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A6">A6</td>
-        <td><p>Summary: A6 paper (105 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A6Rotated">A6Rotated</td>
-        <td><p>Summary: A6 rotated paper (148 mm by 105 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_APlus">APlus</td>
-        <td><p>Summary: SuperA/SuperA/A4 paper (227 mm by 356 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B4">B4</td>
-        <td><p>Summary: B4 paper (250 mm by 353 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B4Envelope">B4Envelope</td>
-        <td><p>Summary: B4 envelope (250 mm by 353 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B4JisRotated">B4JisRotated</td>
-        <td><p>Summary: JIS B4 rotated paper (364 mm by 257 mm). Requires Windows 98, Windows NT 4.0,
-or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5">B5</td>
-        <td><p>Summary: B5 paper (176 mm by 250 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5Envelope">B5Envelope</td>
-        <td><p>Summary: B5 envelope (176 mm by 250 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5Extra">B5Extra</td>
-        <td><p>Summary: ISO B5 extra paper (201 mm by 276 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5JisRotated">B5JisRotated</td>
-        <td><p>Summary: JIS B5 rotated paper (257 mm by 182 mm). Requires Windows 98, Windows NT 4.0,
-or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5Transverse">B5Transverse</td>
-        <td><p>Summary: JIS B5 transverse paper (182 mm by 257 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B6Envelope">B6Envelope</td>
-        <td><p>Summary: B6 envelope (176 mm by 125 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B6Jis">B6Jis</td>
-        <td><p>Summary: JIS B6 paper (128 mm by 182 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B6JisRotated">B6JisRotated</td>
-        <td><p>Summary: JIS B6 rotated paper (182 mm by 128 mm). Requires Windows 98, Windows NT 4.0,
-or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_BPlus">BPlus</td>
-        <td><p>Summary: SuperB/SuperB/A3 paper (305 mm by 487 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C3Envelope">C3Envelope</td>
-        <td><p>Summary: C3 envelope (324 mm by 458 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C4Envelope">C4Envelope</td>
-        <td><p>Summary: C4 envelope (229 mm by 324 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C5Envelope">C5Envelope</td>
-        <td><p>Summary: C5 envelope (162 mm by 229 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C65Envelope">C65Envelope</td>
-        <td><p>Summary: C65 envelope (114 mm by 229 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C6Envelope">C6Envelope</td>
-        <td><p>Summary: C6 envelope (114 mm by 162 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_CSheet">CSheet</td>
-        <td><p>Summary: C paper (17 in. by 22 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Custom">Custom</td>
-        <td><p>Summary: The paper size is defined by the user.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_DLEnvelope">DLEnvelope</td>
-        <td><p>Summary: DL envelope (110 mm by 220 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_DSheet">DSheet</td>
-        <td><p>Summary: D paper (22 in. by 34 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_ESheet">ESheet</td>
-        <td><p>Summary: E paper (34 in. by 44 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Executive">Executive</td>
-        <td><p>Summary: Executive paper (7.25 in. by 10.5 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Folio">Folio</td>
-        <td><p>Summary: Folio paper (8.5 in. by 13 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_GermanLegalFanfold">GermanLegalFanfold</td>
-        <td><p>Summary: German legal fanfold (8.5 in. by 13 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_GermanStandardFanfold">GermanStandardFanfold</td>
-        <td><p>Summary: German standard fanfold (8.5 in. by 12 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_InviteEnvelope">InviteEnvelope</td>
-        <td><p>Summary: Invitation envelope (220 mm by 220 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_IsoB4">IsoB4</td>
-        <td><p>Summary: ISO B4 (250 mm by 353 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_ItalyEnvelope">ItalyEnvelope</td>
-        <td><p>Summary: Italy envelope (110 mm by 230 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseDoublePostcard">JapaneseDoublePostcard</td>
-        <td><p>Summary: Japanese double postcard (200 mm by 148 mm). Requires Windows 98, Windows NT
-4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseDoublePostcardRotated">JapaneseDoublePostcardRotated</td>
-        <td><p>Summary: Japanese rotated double postcard (148 mm by 200 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeChouNumber3">JapaneseEnvelopeChouNumber3</td>
-        <td><p>Summary: Japanese Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeChouNumber3Rotated">JapaneseEnvelopeChouNumber3Rotated</td>
-        <td><p>Summary: Japanese rotated Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeChouNumber4">JapaneseEnvelopeChouNumber4</td>
-        <td><p>Summary: Japanese Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeChouNumber4Rotated">JapaneseEnvelopeChouNumber4Rotated</td>
-        <td><p>Summary: Japanese rotated Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeKakuNumber2">JapaneseEnvelopeKakuNumber2</td>
-        <td><p>Summary: Japanese Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeKakuNumber2Rotated">JapaneseEnvelopeKakuNumber2Rotated</td>
-        <td><p>Summary: Japanese rotated Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeKakuNumber3">JapaneseEnvelopeKakuNumber3</td>
-        <td><p>Summary: Japanese Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeKakuNumber3Rotated">JapaneseEnvelopeKakuNumber3Rotated</td>
-        <td><p>Summary: Japanese rotated Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeYouNumber4">JapaneseEnvelopeYouNumber4</td>
-        <td><p>Summary: Japanese You #4 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeYouNumber4Rotated">JapaneseEnvelopeYouNumber4Rotated</td>
-        <td><p>Summary: Japanese You #4 rotated envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapanesePostcard">JapanesePostcard</td>
-        <td><p>Summary: Japanese postcard (100 mm by 148 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapanesePostcardRotated">JapanesePostcardRotated</td>
-        <td><p>Summary: Japanese rotated postcard (148 mm by 100 mm). Requires Windows 98, Windows NT
-4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Ledger">Ledger</td>
-        <td><p>Summary: Ledger paper (17 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Legal">Legal</td>
-        <td><p>Summary: Legal paper (8.5 in. by 14 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LegalExtra">LegalExtra</td>
-        <td><p>Summary: Legal extra paper (9.275 in. by 15 in.). This value is specific to the
-PostScript driver and is used only by Linotronic printers in order to conserve paper.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Letter">Letter</td>
-        <td><p>Summary: Letter paper (8.5 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterExtra">LetterExtra</td>
-        <td><p>Summary: Letter extra paper (9.275 in. by 12 in.). This value is specific to the
-PostScript driver and is used only by Linotronic printers in order to conserve paper.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterExtraTransverse">LetterExtraTransverse</td>
-        <td><p>Summary: Letter extra transverse paper (9.275 in. by 12 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterPlus">LetterPlus</td>
-        <td><p>Summary: Letter plus paper (8.5 in. by 12.69 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterRotated">LetterRotated</td>
-        <td><p>Summary: Letter rotated paper (11 in. by 8.5 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterSmall">LetterSmall</td>
-        <td><p>Summary: Letter small paper (8.5 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterTransverse">LetterTransverse</td>
-        <td><p>Summary: Letter transverse paper (8.275 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_MonarchEnvelope">MonarchEnvelope</td>
-        <td><p>Summary: Monarch envelope (3.875 in. by 7.5 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Note">Note</td>
-        <td><p>Summary: Note paper (8.5 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number10Envelope">Number10Envelope</td>
-        <td><p>Summary: #10 envelope (4.125 in. by 9.5 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number11Envelope">Number11Envelope</td>
-        <td><p>Summary: #11 envelope (4.5 in. by 10.375 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number12Envelope">Number12Envelope</td>
-        <td><p>Summary: #12 envelope (4.75 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number14Envelope">Number14Envelope</td>
-        <td><p>Summary: #14 envelope (5 in. by 11.5 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number9Envelope">Number9Envelope</td>
-        <td><p>Summary: #9 envelope (3.875 in. by 8.875 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PersonalEnvelope">PersonalEnvelope</td>
-        <td><p>Summary: 6 3/4 envelope (3.625 in. by 6.5 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc16K">Prc16K</td>
-        <td><p>Summary: People's Republic of China 16K paper (146 mm by 215 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc16KRotated">Prc16KRotated</td>
-        <td><p>Summary: People's Republic of China 16K rotated paper (146 mm by 215 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc32K">Prc32K</td>
-        <td><p>Summary: People's Republic of China 32K paper (97 mm by 151 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc32KBig">Prc32KBig</td>
-        <td><p>Summary: People's Republic of China 32K big paper (97 mm by 151 mm). Requires Windows
-98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc32KBigRotated">Prc32KBigRotated</td>
-        <td><p>Summary: People's Republic of China 32K big rotated paper (97 mm by 151 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc32KRotated">Prc32KRotated</td>
-        <td><p>Summary: People's Republic of China 32K rotated paper (97 mm by 151 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber1">PrcEnvelopeNumber1</td>
-        <td><p>Summary: People's Republic of China #1 envelope (102 mm by 165 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber10">PrcEnvelopeNumber10</td>
-        <td><p>Summary: People's Republic of China #10 envelope (324 mm by 458 mm). Requires Windows
-98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber10Rotated">PrcEnvelopeNumber10Rotated</td>
-        <td><p>Summary: People's Republic of China #10 rotated envelope (458 mm by 324 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber1Rotated">PrcEnvelopeNumber1Rotated</td>
-        <td><p>Summary: People's Republic of China #1 rotated envelope (165 mm by 102 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber2">PrcEnvelopeNumber2</td>
-        <td><p>Summary: People's Republic of China #2 envelope (102 mm by 176 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber2Rotated">PrcEnvelopeNumber2Rotated</td>
-        <td><p>Summary: People's Republic of China #2 rotated envelope (176 mm by 102 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber3">PrcEnvelopeNumber3</td>
-        <td><p>Summary: People's Republic of China #3 envelope (125 mm by 176 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber3Rotated">PrcEnvelopeNumber3Rotated</td>
-        <td><p>Summary: People's Republic of China #3 rotated envelope (176 mm by 125 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber4">PrcEnvelopeNumber4</td>
-        <td><p>Summary: People's Republic of China #4 envelope (110 mm by 208 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber4Rotated">PrcEnvelopeNumber4Rotated</td>
-        <td><p>Summary: People's Republic of China #4 rotated envelope (208 mm by 110 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber5">PrcEnvelopeNumber5</td>
-        <td><p>Summary: People's Republic of China #5 envelope (110 mm by 220 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber5Rotated">PrcEnvelopeNumber5Rotated</td>
-        <td><p>Summary: People's Republic of China Envelope #5 rotated envelope (220 mm by 110 mm).
-Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber6">PrcEnvelopeNumber6</td>
-        <td><p>Summary: People's Republic of China #6 envelope (120 mm by 230 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber6Rotated">PrcEnvelopeNumber6Rotated</td>
-        <td><p>Summary: People's Republic of China #6 rotated envelope (230 mm by 120 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber7">PrcEnvelopeNumber7</td>
-        <td><p>Summary: People's Republic of China #7 envelope (160 mm by 230 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber7Rotated">PrcEnvelopeNumber7Rotated</td>
-        <td><p>Summary: People's Republic of China #7 rotated envelope (230 mm by 160 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber8">PrcEnvelopeNumber8</td>
-        <td><p>Summary: People's Republic of China #8 envelope (120 mm by 309 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber8Rotated">PrcEnvelopeNumber8Rotated</td>
-        <td><p>Summary: People's Republic of China #8 rotated envelope (309 mm by 120 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber9">PrcEnvelopeNumber9</td>
-        <td><p>Summary: People's Republic of China #9 envelope (229 mm by 324 mm). Requires Windows 98,
-Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber9Rotated">PrcEnvelopeNumber9Rotated</td>
-        <td><p>Summary: People's Republic of China #9 rotated envelope (324 mm by 229 mm). Requires
-Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Quarto">Quarto</td>
-        <td><p>Summary: Quarto paper (215 mm by 275 mm).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard10x11">Standard10x11</td>
-        <td><p>Summary: Standard paper (10 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard10x14">Standard10x14</td>
-        <td><p>Summary: Standard paper (10 in. by 14 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard11x17">Standard11x17</td>
-        <td><p>Summary: Standard paper (11 in. by 17 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard12x11">Standard12x11</td>
-        <td><p>Summary: Standard paper (12 in. by 11 in.). Requires Windows 98, Windows NT 4.0, or later.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard15x11">Standard15x11</td>
-        <td><p>Summary: Standard paper (15 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard9x11">Standard9x11</td>
-        <td><p>Summary: Standard paper (9 in. by 11 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Statement">Statement</td>
-        <td><p>Summary: Statement paper (5.5 in. by 8.5 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Tabloid">Tabloid</td>
-        <td><p>Summary: Tabloid paper (11 in. by 17 in.).</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_TabloidExtra">TabloidExtra</td>
-        <td><p>Summary: Tabloid extra paper (11.69 in. by 18 in.). This value is specific to the
-PostScript driver and is used only by Linotronic printers in order to conserve paper.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_USStandardFanfold">USStandardFanfold</td>
-        <td><p>Summary: US standard fanfold (14.875 in. by 11 in.).</p>
-</td>
-      </tr>
-    </tbody>
-  </thead></thead></table>
-</article>
-                </div>
 
-                <div class="copyright-footer">
-                    <span>&#169; James Craig. All rights reserved.</span>
-                </div>
-            </main>
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A2"><code>A2 = 66</code></dt>
+    <dd><p>Summary: A2 paper (420 mm by 594 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3"><code>A3 = 8</code></dt>
+    <dd><p>Summary: A3 paper (297 mm by 420 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3Extra"><code>A3Extra = 63</code></dt>
+    <dd><p>Summary: A3 extra paper (322 mm by 445 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3ExtraTransverse"><code>A3ExtraTransverse = 68</code></dt>
+    <dd><p>Summary: A3 extra transverse paper (322 mm by 445 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3Rotated"><code>A3Rotated = 76</code></dt>
+    <dd><p>Summary: A3 rotated paper (420 mm by 297 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A3Transverse"><code>A3Transverse = 67</code></dt>
+    <dd><p>Summary: A3 transverse paper (297 mm by 420 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4"><code>A4 = 9</code></dt>
+    <dd><p>Summary: A4 paper (210 mm by 297 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Extra"><code>A4Extra = 53</code></dt>
+    <dd><p>Summary: A4 extra paper (236 mm by 322 mm). This value is specific to the PostScript
+driver and is used only by Linotronic printers to help save paper.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Plus"><code>A4Plus = 60</code></dt>
+    <dd><p>Summary: A4 plus paper (210 mm by 330 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Rotated"><code>A4Rotated = 77</code></dt>
+    <dd><p>Summary: A4 rotated paper (297 mm by 210 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Small"><code>A4Small = 10</code></dt>
+    <dd><p>Summary: A4 small paper (210 mm by 297 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A4Transverse"><code>A4Transverse = 55</code></dt>
+    <dd><p>Summary: A4 transverse paper (210 mm by 297 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A5"><code>A5 = 11</code></dt>
+    <dd><p>Summary: A5 paper (148 mm by 210 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A5Extra"><code>A5Extra = 64</code></dt>
+    <dd><p>Summary: A5 extra paper (174 mm by 235 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A5Rotated"><code>A5Rotated = 78</code></dt>
+    <dd><p>Summary: A5 rotated paper (210 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A5Transverse"><code>A5Transverse = 61</code></dt>
+    <dd><p>Summary: A5 transverse paper (148 mm by 210 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A6"><code>A6 = 70</code></dt>
+    <dd><p>Summary: A6 paper (105 mm by 148 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_A6Rotated"><code>A6Rotated = 83</code></dt>
+    <dd><p>Summary: A6 rotated paper (148 mm by 105 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_APlus"><code>APlus = 57</code></dt>
+    <dd><p>Summary: SuperA/SuperA/A4 paper (227 mm by 356 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B4"><code>B4 = 12</code></dt>
+    <dd><p>Summary: B4 paper (250 mm by 353 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B4Envelope"><code>B4Envelope = 33</code></dt>
+    <dd><p>Summary: B4 envelope (250 mm by 353 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B4JisRotated"><code>B4JisRotated = 79</code></dt>
+    <dd><p>Summary: JIS B4 rotated paper (364 mm by 257 mm). Requires Windows 98, Windows NT 4.0,
+or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5"><code>B5 = 13</code></dt>
+    <dd><p>Summary: B5 paper (176 mm by 250 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5Envelope"><code>B5Envelope = 34</code></dt>
+    <dd><p>Summary: B5 envelope (176 mm by 250 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5Extra"><code>B5Extra = 65</code></dt>
+    <dd><p>Summary: ISO B5 extra paper (201 mm by 276 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5JisRotated"><code>B5JisRotated = 80</code></dt>
+    <dd><p>Summary: JIS B5 rotated paper (257 mm by 182 mm). Requires Windows 98, Windows NT 4.0,
+or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B5Transverse"><code>B5Transverse = 62</code></dt>
+    <dd><p>Summary: JIS B5 transverse paper (182 mm by 257 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B6Envelope"><code>B6Envelope = 35</code></dt>
+    <dd><p>Summary: B6 envelope (176 mm by 125 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B6Jis"><code>B6Jis = 88</code></dt>
+    <dd><p>Summary: JIS B6 paper (128 mm by 182 mm). Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_B6JisRotated"><code>B6JisRotated = 89</code></dt>
+    <dd><p>Summary: JIS B6 rotated paper (182 mm by 128 mm). Requires Windows 98, Windows NT 4.0,
+or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_BPlus"><code>BPlus = 58</code></dt>
+    <dd><p>Summary: SuperB/SuperB/A3 paper (305 mm by 487 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C3Envelope"><code>C3Envelope = 29</code></dt>
+    <dd><p>Summary: C3 envelope (324 mm by 458 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C4Envelope"><code>C4Envelope = 30</code></dt>
+    <dd><p>Summary: C4 envelope (229 mm by 324 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C5Envelope"><code>C5Envelope = 28</code></dt>
+    <dd><p>Summary: C5 envelope (162 mm by 229 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C65Envelope"><code>C65Envelope = 32</code></dt>
+    <dd><p>Summary: C65 envelope (114 mm by 229 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_C6Envelope"><code>C6Envelope = 31</code></dt>
+    <dd><p>Summary: C6 envelope (114 mm by 162 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_CSheet"><code>CSheet = 24</code></dt>
+    <dd><p>Summary: C paper (17 in. by 22 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Custom"><code>Custom = 0</code></dt>
+    <dd><p>Summary: The paper size is defined by the user.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_DLEnvelope"><code>DLEnvelope = 27</code></dt>
+    <dd><p>Summary: DL envelope (110 mm by 220 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_DSheet"><code>DSheet = 25</code></dt>
+    <dd><p>Summary: D paper (22 in. by 34 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_ESheet"><code>ESheet = 26</code></dt>
+    <dd><p>Summary: E paper (34 in. by 44 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Executive"><code>Executive = 7</code></dt>
+    <dd><p>Summary: Executive paper (7.25 in. by 10.5 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Folio"><code>Folio = 14</code></dt>
+    <dd><p>Summary: Folio paper (8.5 in. by 13 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_GermanLegalFanfold"><code>GermanLegalFanfold = 41</code></dt>
+    <dd><p>Summary: German legal fanfold (8.5 in. by 13 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_GermanStandardFanfold"><code>GermanStandardFanfold = 40</code></dt>
+    <dd><p>Summary: German standard fanfold (8.5 in. by 12 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_InviteEnvelope"><code>InviteEnvelope = 47</code></dt>
+    <dd><p>Summary: Invitation envelope (220 mm by 220 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_IsoB4"><code>IsoB4 = 42</code></dt>
+    <dd><p>Summary: ISO B4 (250 mm by 353 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_ItalyEnvelope"><code>ItalyEnvelope = 36</code></dt>
+    <dd><p>Summary: Italy envelope (110 mm by 230 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseDoublePostcard"><code>JapaneseDoublePostcard = 69</code></dt>
+    <dd><p>Summary: Japanese double postcard (200 mm by 148 mm). Requires Windows 98, Windows NT
+4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseDoublePostcardRotated"><code>JapaneseDoublePostcardRotated = 82</code></dt>
+    <dd><p>Summary: Japanese rotated double postcard (148 mm by 200 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeChouNumber3"><code>JapaneseEnvelopeChouNumber3 = 73</code></dt>
+    <dd><p>Summary: Japanese Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeChouNumber3Rotated"><code>JapaneseEnvelopeChouNumber3Rotated = 86</code></dt>
+    <dd><p>Summary: Japanese rotated Chou #3 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeChouNumber4"><code>JapaneseEnvelopeChouNumber4 = 74</code></dt>
+    <dd><p>Summary: Japanese Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeChouNumber4Rotated"><code>JapaneseEnvelopeChouNumber4Rotated = 87</code></dt>
+    <dd><p>Summary: Japanese rotated Chou #4 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeKakuNumber2"><code>JapaneseEnvelopeKakuNumber2 = 71</code></dt>
+    <dd><p>Summary: Japanese Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeKakuNumber2Rotated"><code>JapaneseEnvelopeKakuNumber2Rotated = 84</code></dt>
+    <dd><p>Summary: Japanese rotated Kaku #2 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeKakuNumber3"><code>JapaneseEnvelopeKakuNumber3 = 72</code></dt>
+    <dd><p>Summary: Japanese Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeKakuNumber3Rotated"><code>JapaneseEnvelopeKakuNumber3Rotated = 85</code></dt>
+    <dd><p>Summary: Japanese rotated Kaku #3 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeYouNumber4"><code>JapaneseEnvelopeYouNumber4 = 91</code></dt>
+    <dd><p>Summary: Japanese You #4 envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapaneseEnvelopeYouNumber4Rotated"><code>JapaneseEnvelopeYouNumber4Rotated = 92</code></dt>
+    <dd><p>Summary: Japanese You #4 rotated envelope. Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapanesePostcard"><code>JapanesePostcard = 43</code></dt>
+    <dd><p>Summary: Japanese postcard (100 mm by 148 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_JapanesePostcardRotated"><code>JapanesePostcardRotated = 81</code></dt>
+    <dd><p>Summary: Japanese rotated postcard (148 mm by 100 mm). Requires Windows 98, Windows NT
+4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Ledger"><code>Ledger = 4</code></dt>
+    <dd><p>Summary: Ledger paper (17 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Legal"><code>Legal = 5</code></dt>
+    <dd><p>Summary: Legal paper (8.5 in. by 14 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LegalExtra"><code>LegalExtra = 51</code></dt>
+    <dd><p>Summary: Legal extra paper (9.275 in. by 15 in.). This value is specific to the
+PostScript driver and is used only by Linotronic printers in order to conserve paper.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Letter"><code>Letter = 1</code></dt>
+    <dd><p>Summary: Letter paper (8.5 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterExtra"><code>LetterExtra = 50</code></dt>
+    <dd><p>Summary: Letter extra paper (9.275 in. by 12 in.). This value is specific to the
+PostScript driver and is used only by Linotronic printers in order to conserve paper.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterExtraTransverse"><code>LetterExtraTransverse = 56</code></dt>
+    <dd><p>Summary: Letter extra transverse paper (9.275 in. by 12 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterPlus"><code>LetterPlus = 59</code></dt>
+    <dd><p>Summary: Letter plus paper (8.5 in. by 12.69 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterRotated"><code>LetterRotated = 75</code></dt>
+    <dd><p>Summary: Letter rotated paper (11 in. by 8.5 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterSmall"><code>LetterSmall = 2</code></dt>
+    <dd><p>Summary: Letter small paper (8.5 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_LetterTransverse"><code>LetterTransverse = 54</code></dt>
+    <dd><p>Summary: Letter transverse paper (8.275 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_MonarchEnvelope"><code>MonarchEnvelope = 37</code></dt>
+    <dd><p>Summary: Monarch envelope (3.875 in. by 7.5 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Note"><code>Note = 18</code></dt>
+    <dd><p>Summary: Note paper (8.5 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number10Envelope"><code>Number10Envelope = 20</code></dt>
+    <dd><p>Summary: #10 envelope (4.125 in. by 9.5 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number11Envelope"><code>Number11Envelope = 21</code></dt>
+    <dd><p>Summary: #11 envelope (4.5 in. by 10.375 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number12Envelope"><code>Number12Envelope = 22</code></dt>
+    <dd><p>Summary: #12 envelope (4.75 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number14Envelope"><code>Number14Envelope = 23</code></dt>
+    <dd><p>Summary: #14 envelope (5 in. by 11.5 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Number9Envelope"><code>Number9Envelope = 19</code></dt>
+    <dd><p>Summary: #9 envelope (3.875 in. by 8.875 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PersonalEnvelope"><code>PersonalEnvelope = 38</code></dt>
+    <dd><p>Summary: 6 3/4 envelope (3.625 in. by 6.5 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc16K"><code>Prc16K = 93</code></dt>
+    <dd><p>Summary: People's Republic of China 16K paper (146 mm by 215 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc16KRotated"><code>Prc16KRotated = 106</code></dt>
+    <dd><p>Summary: People's Republic of China 16K rotated paper (146 mm by 215 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc32K"><code>Prc32K = 94</code></dt>
+    <dd><p>Summary: People's Republic of China 32K paper (97 mm by 151 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc32KBig"><code>Prc32KBig = 95</code></dt>
+    <dd><p>Summary: People's Republic of China 32K big paper (97 mm by 151 mm). Requires Windows
+98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc32KBigRotated"><code>Prc32KBigRotated = 108</code></dt>
+    <dd><p>Summary: People's Republic of China 32K big rotated paper (97 mm by 151 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Prc32KRotated"><code>Prc32KRotated = 107</code></dt>
+    <dd><p>Summary: People's Republic of China 32K rotated paper (97 mm by 151 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber1"><code>PrcEnvelopeNumber1 = 96</code></dt>
+    <dd><p>Summary: People's Republic of China #1 envelope (102 mm by 165 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber10"><code>PrcEnvelopeNumber10 = 105</code></dt>
+    <dd><p>Summary: People's Republic of China #10 envelope (324 mm by 458 mm). Requires Windows
+98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber10Rotated"><code>PrcEnvelopeNumber10Rotated = 118</code></dt>
+    <dd><p>Summary: People's Republic of China #10 rotated envelope (458 mm by 324 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber1Rotated"><code>PrcEnvelopeNumber1Rotated = 109</code></dt>
+    <dd><p>Summary: People's Republic of China #1 rotated envelope (165 mm by 102 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber2"><code>PrcEnvelopeNumber2 = 97</code></dt>
+    <dd><p>Summary: People's Republic of China #2 envelope (102 mm by 176 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber2Rotated"><code>PrcEnvelopeNumber2Rotated = 110</code></dt>
+    <dd><p>Summary: People's Republic of China #2 rotated envelope (176 mm by 102 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber3"><code>PrcEnvelopeNumber3 = 98</code></dt>
+    <dd><p>Summary: People's Republic of China #3 envelope (125 mm by 176 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber3Rotated"><code>PrcEnvelopeNumber3Rotated = 111</code></dt>
+    <dd><p>Summary: People's Republic of China #3 rotated envelope (176 mm by 125 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber4"><code>PrcEnvelopeNumber4 = 99</code></dt>
+    <dd><p>Summary: People's Republic of China #4 envelope (110 mm by 208 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber4Rotated"><code>PrcEnvelopeNumber4Rotated = 112</code></dt>
+    <dd><p>Summary: People's Republic of China #4 rotated envelope (208 mm by 110 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber5"><code>PrcEnvelopeNumber5 = 100</code></dt>
+    <dd><p>Summary: People's Republic of China #5 envelope (110 mm by 220 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber5Rotated"><code>PrcEnvelopeNumber5Rotated = 113</code></dt>
+    <dd><p>Summary: People's Republic of China Envelope #5 rotated envelope (220 mm by 110 mm).
+Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber6"><code>PrcEnvelopeNumber6 = 101</code></dt>
+    <dd><p>Summary: People's Republic of China #6 envelope (120 mm by 230 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber6Rotated"><code>PrcEnvelopeNumber6Rotated = 114</code></dt>
+    <dd><p>Summary: People's Republic of China #6 rotated envelope (230 mm by 120 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber7"><code>PrcEnvelopeNumber7 = 102</code></dt>
+    <dd><p>Summary: People's Republic of China #7 envelope (160 mm by 230 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber7Rotated"><code>PrcEnvelopeNumber7Rotated = 115</code></dt>
+    <dd><p>Summary: People's Republic of China #7 rotated envelope (230 mm by 160 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber8"><code>PrcEnvelopeNumber8 = 103</code></dt>
+    <dd><p>Summary: People's Republic of China #8 envelope (120 mm by 309 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber8Rotated"><code>PrcEnvelopeNumber8Rotated = 116</code></dt>
+    <dd><p>Summary: People's Republic of China #8 rotated envelope (309 mm by 120 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber9"><code>PrcEnvelopeNumber9 = 104</code></dt>
+    <dd><p>Summary: People's Republic of China #9 envelope (229 mm by 324 mm). Requires Windows 98,
+Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_PrcEnvelopeNumber9Rotated"><code>PrcEnvelopeNumber9Rotated = 117</code></dt>
+    <dd><p>Summary: People's Republic of China #9 rotated envelope (324 mm by 229 mm). Requires
+Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Quarto"><code>Quarto = 15</code></dt>
+    <dd><p>Summary: Quarto paper (215 mm by 275 mm).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard10x11"><code>Standard10x11 = 45</code></dt>
+    <dd><p>Summary: Standard paper (10 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard10x14"><code>Standard10x14 = 16</code></dt>
+    <dd><p>Summary: Standard paper (10 in. by 14 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard11x17"><code>Standard11x17 = 17</code></dt>
+    <dd><p>Summary: Standard paper (11 in. by 17 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard12x11"><code>Standard12x11 = 90</code></dt>
+    <dd><p>Summary: Standard paper (12 in. by 11 in.). Requires Windows 98, Windows NT 4.0, or later.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard15x11"><code>Standard15x11 = 46</code></dt>
+    <dd><p>Summary: Standard paper (15 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Standard9x11"><code>Standard9x11 = 44</code></dt>
+    <dd><p>Summary: Standard paper (9 in. by 11 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Statement"><code>Statement = 6</code></dt>
+    <dd><p>Summary: Statement paper (5.5 in. by 8.5 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_Tabloid"><code>Tabloid = 3</code></dt>
+    <dd><p>Summary: Tabloid paper (11 in. by 17 in.).</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_TabloidExtra"><code>TabloidExtra = 52</code></dt>
+    <dd><p>Summary: Tabloid extra paper (11.69 in. by 18 in.). This value is specific to the
+PostScript driver and is used only by Linotronic printers in order to conserve paper.</p>
+</dd>
+    <dt id="SimpleHtmlToPdf_UnmanagedHandler_PaperKind_USStandardFanfold"><code>USStandardFanfold = 39</code></dt>
+    <dd><p>Summary: US standard fanfold (14.875 in. by 11 in.).</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/PaperKind.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
-        <script type="text/javascript" src="../styles/url.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
-        <script type="text/javascript" src="../styles/docfx.js"></script>
-        <script type="text/javascript" src="../styles/main.js"></script>
-        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <strong><a href='https://github.com/JaCraig/Simple-Html-To-Pdf'>Open in Github</a></strong>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
