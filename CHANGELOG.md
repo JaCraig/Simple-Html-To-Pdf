@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.0.43"></a>
+## [2.0.43](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.0.43) (2024-04-30)
+
+### Bug Fixes
+
+* bump versionize from 1.22.0 to 1.23.0 in the dependencies group ([ffa55d2](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/ffa55d29f08b7d476a16cf8b6e326b1e52d809a9))
+
+### Other
+
+* Merge pull request #45 from JaCraig/dependabot/github_actions/dependencies-45223d3826 ([45605f1](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/45605f16e844cc83ade014c09adfc3fa3cb6ebcb))
+* Merge pull request #46 from JaCraig/dependabot/github_actions/dependencies-67cf71b959 ([215f96a](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/215f96a23748fe0df30e2df496e759c5afff72bf))
+* Merge pull request #47 from JaCraig/dependabot/nuget/dependencies-6d2d24f1fd ([ca02ca8](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/ca02ca83bb822b145cdc838df2d452e317f6d801))
+* bump dependabot/fetch-metadata in the dependencies group ([60b41f8](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/60b41f86c0c80ac21263d3cebe332eb0407a582a))
+* bump peaceiris/actions-gh-pages in the dependencies group ([3dfa0b0](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/3dfa0b0d9d995826cc29dccea52d76214964a0c5))
+
 <a name="2.0.42"></a>
 ## [2.0.42](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.0.42) (2024-03-28)
 
