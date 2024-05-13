@@ -66,6 +66,7 @@
     <None Include="runtimes/osx-x64/native/libwkhtmltox.dylib" Pack="true" PackagePath="runtimes/osx-x64/native/" />
 	<None Include="runtimes/osx-arm64/native/libwkhtmltox.dylib" Pack="true" PackagePath="runtimes/osx-arm64/native/" />
     <None Include="runtimes/win-x64/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-x64/native/" />
+	<None Include="runtimes/win-arm64/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-arm64/native/" />
     <None Include="runtimes/win-x86/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-x86/native/" />
   </ItemGroup>
 
