@@ -12,12 +12,11 @@ jobs:
   
     env:
       BUILD_CONFIG: 'Debug'
-      SOLUTION: 'SimpleHtmlToPdf.sln'
 
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dotnet-version: [ '6.0.x' ]
+        dotnet-version: [ '8.0.x' ]
 
     steps:
     - uses: actions/checkout@v4
