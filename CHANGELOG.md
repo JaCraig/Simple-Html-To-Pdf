@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.1.1"></a>
+## [2.1.1](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.1) (2024-05-13)
+
+### Bug Fixes
+
+* Adding win-arm64 ([3bf30f8](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/3bf30f87b57a748e9337b66efa0aff212cbbfcd4))
+
 <a name="2.1.0"></a>
 ## [2.1.0](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.0) (2024-05-13)
 
