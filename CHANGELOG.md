@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.1.4"></a>
+## [2.1.4](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.4) (2024-06-25)
+
+### Bug Fixes
+
+* bump Canister.IoC from 5.3.10 to 5.3.11 in the dependencies group ([383d807](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/383d807fbaa20eeb95cddab12e81f81c5b101d76))
+
+### Other
+
+* Merge pull request #56 from JaCraig/dependabot/nuget/dependencies-d2a4f980d0 ([c4e0a44](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/c4e0a44ace2054c4c5b45829ff09f2cdaf575a49))
+
 <a name="2.1.3"></a>
 ## [2.1.3](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.3) (2024-06-18)
 
