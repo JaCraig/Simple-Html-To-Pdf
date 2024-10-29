@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.1.10"></a>
+## [2.1.10](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.10) (2024-10-29)
+
+### Bug Fixes
+
+* bump versionize from 1.27.0 to 2.0.0 in the dependencies group ([c550fa8](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/c550fa8e52e142bacf1a42b487f00a80eec7fab2))
+* bump versionize from 2.0.0 to 2.1.0 in the dependencies group ([7f47366](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/7f4736695cf8ae32b16cd825a29b172c4c273683))
+
+### Other
+
+* Merge pull request #64 from JaCraig/dependabot/nuget/dependencies-9c36df7c76 ([eb9a00c](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/eb9a00c7fa115cfb898bd37f9c7f174acff991bc))
+* Merge pull request #65 from JaCraig/dependabot/nuget/dependencies-3894128c1d ([1bc7fe5](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/1bc7fe5eee6cd177d7ed7f90051380b9f81cdddb))
+* Merge pull request #66 from JaCraig/dependabot/github_actions/dependencies-18190d55f2 ([25a0d4f](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/25a0d4f027fd1db0f13238b794047e27f76e9216))
+* bump actions/setup-dotnet in the dependencies group ([6044c3f](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/6044c3f88d780f985afea8570ae5a09b8637d8f5))
+* Update versionize command in dotnet-publish.yml ([0015ab6](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/0015ab63605d490b7f28a5e1847b3cd30834cf1c))
+* Update versionize command in dotnet-publish.yml ([48ca1f5](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/48ca1f5a844a2b897b701acf16c4d3b1adc4c0f4))
+
 <a name="2.1.9"></a>
 ## [2.1.9](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.9) (2024-10-15)
 
