@@ -17,7 +17,7 @@
 
     <AssemblyTitle>SimpleHtmlToPdf</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <Version>2.1.7</Version>
+    <Version>2.1.9</Version>
     <Nullable>enable</Nullable>
     <Title>SimpleHtmlToPdf</Title>
     <Copyright>Copyright © James Craig 2020</Copyright>
@@ -71,7 +71,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Canister.IoC" Version="5.3.13" />
+    <PackageReference Include="Canister.IoC" Version="5.3.15" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
