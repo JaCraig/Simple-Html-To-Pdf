@@ -2,6 +2,78 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.1.15"></a>
+## [2.1.15](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.15) (2024-11-12)
+
+### Bug Fixes
+
+* bump Canister.IoC from 5.3.17 to 5.3.18 in the dependencies group ([c481879](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/c4818791537ed05ed3e70d6b71e3dcf71a875b90))
+
+### Other
+
+* Merge pull request #71 from JaCraig/dependabot/nuget/dependencies-b162d9d86e ([85c0e2e](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/85c0e2e1c063b7837bad3e8e01d8a16f6fb8ed88))
+
+<a name="2.1.14"></a>
+## [2.1.14](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.14) (2024-11-11)
+
+### Bug Fixes
+
+* bump versionize from 2.2.0 to 2.3.0 in the dependencies group ([9a842b3](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/9a842b3a8fba9f62e6e2421a886f563949ee8be4))
+
+### Other
+
+* Merge pull request #70 from JaCraig/dependabot/nuget/dependencies-ca13a1f720 ([31abf95](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/31abf95896520c217b563be6a1c5115a3e13b30e))
+
+<a name="2.1.13"></a>
+## [2.1.13](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.13) (2024-11-05)
+
+### Bug Fixes
+
+* bump Canister.IoC from 5.3.16 to 5.3.17 in the dependencies group ([91b27fa](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/91b27faf86f5e963af461b0282188762413f5a03))
+
+### Other
+
+* Merge pull request #69 from JaCraig/dependabot/nuget/dependencies-3ba4e3f77e ([ec25182](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/ec251825286b70bb8d875da588d8debaf0965cbb))
+
+<a name="2.1.12"></a>
+## [2.1.12](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.12) (2024-11-04)
+
+### Bug Fixes
+
+* bump versionize from 2.1.0 to 2.2.0 in the dependencies group ([3cfdafd](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/3cfdafda2da732f69078473a4f4f156bcb478bc6))
+
+### Other
+
+* Merge pull request #68 from JaCraig/dependabot/nuget/dependencies-a709802c01 ([d5c9cea](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/d5c9cea066002e62d4c3b494d2ea15637096f104))
+
+<a name="2.1.11"></a>
+## [2.1.11](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.11) (2024-10-29)
+
+### Bug Fixes
+
+* bump Canister.IoC from 5.3.15 to 5.3.16 in the dependencies group ([c589c4c](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/c589c4c154cd3e38e6c961c83ea7aa5ef019a64b))
+
+### Other
+
+* Merge pull request #67 from JaCraig/dependabot/nuget/dependencies-1fbc92c770 ([329d1f7](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/329d1f77d26bb607432cc71ac3e3529ab3a5a02e))
+
+<a name="2.1.10"></a>
+## [2.1.10](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.10) (2024-10-29)
+
+### Bug Fixes
+
+* bump versionize from 1.27.0 to 2.0.0 in the dependencies group ([c550fa8](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/c550fa8e52e142bacf1a42b487f00a80eec7fab2))
+* bump versionize from 2.0.0 to 2.1.0 in the dependencies group ([7f47366](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/7f4736695cf8ae32b16cd825a29b172c4c273683))
+
+### Other
+
+* Merge pull request #64 from JaCraig/dependabot/nuget/dependencies-9c36df7c76 ([eb9a00c](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/eb9a00c7fa115cfb898bd37f9c7f174acff991bc))
+* Merge pull request #65 from JaCraig/dependabot/nuget/dependencies-3894128c1d ([1bc7fe5](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/1bc7fe5eee6cd177d7ed7f90051380b9f81cdddb))
+* Merge pull request #66 from JaCraig/dependabot/github_actions/dependencies-18190d55f2 ([25a0d4f](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/25a0d4f027fd1db0f13238b794047e27f76e9216))
+* bump actions/setup-dotnet in the dependencies group ([6044c3f](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/6044c3f88d780f985afea8570ae5a09b8637d8f5))
+* Update versionize command in dotnet-publish.yml ([0015ab6](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/0015ab63605d490b7f28a5e1847b3cd30834cf1c))
+* Update versionize command in dotnet-publish.yml ([48ca1f5](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/48ca1f5a844a2b897b701acf16c4d3b1adc4c0f4))
+
 <a name="2.1.9"></a>
 ## [2.1.9](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.9) (2024-10-15)
 
