@@ -30,14 +30,13 @@ To use the Simple HTML to PDF library in your project, follow these steps:
 
 1. Install the Simple HTML to PDF package (as described in the Installation section).
 
-2. Add a reference to the library in your project:
+2. Add it to your project's IoC container:
 
    ```csharp
-    using SimpleHtmlToPdf.Interfaces;
-    using SimpleHtmlToPdf.Settings;
-    using SimpleHtmlToPdf.Settings.Enums;
-    using SimpleHtmlToPdf.UnmanagedHandler;
+   services.AddSimpleHtmlToPdf();
    ```
+
+Replace `services` with the actual `IServiceCollection` instance in your project.
 
 3. Ask for an instance of the `IConverter` class from the system's IoC:
 

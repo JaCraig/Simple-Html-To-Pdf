@@ -6,17 +6,27 @@
 version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/SimpleHtmlToPdf/" # Location of package manifests
     schedule:
       interval: "daily"
     commit-message:
       prefix: "fix"
-    ignore:
-      - dependency-name: "Mecha.xUnit"
     groups:
       dependencies:
         patterns: 
           - "*"
+
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "/SimpleHtmlToPdf.WebApp.net6/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore"
+    groups:
+      dependencies:
+        patterns: 
+          - "*"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
