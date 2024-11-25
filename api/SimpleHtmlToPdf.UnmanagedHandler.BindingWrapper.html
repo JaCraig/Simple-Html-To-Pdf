@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -230,7 +230,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_Byte___" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.Byte[])">
-  AddObject(IntPtr, IntPtr, byte[])
+  AddObject(nint, nint, byte[])
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -239,15 +239,15 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddObject(IntPtr converter, IntPtr objectSettings, byte[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddObject(nint converter, nint objectSettings, byte[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
-    <dt><code>objectSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>objectSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The object settings.</p>
 </dd>
     <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
@@ -269,7 +269,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.String)">
-  AddObject(IntPtr, IntPtr, string)
+  AddObject(nint, nint, string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -278,15 +278,15 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddObject(IntPtr converter, IntPtr objectSettings, string data)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddObject(nint converter, nint objectSettings, string data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
-    <dt><code>objectSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>objectSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The object settings.</p>
 </dd>
     <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
@@ -308,7 +308,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(System.IntPtr)">
-  CreateConverter(IntPtr)
+  CreateConverter(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -317,19 +317,19 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IntPtr CreateConverter(IntPtr globalSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">public nint CreateConverter(nint globalSettings)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>globalSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>globalSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The global settings.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd></dd>
   </dl>
 
@@ -355,13 +355,13 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IntPtr CreateGlobalSettings()</code></pre>
+    <pre><code class="lang-csharp hljs">public nint CreateGlobalSettings()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd></dd>
   </dl>
 
@@ -387,13 +387,13 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IntPtr CreateObjectSettings()</code></pre>
+    <pre><code class="lang-csharp hljs">public nint CreateObjectSettings()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd></dd>
   </dl>
 
@@ -410,7 +410,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(System.IntPtr)">
-  DestroyConverter(IntPtr)
+  DestroyConverter(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -419,12 +419,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DestroyConverter(IntPtr converter)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DestroyConverter(nint converter)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
   </dl>
@@ -443,7 +443,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(System.IntPtr)">
-  DestroyGlobalSetting(IntPtr)
+  DestroyGlobalSetting(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -452,12 +452,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DestroyGlobalSetting(IntPtr settings)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DestroyGlobalSetting(nint settings)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The settings.</p>
 </dd>
   </dl>
@@ -476,7 +476,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(System.IntPtr)">
-  DestroyObjectSetting(IntPtr)
+  DestroyObjectSetting(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -485,12 +485,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DestroyObjectSetting(IntPtr settings)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DestroyObjectSetting(nint settings)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The settings.</p>
 </dd>
   </dl>
@@ -509,7 +509,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(System.IntPtr)">
-  DoConversion(IntPtr)
+  DoConversion(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -518,12 +518,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool DoConversion(IntPtr converter)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool DoConversion(nint converter)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
   </dl>
@@ -606,7 +606,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(System.IntPtr)">
-  GetConversionResult(IntPtr)
+  GetConversionResult(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -615,12 +615,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] GetConversionResult(IntPtr converter)</code></pre>
+    <pre><code class="lang-csharp hljs">public byte[] GetConversionResult(nint converter)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
   </dl>
@@ -644,7 +644,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(System.IntPtr)">
-  GetCurrentPhase(IntPtr)
+  GetCurrentPhase(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L183"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -653,12 +653,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetCurrentPhase(IntPtr converter)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetCurrentPhase(nint converter)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
   </dl>
@@ -682,7 +682,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetGlobalSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetGlobalSetting_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(System.IntPtr,System.String)">
-  GetGlobalSetting(IntPtr, string)
+  GetGlobalSetting(nint, string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -691,12 +691,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetGlobalSetting(IntPtr settings, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetGlobalSetting(nint settings, string name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The settings.</p>
 </dd>
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
@@ -755,7 +755,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetObjectSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetObjectSetting_System_IntPtr_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(System.IntPtr,System.String)">
-  GetObjectSetting(IntPtr, string)
+  GetObjectSetting(nint, string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -764,12 +764,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetObjectSetting(IntPtr settings, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetObjectSetting(nint settings, string name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The settings.</p>
 </dd>
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
@@ -796,7 +796,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(System.IntPtr)">
-  GetPhaseCount(IntPtr)
+  GetPhaseCount(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L234"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -805,12 +805,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetPhaseCount(IntPtr converter)</code></pre>
+    <pre><code class="lang-csharp hljs">public int GetPhaseCount(nint converter)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
   </dl>
@@ -834,7 +834,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseDescription_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseDescription_System_IntPtr_System_Int32_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(System.IntPtr,System.Int32)">
-  GetPhaseDescription(IntPtr, int)
+  GetPhaseDescription(nint, int)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L245"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -843,12 +843,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetPhaseDescription(IntPtr converter, int phase)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetPhaseDescription(nint converter, int phase)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
     <dt><code>phase</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
@@ -875,7 +875,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_System_IntPtr_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(System.IntPtr)">
-  GetProgressString(IntPtr)
+  GetProgressString(nint)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L255"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -884,12 +884,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetProgressString(IntPtr converter)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetProgressString(nint converter)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
   </dl>
@@ -940,7 +940,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)">
-  SetErrorCallback(IntPtr, StringCallback)
+  SetErrorCallback(nint, StringCallback)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L284"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -949,12 +949,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SetErrorCallback(IntPtr converter, StringCallback callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public int SetErrorCallback(nint converter, StringCallback callback)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
     <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.StringCallback.html">StringCallback</a></dt>
@@ -981,7 +981,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_IntCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)">
-  SetFinishedCallback(IntPtr, IntCallback)
+  SetFinishedCallback(nint, IntCallback)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L297"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -990,12 +990,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SetFinishedCallback(IntPtr converter, IntCallback callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public int SetFinishedCallback(nint converter, IntCallback callback)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
     <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.IntCallback.html">IntCallback</a></dt>
@@ -1022,7 +1022,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetGlobalSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetGlobalSetting_System_IntPtr_System_String_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(System.IntPtr,System.String,System.String)">
-  SetGlobalSetting(IntPtr, string, string)
+  SetGlobalSetting(nint, string, string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L311"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1031,12 +1031,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SetGlobalSetting(IntPtr settings, string name, string value)</code></pre>
+    <pre><code class="lang-csharp hljs">public int SetGlobalSetting(nint settings, string name, string value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The settings.</p>
 </dd>
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
@@ -1066,7 +1066,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetObjectSetting_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetObjectSetting_System_IntPtr_System_String_System_String_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(System.IntPtr,System.String,System.String)">
-  SetObjectSetting(IntPtr, string, string)
+  SetObjectSetting(nint, string, string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L323"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1075,12 +1075,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SetObjectSetting(IntPtr settings, string name, string value)</code></pre>
+    <pre><code class="lang-csharp hljs">public int SetObjectSetting(nint settings, string name, string value)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The settings.</p>
 </dd>
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
@@ -1110,7 +1110,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)">
-  SetPhaseChangedCallback(IntPtr, VoidCallback)
+  SetPhaseChangedCallback(nint, VoidCallback)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L334"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1119,12 +1119,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SetPhaseChangedCallback(IntPtr converter, VoidCallback callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public int SetPhaseChangedCallback(nint converter, VoidCallback callback)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
     <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.html">VoidCallback</a></dt>
@@ -1151,7 +1151,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)">
-  SetProgressChangedCallback(IntPtr, VoidCallback)
+  SetProgressChangedCallback(nint, VoidCallback)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L347"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1160,12 +1160,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SetProgressChangedCallback(IntPtr converter, VoidCallback callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public int SetProgressChangedCallback(nint converter, VoidCallback callback)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
     <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.html">VoidCallback</a></dt>
@@ -1192,7 +1192,7 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <a id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback*"></a>
 
   <h3 id="SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_" data-uid="SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)">
-  SetWarningCallback(IntPtr, StringCallback)
+  SetWarningCallback(nint, StringCallback)
   <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/SimpleHtmlToPdf/UnmanagedHandler/BindingWrapper.cs/#L360"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1201,12 +1201,12 @@ Class BindingWrapper  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int SetWarningCallback(IntPtr converter, StringCallback callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public int SetWarningCallback(nint converter, StringCallback callback)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
     <dd><p>The converter.</p>
 </dd>
     <dt><code>callback</code> <a class="xref" href="SimpleHtmlToPdf.UnmanagedHandler.StringCallback.html">StringCallback</a></dt>

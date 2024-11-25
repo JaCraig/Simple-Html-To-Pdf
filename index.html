@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -95,13 +95,13 @@
 <ol>
 <li><p>Install the Simple HTML to PDF package (as described in the Installation section).</p>
 </li>
-<li><p>Add a reference to the library in your project:</p>
-<pre><code class="lang-csharp"> using SimpleHtmlToPdf.Interfaces;
- using SimpleHtmlToPdf.Settings;
- using SimpleHtmlToPdf.Settings.Enums;
- using SimpleHtmlToPdf.UnmanagedHandler;
+<li><p>Add it to your project's IoC container:</p>
+<pre><code class="lang-csharp">services.AddSimpleHtmlToPdf();
 </code></pre>
 </li>
+</ol>
+<p>Replace <code>services</code> with the actual <code>IServiceCollection</code> instance in your project.</p>
+<ol start="3">
 <li><p>Ask for an instance of the <code>IConverter</code> class from the system's IoC:</p>
 <pre><code class="lang-csharp">public HomeController(IConverter converter) { ... }
 </code></pre>

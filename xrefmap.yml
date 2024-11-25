@@ -1663,22 +1663,22 @@ references:
   nameWithType: BindingWrapper.BindingWrapper
   nameWithType.vb: BindingWrapper.New
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.Byte[])
-  name: AddObject(IntPtr, IntPtr, byte[])
+  name: AddObject(nint, nint, byte[])
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_Byte___
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.Byte[])
   name.vb: AddObject(IntPtr, IntPtr, Byte())
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr, System.IntPtr, byte[])
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(nint, nint, byte[])
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr, System.IntPtr, Byte())
-  nameWithType: BindingWrapper.AddObject(IntPtr, IntPtr, byte[])
+  nameWithType: BindingWrapper.AddObject(nint, nint, byte[])
   nameWithType.vb: BindingWrapper.AddObject(IntPtr, IntPtr, Byte())
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.String)
-  name: AddObject(IntPtr, IntPtr, string)
+  name: AddObject(nint, nint, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_AddObject_System_IntPtr_System_IntPtr_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr,System.IntPtr,System.String)
   name.vb: AddObject(IntPtr, IntPtr, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr, System.IntPtr, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(nint, nint, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject(System.IntPtr, System.IntPtr, String)
-  nameWithType: BindingWrapper.AddObject(IntPtr, IntPtr, string)
+  nameWithType: BindingWrapper.AddObject(nint, nint, string)
   nameWithType.vb: BindingWrapper.AddObject(IntPtr, IntPtr, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject*
   name: AddObject
@@ -1688,11 +1688,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.AddObject
   nameWithType: BindingWrapper.AddObject
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(System.IntPtr)
-  name: CreateConverter(IntPtr)
+  name: CreateConverter(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(System.IntPtr)
-  nameWithType: BindingWrapper.CreateConverter(IntPtr)
+  name.vb: CreateConverter(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter(System.IntPtr)
+  nameWithType: BindingWrapper.CreateConverter(nint)
+  nameWithType.vb: BindingWrapper.CreateConverter(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateConverter*
   name: CreateConverter
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_CreateConverter_
@@ -1727,11 +1730,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.CreateObjectSettings
   nameWithType: BindingWrapper.CreateObjectSettings
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(System.IntPtr)
-  name: DestroyConverter(IntPtr)
+  name: DestroyConverter(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(System.IntPtr)
-  nameWithType: BindingWrapper.DestroyConverter(IntPtr)
+  name.vb: DestroyConverter(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter(System.IntPtr)
+  nameWithType: BindingWrapper.DestroyConverter(nint)
+  nameWithType.vb: BindingWrapper.DestroyConverter(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter*
   name: DestroyConverter
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyConverter_
@@ -1740,11 +1746,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyConverter
   nameWithType: BindingWrapper.DestroyConverter
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(System.IntPtr)
-  name: DestroyGlobalSetting(IntPtr)
+  name: DestroyGlobalSetting(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(System.IntPtr)
-  nameWithType: BindingWrapper.DestroyGlobalSetting(IntPtr)
+  name.vb: DestroyGlobalSetting(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting(System.IntPtr)
+  nameWithType: BindingWrapper.DestroyGlobalSetting(nint)
+  nameWithType.vb: BindingWrapper.DestroyGlobalSetting(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting*
   name: DestroyGlobalSetting
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyGlobalSetting_
@@ -1753,11 +1762,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyGlobalSetting
   nameWithType: BindingWrapper.DestroyGlobalSetting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(System.IntPtr)
-  name: DestroyObjectSetting(IntPtr)
+  name: DestroyObjectSetting(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(System.IntPtr)
-  nameWithType: BindingWrapper.DestroyObjectSetting(IntPtr)
+  name.vb: DestroyObjectSetting(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting(System.IntPtr)
+  nameWithType: BindingWrapper.DestroyObjectSetting(nint)
+  nameWithType.vb: BindingWrapper.DestroyObjectSetting(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting*
   name: DestroyObjectSetting
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DestroyObjectSetting_
@@ -1766,11 +1778,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DestroyObjectSetting
   nameWithType: BindingWrapper.DestroyObjectSetting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(System.IntPtr)
-  name: DoConversion(IntPtr)
+  name: DoConversion(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(System.IntPtr)
-  nameWithType: BindingWrapper.DoConversion(IntPtr)
+  name.vb: DoConversion(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion(System.IntPtr)
+  nameWithType: BindingWrapper.DoConversion(nint)
+  nameWithType.vb: BindingWrapper.DoConversion(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.DoConversion*
   name: DoConversion
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_DoConversion_
@@ -1808,11 +1823,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.~BindingWrapper
   nameWithType: BindingWrapper.~BindingWrapper
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(System.IntPtr)
-  name: GetConversionResult(IntPtr)
+  name: GetConversionResult(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(System.IntPtr)
-  nameWithType: BindingWrapper.GetConversionResult(IntPtr)
+  name.vb: GetConversionResult(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult(System.IntPtr)
+  nameWithType: BindingWrapper.GetConversionResult(nint)
+  nameWithType.vb: BindingWrapper.GetConversionResult(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult*
   name: GetConversionResult
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetConversionResult_
@@ -1821,11 +1839,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetConversionResult
   nameWithType: BindingWrapper.GetConversionResult
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(System.IntPtr)
-  name: GetCurrentPhase(IntPtr)
+  name: GetCurrentPhase(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(System.IntPtr)
-  nameWithType: BindingWrapper.GetCurrentPhase(IntPtr)
+  name.vb: GetCurrentPhase(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase(System.IntPtr)
+  nameWithType: BindingWrapper.GetCurrentPhase(nint)
+  nameWithType.vb: BindingWrapper.GetCurrentPhase(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase*
   name: GetCurrentPhase
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetCurrentPhase_
@@ -1834,13 +1855,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetCurrentPhase
   nameWithType: BindingWrapper.GetCurrentPhase
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(System.IntPtr,System.String)
-  name: GetGlobalSetting(IntPtr, string)
+  name: GetGlobalSetting(nint, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetGlobalSetting_System_IntPtr_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(System.IntPtr,System.String)
   name.vb: GetGlobalSetting(IntPtr, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(System.IntPtr, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(nint, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting(System.IntPtr, String)
-  nameWithType: BindingWrapper.GetGlobalSetting(IntPtr, string)
+  nameWithType: BindingWrapper.GetGlobalSetting(nint, string)
   nameWithType.vb: BindingWrapper.GetGlobalSetting(IntPtr, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetGlobalSetting*
   name: GetGlobalSetting
@@ -1863,13 +1884,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetLibraryVersion
   nameWithType: BindingWrapper.GetLibraryVersion
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(System.IntPtr,System.String)
-  name: GetObjectSetting(IntPtr, string)
+  name: GetObjectSetting(nint, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetObjectSetting_System_IntPtr_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(System.IntPtr,System.String)
   name.vb: GetObjectSetting(IntPtr, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(System.IntPtr, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(nint, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting(System.IntPtr, String)
-  nameWithType: BindingWrapper.GetObjectSetting(IntPtr, string)
+  nameWithType: BindingWrapper.GetObjectSetting(nint, string)
   nameWithType.vb: BindingWrapper.GetObjectSetting(IntPtr, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting*
   name: GetObjectSetting
@@ -1879,11 +1900,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetObjectSetting
   nameWithType: BindingWrapper.GetObjectSetting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(System.IntPtr)
-  name: GetPhaseCount(IntPtr)
+  name: GetPhaseCount(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(System.IntPtr)
-  nameWithType: BindingWrapper.GetPhaseCount(IntPtr)
+  name.vb: GetPhaseCount(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount(System.IntPtr)
+  nameWithType: BindingWrapper.GetPhaseCount(nint)
+  nameWithType.vb: BindingWrapper.GetPhaseCount(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount*
   name: GetPhaseCount
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseCount_
@@ -1892,13 +1916,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseCount
   nameWithType: BindingWrapper.GetPhaseCount
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(System.IntPtr,System.Int32)
-  name: GetPhaseDescription(IntPtr, int)
+  name: GetPhaseDescription(nint, int)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetPhaseDescription_System_IntPtr_System_Int32_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(System.IntPtr,System.Int32)
   name.vb: GetPhaseDescription(IntPtr, Integer)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(System.IntPtr, int)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(nint, int)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription(System.IntPtr, Integer)
-  nameWithType: BindingWrapper.GetPhaseDescription(IntPtr, int)
+  nameWithType: BindingWrapper.GetPhaseDescription(nint, int)
   nameWithType.vb: BindingWrapper.GetPhaseDescription(IntPtr, Integer)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription*
   name: GetPhaseDescription
@@ -1908,11 +1932,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetPhaseDescription
   nameWithType: BindingWrapper.GetPhaseDescription
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(System.IntPtr)
-  name: GetProgressString(IntPtr)
+  name: GetProgressString(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(System.IntPtr)
-  nameWithType: BindingWrapper.GetProgressString(IntPtr)
+  name.vb: GetProgressString(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString(System.IntPtr)
+  nameWithType: BindingWrapper.GetProgressString(nint)
+  nameWithType.vb: BindingWrapper.GetProgressString(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.GetProgressString*
   name: GetProgressString
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_GetProgressString_
@@ -1947,11 +1974,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.Load
   nameWithType: BindingWrapper.Load
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  name: SetErrorCallback(IntPtr, StringCallback)
+  name: SetErrorCallback(nint, StringCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  nameWithType: BindingWrapper.SetErrorCallback(IntPtr, StringCallback)
+  name.vb: SetErrorCallback(IntPtr, StringCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(nint, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  nameWithType: BindingWrapper.SetErrorCallback(nint, StringCallback)
+  nameWithType.vb: BindingWrapper.SetErrorCallback(IntPtr, StringCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback*
   name: SetErrorCallback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetErrorCallback_
@@ -1960,11 +1990,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetErrorCallback
   nameWithType: BindingWrapper.SetErrorCallback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  name: SetFinishedCallback(IntPtr, IntCallback)
+  name: SetFinishedCallback(nint, IntCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_IntCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  nameWithType: BindingWrapper.SetFinishedCallback(IntPtr, IntCallback)
+  name.vb: SetFinishedCallback(IntPtr, IntCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(nint, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
+  nameWithType: BindingWrapper.SetFinishedCallback(nint, IntCallback)
+  nameWithType.vb: BindingWrapper.SetFinishedCallback(IntPtr, IntCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback*
   name: SetFinishedCallback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetFinishedCallback_
@@ -1973,13 +2006,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetFinishedCallback
   nameWithType: BindingWrapper.SetFinishedCallback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(System.IntPtr,System.String,System.String)
-  name: SetGlobalSetting(IntPtr, string, string)
+  name: SetGlobalSetting(nint, string, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetGlobalSetting_System_IntPtr_System_String_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(System.IntPtr,System.String,System.String)
   name.vb: SetGlobalSetting(IntPtr, String, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(System.IntPtr, string, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(nint, string, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting(System.IntPtr, String, String)
-  nameWithType: BindingWrapper.SetGlobalSetting(IntPtr, string, string)
+  nameWithType: BindingWrapper.SetGlobalSetting(nint, string, string)
   nameWithType.vb: BindingWrapper.SetGlobalSetting(IntPtr, String, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting*
   name: SetGlobalSetting
@@ -1989,13 +2022,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetGlobalSetting
   nameWithType: BindingWrapper.SetGlobalSetting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(System.IntPtr,System.String,System.String)
-  name: SetObjectSetting(IntPtr, string, string)
+  name: SetObjectSetting(nint, string, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetObjectSetting_System_IntPtr_System_String_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(System.IntPtr,System.String,System.String)
   name.vb: SetObjectSetting(IntPtr, String, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(System.IntPtr, string, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(nint, string, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting(System.IntPtr, String, String)
-  nameWithType: BindingWrapper.SetObjectSetting(IntPtr, string, string)
+  nameWithType: BindingWrapper.SetObjectSetting(nint, string, string)
   nameWithType.vb: BindingWrapper.SetObjectSetting(IntPtr, String, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting*
   name: SetObjectSetting
@@ -2005,11 +2038,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetObjectSetting
   nameWithType: BindingWrapper.SetObjectSetting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  name: SetPhaseChangedCallback(IntPtr, VoidCallback)
+  name: SetPhaseChangedCallback(nint, VoidCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  nameWithType: BindingWrapper.SetPhaseChangedCallback(IntPtr, VoidCallback)
+  name.vb: SetPhaseChangedCallback(IntPtr, VoidCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(nint, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  nameWithType: BindingWrapper.SetPhaseChangedCallback(nint, VoidCallback)
+  nameWithType.vb: BindingWrapper.SetPhaseChangedCallback(IntPtr, VoidCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback*
   name: SetPhaseChangedCallback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetPhaseChangedCallback_
@@ -2018,11 +2054,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetPhaseChangedCallback
   nameWithType: BindingWrapper.SetPhaseChangedCallback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  name: SetProgressChangedCallback(IntPtr, VoidCallback)
+  name: SetProgressChangedCallback(nint, VoidCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  nameWithType: BindingWrapper.SetProgressChangedCallback(IntPtr, VoidCallback)
+  name.vb: SetProgressChangedCallback(IntPtr, VoidCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(nint, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  nameWithType: BindingWrapper.SetProgressChangedCallback(nint, VoidCallback)
+  nameWithType.vb: BindingWrapper.SetProgressChangedCallback(IntPtr, VoidCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback*
   name: SetProgressChangedCallback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetProgressChangedCallback_
@@ -2031,11 +2070,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetProgressChangedCallback
   nameWithType: BindingWrapper.SetProgressChangedCallback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  name: SetWarningCallback(IntPtr, StringCallback)
+  name: SetWarningCallback(nint, StringCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  nameWithType: BindingWrapper.SetWarningCallback(IntPtr, StringCallback)
+  name.vb: SetWarningCallback(IntPtr, StringCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(nint, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  nameWithType: BindingWrapper.SetWarningCallback(nint, StringCallback)
+  nameWithType.vb: BindingWrapper.SetWarningCallback(IntPtr, StringCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.SetWarningCallback*
   name: SetWarningCallback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html#SimpleHtmlToPdf_UnmanagedHandler_BindingWrapper_SetWarningCallback_
@@ -2074,22 +2116,22 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule
   nameWithType: IWkHtmlModule
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(System.IntPtr,System.IntPtr,System.Byte[])
-  name: wkhtmltopdf_add_object(IntPtr, IntPtr, byte[])
+  name: wkhtmltopdf_add_object(nint, nint, byte[])
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_add_object_System_IntPtr_System_IntPtr_System_Byte___
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(System.IntPtr,System.IntPtr,System.Byte[])
   name.vb: wkhtmltopdf_add_object(IntPtr, IntPtr, Byte())
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(System.IntPtr, System.IntPtr, byte[])
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(nint, nint, byte[])
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(System.IntPtr, System.IntPtr, Byte())
-  nameWithType: IWkHtmlModule.wkhtmltopdf_add_object(IntPtr, IntPtr, byte[])
+  nameWithType: IWkHtmlModule.wkhtmltopdf_add_object(nint, nint, byte[])
   nameWithType.vb: IWkHtmlModule.wkhtmltopdf_add_object(IntPtr, IntPtr, Byte())
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(System.IntPtr,System.IntPtr,System.String)
-  name: wkhtmltopdf_add_object(IntPtr, IntPtr, string)
+  name: wkhtmltopdf_add_object(nint, nint, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_add_object_System_IntPtr_System_IntPtr_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(System.IntPtr,System.IntPtr,System.String)
   name.vb: wkhtmltopdf_add_object(IntPtr, IntPtr, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(System.IntPtr, System.IntPtr, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(nint, nint, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object(System.IntPtr, System.IntPtr, String)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_add_object(IntPtr, IntPtr, string)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_add_object(nint, nint, string)
   nameWithType.vb: IWkHtmlModule.wkhtmltopdf_add_object(IntPtr, IntPtr, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object*
   name: wkhtmltopdf_add_object
@@ -2099,11 +2141,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_add_object
   nameWithType: IWkHtmlModule.wkhtmltopdf_add_object
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_convert(System.IntPtr)
-  name: wkhtmltopdf_convert(IntPtr)
+  name: wkhtmltopdf_convert(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_convert_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_convert(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_convert(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_convert(IntPtr)
+  name.vb: wkhtmltopdf_convert(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_convert(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_convert(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_convert(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_convert(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_convert*
   name: wkhtmltopdf_convert
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_convert_
@@ -2112,11 +2157,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_convert
   nameWithType: IWkHtmlModule.wkhtmltopdf_convert
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_create_converter(System.IntPtr)
-  name: wkhtmltopdf_create_converter(IntPtr)
+  name: wkhtmltopdf_create_converter(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_create_converter_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_create_converter(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_create_converter(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_create_converter(IntPtr)
+  name.vb: wkhtmltopdf_create_converter(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_create_converter(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_create_converter(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_create_converter(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_create_converter(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_create_converter*
   name: wkhtmltopdf_create_converter
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_create_converter_
@@ -2151,11 +2199,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_create_object_settings
   nameWithType: IWkHtmlModule.wkhtmltopdf_create_object_settings
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_current_phase(System.IntPtr)
-  name: wkhtmltopdf_current_phase(IntPtr)
+  name: wkhtmltopdf_current_phase(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_current_phase_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_current_phase(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_current_phase(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_current_phase(IntPtr)
+  name.vb: wkhtmltopdf_current_phase(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_current_phase(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_current_phase(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_current_phase(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_current_phase(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_current_phase*
   name: wkhtmltopdf_current_phase
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_current_phase_
@@ -2177,11 +2228,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_deinit
   nameWithType: IWkHtmlModule.wkhtmltopdf_deinit
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_converter(System.IntPtr)
-  name: wkhtmltopdf_destroy_converter(IntPtr)
+  name: wkhtmltopdf_destroy_converter(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_destroy_converter_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_converter(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_converter(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_destroy_converter(IntPtr)
+  name.vb: wkhtmltopdf_destroy_converter(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_converter(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_converter(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_destroy_converter(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_destroy_converter(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_converter*
   name: wkhtmltopdf_destroy_converter
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_destroy_converter_
@@ -2190,11 +2244,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_converter
   nameWithType: IWkHtmlModule.wkhtmltopdf_destroy_converter
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_global_settings(System.IntPtr)
-  name: wkhtmltopdf_destroy_global_settings(IntPtr)
+  name: wkhtmltopdf_destroy_global_settings(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_destroy_global_settings_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_global_settings(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_global_settings(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_destroy_global_settings(IntPtr)
+  name.vb: wkhtmltopdf_destroy_global_settings(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_global_settings(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_global_settings(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_destroy_global_settings(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_destroy_global_settings(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_global_settings*
   name: wkhtmltopdf_destroy_global_settings
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_destroy_global_settings_
@@ -2203,11 +2260,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_global_settings
   nameWithType: IWkHtmlModule.wkhtmltopdf_destroy_global_settings
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_object_settings(System.IntPtr)
-  name: wkhtmltopdf_destroy_object_settings(IntPtr)
+  name: wkhtmltopdf_destroy_object_settings(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_destroy_object_settings_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_object_settings(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_object_settings(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_destroy_object_settings(IntPtr)
+  name.vb: wkhtmltopdf_destroy_object_settings(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_object_settings(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_object_settings(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_destroy_object_settings(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_destroy_object_settings(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_destroy_object_settings*
   name: wkhtmltopdf_destroy_object_settings
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_destroy_object_settings_
@@ -2229,13 +2289,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_extended_qt
   nameWithType: IWkHtmlModule.wkhtmltopdf_extended_qt
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_global_setting(System.IntPtr,System.String,System.Byte[])
-  name: wkhtmltopdf_get_global_setting(IntPtr, string, byte[])
+  name: wkhtmltopdf_get_global_setting(nint, string, byte[])
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_get_global_setting_System_IntPtr_System_String_System_Byte___
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_global_setting(System.IntPtr,System.String,System.Byte[])
   name.vb: wkhtmltopdf_get_global_setting(IntPtr, String, Byte())
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_global_setting(System.IntPtr, string, byte[])
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_global_setting(nint, string, byte[])
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_global_setting(System.IntPtr, String, Byte())
-  nameWithType: IWkHtmlModule.wkhtmltopdf_get_global_setting(IntPtr, string, byte[])
+  nameWithType: IWkHtmlModule.wkhtmltopdf_get_global_setting(nint, string, byte[])
   nameWithType.vb: IWkHtmlModule.wkhtmltopdf_get_global_setting(IntPtr, String, Byte())
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_global_setting*
   name: wkhtmltopdf_get_global_setting
@@ -2245,13 +2305,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_global_setting
   nameWithType: IWkHtmlModule.wkhtmltopdf_get_global_setting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_object_setting(System.IntPtr,System.String,System.Byte[])
-  name: wkhtmltopdf_get_object_setting(IntPtr, string, byte[])
+  name: wkhtmltopdf_get_object_setting(nint, string, byte[])
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_get_object_setting_System_IntPtr_System_String_System_Byte___
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_object_setting(System.IntPtr,System.String,System.Byte[])
   name.vb: wkhtmltopdf_get_object_setting(IntPtr, String, Byte())
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_object_setting(System.IntPtr, string, byte[])
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_object_setting(nint, string, byte[])
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_object_setting(System.IntPtr, String, Byte())
-  nameWithType: IWkHtmlModule.wkhtmltopdf_get_object_setting(IntPtr, string, byte[])
+  nameWithType: IWkHtmlModule.wkhtmltopdf_get_object_setting(nint, string, byte[])
   nameWithType.vb: IWkHtmlModule.wkhtmltopdf_get_object_setting(IntPtr, String, Byte())
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_object_setting*
   name: wkhtmltopdf_get_object_setting
@@ -2261,13 +2321,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_object_setting
   nameWithType: IWkHtmlModule.wkhtmltopdf_get_object_setting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_output(System.IntPtr,System.IntPtr@)
-  name: wkhtmltopdf_get_output(IntPtr, out IntPtr)
+  name: wkhtmltopdf_get_output(nint, out nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_get_output_System_IntPtr_System_IntPtr__
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_output(System.IntPtr,System.IntPtr@)
   name.vb: wkhtmltopdf_get_output(IntPtr, IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_output(System.IntPtr, out System.IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_output(nint, out nint)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_output(System.IntPtr, System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_get_output(IntPtr, out IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_get_output(nint, out nint)
   nameWithType.vb: IWkHtmlModule.wkhtmltopdf_get_output(IntPtr, IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_output*
   name: wkhtmltopdf_get_output
@@ -2277,11 +2337,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_get_output
   nameWithType: IWkHtmlModule.wkhtmltopdf_get_output
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_http_error_code(System.IntPtr)
-  name: wkhtmltopdf_http_error_code(IntPtr)
+  name: wkhtmltopdf_http_error_code(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_http_error_code_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_http_error_code(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_http_error_code(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_http_error_code(IntPtr)
+  name.vb: wkhtmltopdf_http_error_code(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_http_error_code(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_http_error_code(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_http_error_code(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_http_error_code(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_http_error_code*
   name: wkhtmltopdf_http_error_code
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_http_error_code_
@@ -2306,11 +2369,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_init
   nameWithType: IWkHtmlModule.wkhtmltopdf_init
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_count(System.IntPtr)
-  name: wkhtmltopdf_phase_count(IntPtr)
+  name: wkhtmltopdf_phase_count(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_phase_count_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_count(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_count(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_phase_count(IntPtr)
+  name.vb: wkhtmltopdf_phase_count(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_count(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_count(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_phase_count(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_phase_count(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_count*
   name: wkhtmltopdf_phase_count
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_phase_count_
@@ -2319,13 +2385,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_count
   nameWithType: IWkHtmlModule.wkhtmltopdf_phase_count
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_description(System.IntPtr,System.Int32)
-  name: wkhtmltopdf_phase_description(IntPtr, int)
+  name: wkhtmltopdf_phase_description(nint, int)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_phase_description_System_IntPtr_System_Int32_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_description(System.IntPtr,System.Int32)
   name.vb: wkhtmltopdf_phase_description(IntPtr, Integer)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_description(System.IntPtr, int)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_description(nint, int)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_description(System.IntPtr, Integer)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_phase_description(IntPtr, int)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_phase_description(nint, int)
   nameWithType.vb: IWkHtmlModule.wkhtmltopdf_phase_description(IntPtr, Integer)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_description*
   name: wkhtmltopdf_phase_description
@@ -2335,11 +2401,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_phase_description
   nameWithType: IWkHtmlModule.wkhtmltopdf_phase_description
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_progress_string(System.IntPtr)
-  name: wkhtmltopdf_progress_string(IntPtr)
+  name: wkhtmltopdf_progress_string(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_progress_string_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_progress_string(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_progress_string(System.IntPtr)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_progress_string(IntPtr)
+  name.vb: wkhtmltopdf_progress_string(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_progress_string(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_progress_string(System.IntPtr)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_progress_string(nint)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_progress_string(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_progress_string*
   name: wkhtmltopdf_progress_string
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_progress_string_
@@ -2348,11 +2417,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_progress_string
   nameWithType: IWkHtmlModule.wkhtmltopdf_progress_string
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_error_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  name: wkhtmltopdf_set_error_callback(IntPtr, StringCallback)
+  name: wkhtmltopdf_set_error_callback(nint, StringCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_error_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_error_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_error_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_set_error_callback(IntPtr, StringCallback)
+  name.vb: wkhtmltopdf_set_error_callback(IntPtr, StringCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_error_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_error_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_set_error_callback(nint, StringCallback)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_set_error_callback(IntPtr, StringCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_error_callback*
   name: wkhtmltopdf_set_error_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_error_callback_
@@ -2361,11 +2433,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_error_callback
   nameWithType: IWkHtmlModule.wkhtmltopdf_set_error_callback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_finished_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  name: wkhtmltopdf_set_finished_callback(IntPtr, IntCallback)
+  name: wkhtmltopdf_set_finished_callback(nint, IntCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_finished_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_IntCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_finished_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_finished_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_set_finished_callback(IntPtr, IntCallback)
+  name.vb: wkhtmltopdf_set_finished_callback(IntPtr, IntCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_finished_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_finished_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_set_finished_callback(nint, IntCallback)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_set_finished_callback(IntPtr, IntCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_finished_callback*
   name: wkhtmltopdf_set_finished_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_finished_callback_
@@ -2374,13 +2449,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_finished_callback
   nameWithType: IWkHtmlModule.wkhtmltopdf_set_finished_callback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_global_setting(System.IntPtr,System.String,System.String)
-  name: wkhtmltopdf_set_global_setting(IntPtr, string, string)
+  name: wkhtmltopdf_set_global_setting(nint, string, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_global_setting_System_IntPtr_System_String_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_global_setting(System.IntPtr,System.String,System.String)
   name.vb: wkhtmltopdf_set_global_setting(IntPtr, String, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_global_setting(System.IntPtr, string, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_global_setting(nint, string, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_global_setting(System.IntPtr, String, String)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_set_global_setting(IntPtr, string, string)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_set_global_setting(nint, string, string)
   nameWithType.vb: IWkHtmlModule.wkhtmltopdf_set_global_setting(IntPtr, String, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_global_setting*
   name: wkhtmltopdf_set_global_setting
@@ -2390,13 +2465,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_global_setting
   nameWithType: IWkHtmlModule.wkhtmltopdf_set_global_setting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_object_setting(System.IntPtr,System.String,System.String)
-  name: wkhtmltopdf_set_object_setting(IntPtr, string, string)
+  name: wkhtmltopdf_set_object_setting(nint, string, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_object_setting_System_IntPtr_System_String_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_object_setting(System.IntPtr,System.String,System.String)
   name.vb: wkhtmltopdf_set_object_setting(IntPtr, String, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_object_setting(System.IntPtr, string, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_object_setting(nint, string, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_object_setting(System.IntPtr, String, String)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_set_object_setting(IntPtr, string, string)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_set_object_setting(nint, string, string)
   nameWithType.vb: IWkHtmlModule.wkhtmltopdf_set_object_setting(IntPtr, String, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_object_setting*
   name: wkhtmltopdf_set_object_setting
@@ -2406,11 +2481,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_object_setting
   nameWithType: IWkHtmlModule.wkhtmltopdf_set_object_setting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  name: wkhtmltopdf_set_phase_changed_callback(IntPtr, VoidCallback)
+  name: wkhtmltopdf_set_phase_changed_callback(nint, VoidCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_phase_changed_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback(IntPtr, VoidCallback)
+  name.vb: wkhtmltopdf_set_phase_changed_callback(IntPtr, VoidCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback(nint, VoidCallback)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback(IntPtr, VoidCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback*
   name: wkhtmltopdf_set_phase_changed_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_phase_changed_callback_
@@ -2419,11 +2497,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback
   nameWithType: IWkHtmlModule.wkhtmltopdf_set_phase_changed_callback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  name: wkhtmltopdf_set_progress_changed_callback(IntPtr, VoidCallback)
+  name: wkhtmltopdf_set_progress_changed_callback(nint, VoidCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_progress_changed_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback(IntPtr, VoidCallback)
+  name.vb: wkhtmltopdf_set_progress_changed_callback(IntPtr, VoidCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback(nint, VoidCallback)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback(IntPtr, VoidCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback*
   name: wkhtmltopdf_set_progress_changed_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_progress_changed_callback_
@@ -2432,11 +2513,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback
   nameWithType: IWkHtmlModule.wkhtmltopdf_set_progress_changed_callback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_warning_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  name: wkhtmltopdf_set_warning_callback(IntPtr, StringCallback)
+  name: wkhtmltopdf_set_warning_callback(nint, StringCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_warning_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_warning_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_warning_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  nameWithType: IWkHtmlModule.wkhtmltopdf_set_warning_callback(IntPtr, StringCallback)
+  name.vb: wkhtmltopdf_set_warning_callback(IntPtr, StringCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_warning_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_warning_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  nameWithType: IWkHtmlModule.wkhtmltopdf_set_warning_callback(nint, StringCallback)
+  nameWithType.vb: IWkHtmlModule.wkhtmltopdf_set_warning_callback(IntPtr, StringCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.wkhtmltopdf_set_warning_callback*
   name: wkhtmltopdf_set_warning_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_Interfaces_IWkHtmlModule_wkhtmltopdf_set_warning_callback_
@@ -3184,22 +3268,22 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule
   nameWithType: WkHtmlModule
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(System.IntPtr,System.IntPtr,System.Byte[])
-  name: wkhtmltopdf_add_object(IntPtr, IntPtr, byte[])
+  name: wkhtmltopdf_add_object(nint, nint, byte[])
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_add_object_System_IntPtr_System_IntPtr_System_Byte___
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(System.IntPtr,System.IntPtr,System.Byte[])
   name.vb: wkhtmltopdf_add_object(IntPtr, IntPtr, Byte())
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(System.IntPtr, System.IntPtr, byte[])
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(nint, nint, byte[])
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(System.IntPtr, System.IntPtr, Byte())
-  nameWithType: WkHtmlModule.wkhtmltopdf_add_object(IntPtr, IntPtr, byte[])
+  nameWithType: WkHtmlModule.wkhtmltopdf_add_object(nint, nint, byte[])
   nameWithType.vb: WkHtmlModule.wkhtmltopdf_add_object(IntPtr, IntPtr, Byte())
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(System.IntPtr,System.IntPtr,System.String)
-  name: wkhtmltopdf_add_object(IntPtr, IntPtr, string)
+  name: wkhtmltopdf_add_object(nint, nint, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_add_object_System_IntPtr_System_IntPtr_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(System.IntPtr,System.IntPtr,System.String)
   name.vb: wkhtmltopdf_add_object(IntPtr, IntPtr, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(System.IntPtr, System.IntPtr, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(nint, nint, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object(System.IntPtr, System.IntPtr, String)
-  nameWithType: WkHtmlModule.wkhtmltopdf_add_object(IntPtr, IntPtr, string)
+  nameWithType: WkHtmlModule.wkhtmltopdf_add_object(nint, nint, string)
   nameWithType.vb: WkHtmlModule.wkhtmltopdf_add_object(IntPtr, IntPtr, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object*
   name: wkhtmltopdf_add_object
@@ -3209,11 +3293,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_add_object
   nameWithType: WkHtmlModule.wkhtmltopdf_add_object
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_convert(System.IntPtr)
-  name: wkhtmltopdf_convert(IntPtr)
+  name: wkhtmltopdf_convert(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_convert_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_convert(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_convert(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_convert(IntPtr)
+  name.vb: wkhtmltopdf_convert(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_convert(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_convert(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_convert(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_convert(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_convert*
   name: wkhtmltopdf_convert
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_convert_
@@ -3222,11 +3309,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_convert
   nameWithType: WkHtmlModule.wkhtmltopdf_convert
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_create_converter(System.IntPtr)
-  name: wkhtmltopdf_create_converter(IntPtr)
+  name: wkhtmltopdf_create_converter(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_create_converter_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_create_converter(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_create_converter(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_create_converter(IntPtr)
+  name.vb: wkhtmltopdf_create_converter(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_create_converter(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_create_converter(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_create_converter(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_create_converter(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_create_converter*
   name: wkhtmltopdf_create_converter
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_create_converter_
@@ -3261,11 +3351,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_create_object_settings
   nameWithType: WkHtmlModule.wkhtmltopdf_create_object_settings
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_current_phase(System.IntPtr)
-  name: wkhtmltopdf_current_phase(IntPtr)
+  name: wkhtmltopdf_current_phase(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_current_phase_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_current_phase(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_current_phase(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_current_phase(IntPtr)
+  name.vb: wkhtmltopdf_current_phase(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_current_phase(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_current_phase(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_current_phase(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_current_phase(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_current_phase*
   name: wkhtmltopdf_current_phase
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_current_phase_
@@ -3287,11 +3380,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_deinit
   nameWithType: WkHtmlModule.wkhtmltopdf_deinit
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_converter(System.IntPtr)
-  name: wkhtmltopdf_destroy_converter(IntPtr)
+  name: wkhtmltopdf_destroy_converter(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_destroy_converter_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_converter(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_converter(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_destroy_converter(IntPtr)
+  name.vb: wkhtmltopdf_destroy_converter(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_converter(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_converter(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_destroy_converter(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_destroy_converter(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_converter*
   name: wkhtmltopdf_destroy_converter
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_destroy_converter_
@@ -3300,11 +3396,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_converter
   nameWithType: WkHtmlModule.wkhtmltopdf_destroy_converter
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_global_settings(System.IntPtr)
-  name: wkhtmltopdf_destroy_global_settings(IntPtr)
+  name: wkhtmltopdf_destroy_global_settings(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_destroy_global_settings_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_global_settings(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_global_settings(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_destroy_global_settings(IntPtr)
+  name.vb: wkhtmltopdf_destroy_global_settings(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_global_settings(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_global_settings(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_destroy_global_settings(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_destroy_global_settings(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_global_settings*
   name: wkhtmltopdf_destroy_global_settings
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_destroy_global_settings_
@@ -3313,11 +3412,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_global_settings
   nameWithType: WkHtmlModule.wkhtmltopdf_destroy_global_settings
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_object_settings(System.IntPtr)
-  name: wkhtmltopdf_destroy_object_settings(IntPtr)
+  name: wkhtmltopdf_destroy_object_settings(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_destroy_object_settings_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_object_settings(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_object_settings(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_destroy_object_settings(IntPtr)
+  name.vb: wkhtmltopdf_destroy_object_settings(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_object_settings(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_object_settings(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_destroy_object_settings(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_destroy_object_settings(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_destroy_object_settings*
   name: wkhtmltopdf_destroy_object_settings
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_destroy_object_settings_
@@ -3339,13 +3441,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_extended_qt
   nameWithType: WkHtmlModule.wkhtmltopdf_extended_qt
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_global_setting(System.IntPtr,System.String,System.Byte[])
-  name: wkhtmltopdf_get_global_setting(IntPtr, string, byte[])
+  name: wkhtmltopdf_get_global_setting(nint, string, byte[])
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_get_global_setting_System_IntPtr_System_String_System_Byte___
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_global_setting(System.IntPtr,System.String,System.Byte[])
   name.vb: wkhtmltopdf_get_global_setting(IntPtr, String, Byte())
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_global_setting(System.IntPtr, string, byte[])
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_global_setting(nint, string, byte[])
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_global_setting(System.IntPtr, String, Byte())
-  nameWithType: WkHtmlModule.wkhtmltopdf_get_global_setting(IntPtr, string, byte[])
+  nameWithType: WkHtmlModule.wkhtmltopdf_get_global_setting(nint, string, byte[])
   nameWithType.vb: WkHtmlModule.wkhtmltopdf_get_global_setting(IntPtr, String, Byte())
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_global_setting*
   name: wkhtmltopdf_get_global_setting
@@ -3355,13 +3457,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_global_setting
   nameWithType: WkHtmlModule.wkhtmltopdf_get_global_setting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_object_setting(System.IntPtr,System.String,System.Byte[])
-  name: wkhtmltopdf_get_object_setting(IntPtr, string, byte[])
+  name: wkhtmltopdf_get_object_setting(nint, string, byte[])
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_get_object_setting_System_IntPtr_System_String_System_Byte___
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_object_setting(System.IntPtr,System.String,System.Byte[])
   name.vb: wkhtmltopdf_get_object_setting(IntPtr, String, Byte())
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_object_setting(System.IntPtr, string, byte[])
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_object_setting(nint, string, byte[])
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_object_setting(System.IntPtr, String, Byte())
-  nameWithType: WkHtmlModule.wkhtmltopdf_get_object_setting(IntPtr, string, byte[])
+  nameWithType: WkHtmlModule.wkhtmltopdf_get_object_setting(nint, string, byte[])
   nameWithType.vb: WkHtmlModule.wkhtmltopdf_get_object_setting(IntPtr, String, Byte())
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_object_setting*
   name: wkhtmltopdf_get_object_setting
@@ -3371,13 +3473,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_object_setting
   nameWithType: WkHtmlModule.wkhtmltopdf_get_object_setting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_output(System.IntPtr,System.IntPtr@)
-  name: wkhtmltopdf_get_output(IntPtr, out IntPtr)
+  name: wkhtmltopdf_get_output(nint, out nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_get_output_System_IntPtr_System_IntPtr__
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_output(System.IntPtr,System.IntPtr@)
   name.vb: wkhtmltopdf_get_output(IntPtr, IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_output(System.IntPtr, out System.IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_output(nint, out nint)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_output(System.IntPtr, System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_get_output(IntPtr, out IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_get_output(nint, out nint)
   nameWithType.vb: WkHtmlModule.wkhtmltopdf_get_output(IntPtr, IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_output*
   name: wkhtmltopdf_get_output
@@ -3387,11 +3489,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_get_output
   nameWithType: WkHtmlModule.wkhtmltopdf_get_output
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_http_error_code(System.IntPtr)
-  name: wkhtmltopdf_http_error_code(IntPtr)
+  name: wkhtmltopdf_http_error_code(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_http_error_code_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_http_error_code(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_http_error_code(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_http_error_code(IntPtr)
+  name.vb: wkhtmltopdf_http_error_code(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_http_error_code(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_http_error_code(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_http_error_code(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_http_error_code(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_http_error_code*
   name: wkhtmltopdf_http_error_code
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_http_error_code_
@@ -3416,11 +3521,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_init
   nameWithType: WkHtmlModule.wkhtmltopdf_init
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_count(System.IntPtr)
-  name: wkhtmltopdf_phase_count(IntPtr)
+  name: wkhtmltopdf_phase_count(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_phase_count_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_count(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_count(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_phase_count(IntPtr)
+  name.vb: wkhtmltopdf_phase_count(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_count(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_count(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_phase_count(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_phase_count(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_count*
   name: wkhtmltopdf_phase_count
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_phase_count_
@@ -3429,13 +3537,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_count
   nameWithType: WkHtmlModule.wkhtmltopdf_phase_count
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_description(System.IntPtr,System.Int32)
-  name: wkhtmltopdf_phase_description(IntPtr, int)
+  name: wkhtmltopdf_phase_description(nint, int)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_phase_description_System_IntPtr_System_Int32_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_description(System.IntPtr,System.Int32)
   name.vb: wkhtmltopdf_phase_description(IntPtr, Integer)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_description(System.IntPtr, int)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_description(nint, int)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_description(System.IntPtr, Integer)
-  nameWithType: WkHtmlModule.wkhtmltopdf_phase_description(IntPtr, int)
+  nameWithType: WkHtmlModule.wkhtmltopdf_phase_description(nint, int)
   nameWithType.vb: WkHtmlModule.wkhtmltopdf_phase_description(IntPtr, Integer)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_description*
   name: wkhtmltopdf_phase_description
@@ -3445,11 +3553,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_phase_description
   nameWithType: WkHtmlModule.wkhtmltopdf_phase_description
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_progress_string(System.IntPtr)
-  name: wkhtmltopdf_progress_string(IntPtr)
+  name: wkhtmltopdf_progress_string(nint)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_progress_string_System_IntPtr_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_progress_string(System.IntPtr)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_progress_string(System.IntPtr)
-  nameWithType: WkHtmlModule.wkhtmltopdf_progress_string(IntPtr)
+  name.vb: wkhtmltopdf_progress_string(IntPtr)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_progress_string(nint)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_progress_string(System.IntPtr)
+  nameWithType: WkHtmlModule.wkhtmltopdf_progress_string(nint)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_progress_string(IntPtr)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_progress_string*
   name: wkhtmltopdf_progress_string
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_progress_string_
@@ -3458,11 +3569,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_progress_string
   nameWithType: WkHtmlModule.wkhtmltopdf_progress_string
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_error_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  name: wkhtmltopdf_set_error_callback(IntPtr, StringCallback)
+  name: wkhtmltopdf_set_error_callback(nint, StringCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_error_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_error_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_error_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  nameWithType: WkHtmlModule.wkhtmltopdf_set_error_callback(IntPtr, StringCallback)
+  name.vb: wkhtmltopdf_set_error_callback(IntPtr, StringCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_error_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_error_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  nameWithType: WkHtmlModule.wkhtmltopdf_set_error_callback(nint, StringCallback)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_set_error_callback(IntPtr, StringCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_error_callback*
   name: wkhtmltopdf_set_error_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_error_callback_
@@ -3471,11 +3585,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_error_callback
   nameWithType: WkHtmlModule.wkhtmltopdf_set_error_callback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_finished_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  name: wkhtmltopdf_set_finished_callback(IntPtr, IntCallback)
+  name: wkhtmltopdf_set_finished_callback(nint, IntCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_finished_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_IntCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_finished_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_finished_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
-  nameWithType: WkHtmlModule.wkhtmltopdf_set_finished_callback(IntPtr, IntCallback)
+  name.vb: wkhtmltopdf_set_finished_callback(IntPtr, IntCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_finished_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_finished_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.IntCallback)
+  nameWithType: WkHtmlModule.wkhtmltopdf_set_finished_callback(nint, IntCallback)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_set_finished_callback(IntPtr, IntCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_finished_callback*
   name: wkhtmltopdf_set_finished_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_finished_callback_
@@ -3484,13 +3601,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_finished_callback
   nameWithType: WkHtmlModule.wkhtmltopdf_set_finished_callback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_global_setting(System.IntPtr,System.String,System.String)
-  name: wkhtmltopdf_set_global_setting(IntPtr, string, string)
+  name: wkhtmltopdf_set_global_setting(nint, string, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_global_setting_System_IntPtr_System_String_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_global_setting(System.IntPtr,System.String,System.String)
   name.vb: wkhtmltopdf_set_global_setting(IntPtr, String, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_global_setting(System.IntPtr, string, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_global_setting(nint, string, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_global_setting(System.IntPtr, String, String)
-  nameWithType: WkHtmlModule.wkhtmltopdf_set_global_setting(IntPtr, string, string)
+  nameWithType: WkHtmlModule.wkhtmltopdf_set_global_setting(nint, string, string)
   nameWithType.vb: WkHtmlModule.wkhtmltopdf_set_global_setting(IntPtr, String, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_global_setting*
   name: wkhtmltopdf_set_global_setting
@@ -3500,13 +3617,13 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_global_setting
   nameWithType: WkHtmlModule.wkhtmltopdf_set_global_setting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_object_setting(System.IntPtr,System.String,System.String)
-  name: wkhtmltopdf_set_object_setting(IntPtr, string, string)
+  name: wkhtmltopdf_set_object_setting(nint, string, string)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_object_setting_System_IntPtr_System_String_System_String_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_object_setting(System.IntPtr,System.String,System.String)
   name.vb: wkhtmltopdf_set_object_setting(IntPtr, String, String)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_object_setting(System.IntPtr, string, string)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_object_setting(nint, string, string)
   fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_object_setting(System.IntPtr, String, String)
-  nameWithType: WkHtmlModule.wkhtmltopdf_set_object_setting(IntPtr, string, string)
+  nameWithType: WkHtmlModule.wkhtmltopdf_set_object_setting(nint, string, string)
   nameWithType.vb: WkHtmlModule.wkhtmltopdf_set_object_setting(IntPtr, String, String)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_object_setting*
   name: wkhtmltopdf_set_object_setting
@@ -3516,11 +3633,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_object_setting
   nameWithType: WkHtmlModule.wkhtmltopdf_set_object_setting
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_phase_changed_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  name: wkhtmltopdf_set_phase_changed_callback(IntPtr, VoidCallback)
+  name: wkhtmltopdf_set_phase_changed_callback(nint, VoidCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_phase_changed_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_phase_changed_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_phase_changed_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  nameWithType: WkHtmlModule.wkhtmltopdf_set_phase_changed_callback(IntPtr, VoidCallback)
+  name.vb: wkhtmltopdf_set_phase_changed_callback(IntPtr, VoidCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_phase_changed_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_phase_changed_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  nameWithType: WkHtmlModule.wkhtmltopdf_set_phase_changed_callback(nint, VoidCallback)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_set_phase_changed_callback(IntPtr, VoidCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_phase_changed_callback*
   name: wkhtmltopdf_set_phase_changed_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_phase_changed_callback_
@@ -3529,11 +3649,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_phase_changed_callback
   nameWithType: WkHtmlModule.wkhtmltopdf_set_phase_changed_callback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_progress_changed_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  name: wkhtmltopdf_set_progress_changed_callback(IntPtr, VoidCallback)
+  name: wkhtmltopdf_set_progress_changed_callback(nint, VoidCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_progress_changed_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_VoidCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_progress_changed_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_progress_changed_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
-  nameWithType: WkHtmlModule.wkhtmltopdf_set_progress_changed_callback(IntPtr, VoidCallback)
+  name.vb: wkhtmltopdf_set_progress_changed_callback(IntPtr, VoidCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_progress_changed_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_progress_changed_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.VoidCallback)
+  nameWithType: WkHtmlModule.wkhtmltopdf_set_progress_changed_callback(nint, VoidCallback)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_set_progress_changed_callback(IntPtr, VoidCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_progress_changed_callback*
   name: wkhtmltopdf_set_progress_changed_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_progress_changed_callback_
@@ -3542,11 +3665,14 @@ references:
   fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_progress_changed_callback
   nameWithType: WkHtmlModule.wkhtmltopdf_set_progress_changed_callback
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_warning_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  name: wkhtmltopdf_set_warning_callback(IntPtr, StringCallback)
+  name: wkhtmltopdf_set_warning_callback(nint, StringCallback)
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_warning_callback_System_IntPtr_SimpleHtmlToPdf_UnmanagedHandler_StringCallback_
   commentId: M:SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_warning_callback(System.IntPtr,SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_warning_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
-  nameWithType: WkHtmlModule.wkhtmltopdf_set_warning_callback(IntPtr, StringCallback)
+  name.vb: wkhtmltopdf_set_warning_callback(IntPtr, StringCallback)
+  fullName: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_warning_callback(nint, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  fullName.vb: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_warning_callback(System.IntPtr, SimpleHtmlToPdf.UnmanagedHandler.StringCallback)
+  nameWithType: WkHtmlModule.wkhtmltopdf_set_warning_callback(nint, StringCallback)
+  nameWithType.vb: WkHtmlModule.wkhtmltopdf_set_warning_callback(IntPtr, StringCallback)
 - uid: SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.wkhtmltopdf_set_warning_callback*
   name: wkhtmltopdf_set_warning_callback
   href: api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html#SimpleHtmlToPdf_UnmanagedHandler_WkHtmlModule_wkhtmltopdf_set_warning_callback_
