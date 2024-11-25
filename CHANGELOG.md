@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.0"></a>
+## [3.0.0](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.0) (2024-11-25)
+
+### Features
+
+* Refactor workflows and update dependencies ([aec93f3](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/aec93f36c0005603ffec9fbecbe708d4c68a1fc0))
+
+### Breaking Changes
+
+* Refactor workflows and update dependencies ([aec93f3](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/aec93f36c0005603ffec9fbecbe708d4c68a1fc0))
+
+### Other
+
+* Update changelog and project version to 2.1.15 ([ce6c255](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/ce6c2553a69c72b08be65e3ae956752f94c8ab0c))
+
 <a name="2.1.15"></a>
 ## [2.1.15](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v2.1.15) (2024-11-12)
 
