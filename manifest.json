@@ -18,7 +18,11 @@
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.SimpleHtmlToPdfRegistration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Microsoft.Extensions.DependencyInjection.SimpleHtmlToPdfRegistration",
+      "Summary": "<p sourcefile=\"api/Microsoft.Extensions.DependencyInjection.SimpleHtmlToPdfRegistration.yml\" sourcestartlinenumber=\"1\">Registration extension methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Microsoft.Extensions.DependencyInjection",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Attributes.WkHtmlAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Attributes.WkHtmlAttribute",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Attributes.WkHtmlAttribute.yml\" sourcestartlinenumber=\"1\">Wkhtml attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Attributes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Attributes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/SimpleHtmlToPdf.BaseClasses.ConverterBaseClass.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.BaseClasses.ConverterBaseClass",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.BaseClasses.ConverterBaseClass.yml\" sourcestartlinenumber=\"1\">Converter base class</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/SimpleHtmlToPdf.BaseClasses.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.BaseClasses",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/SimpleHtmlToPdf.CanisterModules.CanisterModule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.CanisterModules.CanisterModule",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.CanisterModules.CanisterModule.yml\" sourcestartlinenumber=\"1\">Canister module</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/SimpleHtmlToPdf.CanisterModules.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.CanisterModules",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -98,7 +130,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Events.ErrorArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Events.ErrorArgs",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Events.ErrorArgs.yml\" sourcestartlinenumber=\"1\">Error args</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -108,7 +144,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Events.FinishedArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Events.FinishedArgs",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Events.FinishedArgs.yml\" sourcestartlinenumber=\"1\">Finished args</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -118,7 +158,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Events.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Events",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -128,7 +172,11 @@
           "relative_path": "api/SimpleHtmlToPdf.HtmlConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.HtmlConverter",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.HtmlConverter.yml\" sourcestartlinenumber=\"1\">Html converter</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +186,11 @@
           "relative_path": "api/SimpleHtmlToPdf.HtmlToPdfDocument.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.HtmlToPdfDocument",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.HtmlToPdfDocument.yml\" sourcestartlinenumber=\"1\">Html to Pdf document</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -148,7 +200,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Interfaces.IConverter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Interfaces.IConverter",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Interfaces.IConverter.yml\" sourcestartlinenumber=\"1\">Converter interface</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -158,7 +214,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Interfaces.IDocument.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Interfaces.IDocument",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Interfaces.IDocument.yml\" sourcestartlinenumber=\"1\">Document interface</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +228,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Interfaces.IObject.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Interfaces.IObject",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Interfaces.IObject.yml\" sourcestartlinenumber=\"1\">Object interface</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -178,7 +242,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Interfaces.ISettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Interfaces.ISettings",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Interfaces.ISettings.yml\" sourcestartlinenumber=\"1\">Settings interface</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -188,7 +256,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Interfaces.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Interfaces",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -198,7 +270,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.ColorMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.Enums.ColorMode",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.Enums.ColorMode.yml\" sourcestartlinenumber=\"1\">Color mode</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -208,7 +284,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.ContentErrorHandling.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.Enums.ContentErrorHandling",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.Enums.ContentErrorHandling.yml\" sourcestartlinenumber=\"1\">Content error handling</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -218,7 +298,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.Orientation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.Enums.Orientation",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.Enums.Orientation.yml\" sourcestartlinenumber=\"1\">Orientation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -228,7 +312,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.Enums.PechkinPaperSize.yml\" sourcestartlinenumber=\"1\">Penchkin paper size</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -238,7 +326,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.Unit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.Enums.Unit",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.Enums.Unit.yml\" sourcestartlinenumber=\"1\">Units</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -248,7 +340,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.Enums.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.Enums",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -258,7 +354,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.FooterSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.FooterSettings",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.FooterSettings.yml\" sourcestartlinenumber=\"1\">Footer settings</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -268,7 +368,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.GlobalSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.GlobalSettings",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.GlobalSettings.yml\" sourcestartlinenumber=\"1\">Global settings</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -278,7 +382,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.HeaderSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.HeaderSettings",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.HeaderSettings.yml\" sourcestartlinenumber=\"1\">Header settings</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -288,7 +396,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.LoadSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.LoadSettings",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.LoadSettings.yml\" sourcestartlinenumber=\"1\">Load settings</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -298,7 +410,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.MarginSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.MarginSettings",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.MarginSettings.yml\" sourcestartlinenumber=\"1\">Margin settings</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -308,7 +424,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.ObjectSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.ObjectSettings",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.ObjectSettings.yml\" sourcestartlinenumber=\"1\">Object settings</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -318,7 +438,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.WebSettings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings.WebSettings",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.Settings.WebSettings.yml\" sourcestartlinenumber=\"1\">Web settings</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -328,7 +452,11 @@
           "relative_path": "api/SimpleHtmlToPdf.Settings.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.Settings",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -338,7 +466,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.BindingWrapper.yml\" sourcestartlinenumber=\"1\">Binding wrapper</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -348,7 +480,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.CustomUnmanagedType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.CustomUnmanagedType",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.CustomUnmanagedType.yml\" sourcestartlinenumber=\"1\">Custom unmanaged type</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -358,7 +494,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.IntCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.IntCallback",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.IntCallback.yml\" sourcestartlinenumber=\"1\">Int Callback delegate</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -368,7 +508,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.IWkHtmlModule.yml\" sourcestartlinenumber=\"1\">WKHTML Module interface</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -378,7 +522,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.Interfaces.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.Interfaces",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -388,7 +536,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.PaperKind.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.PaperKind",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.PaperKind.yml\" sourcestartlinenumber=\"1\">Enumaration of paper kinds from\n<a href=\"http://msdn.microsoft.com/en-us/library/system.drawing.printing.paperkind.aspx\" sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.PaperKind.yml\" sourcestartlinenumber=\"2\">http://msdn.microsoft.com/en-us/library/system.drawing.printing.paperkind.aspx</a> Implemented\nhere because Syste.Drawing.Printing is not ported to NET Core</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -398,7 +550,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.StringCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.StringCallback",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.StringCallback.yml\" sourcestartlinenumber=\"1\">String call back delegate</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -408,7 +564,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.VoidCallback",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.VoidCallback.yml\" sourcestartlinenumber=\"1\">Void callback delegate</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -418,7 +578,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule",
+      "Summary": "<p sourcefile=\"api/SimpleHtmlToPdf.UnmanagedHandler.WkHtmlModule.yml\" sourcestartlinenumber=\"1\">WKHTML module</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -428,7 +592,11 @@
           "relative_path": "api/SimpleHtmlToPdf.UnmanagedHandler.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf.UnmanagedHandler",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -438,7 +606,11 @@
           "relative_path": "api/SimpleHtmlToPdf.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SimpleHtmlToPdf",
+      "Summary": null
     },
     {
       "type": "Conceptual",
