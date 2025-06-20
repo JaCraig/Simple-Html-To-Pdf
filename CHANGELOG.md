@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.1"></a>
+## [3.0.1](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.1) (2025-06-20)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([ae4a282](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/ae4a282dc526979d9808203647ee00fd91feb8a0))
+
+### Other
+
+* Merge pull request #74 from JaCraig/dependabot/nuget/SimpleHtmlToPdf.WebApp.net6/dependencies-0eb5dce03c ([67bc7cf](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/67bc7cfcc35f5b151ad6bc987df268996198eb34))
+* Merge pull request #75 from JaCraig/dependabot/nuget/SimpleHtmlToPdf.WebApp.net6/dependencies-836e21bf11 ([d40ff54](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/d40ff54d043dbaa193918f4ecaaf3105311759f0))
+* Merge pull request #76 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-96fa6bdc30 ([4b9f660](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/4b9f660b00e83a47513996a61a2c473a0d0c43cf))
+* bump husky ([00b4111](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/00b411124af8c5c4abbe4205406c8d33f31ebee3))
+* bump versionize ([805ccaf](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/805ccaf7b864b6a7b8c3ce9c361ce3eecfcba911))
+
 <a name="3.0.0"></a>
 ## [3.0.0](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.0) (2024-11-25)
 
