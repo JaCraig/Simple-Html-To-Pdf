@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.3"></a>
+## [3.0.3](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.3) (2025-06-27)
+
+### Bug Fixes
+
+* **dependabot:** correct formatting of patterns in configuration ([794af8b](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/794af8b25e67da13cd9dcd89a908353d4af96b3b))
+
 <a name="3.0.2"></a>
 ## [3.0.2](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.2) (2025-06-23)
 
