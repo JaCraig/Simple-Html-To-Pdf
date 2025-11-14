@@ -17,7 +17,7 @@
 
     <AssemblyTitle>SimpleHtmlToPdf</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <Version>3.0.6</Version>
+    <Version>3.0.7</Version>
     <Nullable>enable</Nullable>
     <Title>SimpleHtmlToPdf</Title>
     <Copyright>Copyright © James Craig 2020</Copyright>
