@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.16"></a>
+## [3.0.16](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.16) (2026-03-12)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([c71319d](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/c71319d3c3bd4f37e79ef31cdb6831f14f22b192))
+
+### Other
+
+* Merge pull request #96 from JaCraig/dependabot/nuget/dot-config/dependencies-ef2d746a42 ([dfe6360](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/dfe6360f3cc97f27e7a67d764212b3f0239d8653))
+
 <a name="3.0.15"></a>
 ## [3.0.15](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.15) (2026-03-11)
 
