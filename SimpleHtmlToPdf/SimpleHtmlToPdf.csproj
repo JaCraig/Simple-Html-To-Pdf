@@ -17,7 +17,7 @@
 
     <AssemblyTitle>SimpleHtmlToPdf</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <Version>3.0.19</Version>
+    <Version>3.0.20</Version>
     <Nullable>enable</Nullable>
     <Title>SimpleHtmlToPdf</Title>
     <Copyright>Copyright © James Craig 2020</Copyright>
@@ -62,20 +62,13 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="runtimes/linux-x64/native/libwkhtmltox.so" Pack="true"
-      PackagePath="runtimes/linux-x64/native/" />
-    <None Include="runtimes/linux-x86/native/libwkhtmltox.so" Pack="true"
-      PackagePath="runtimes/linux-x86/native/" />
-    <None Include="runtimes/osx-x64/native/libwkhtmltox.dylib" Pack="true"
-      PackagePath="runtimes/osx-x64/native/" />
-    <None Include="runtimes/osx-arm64/native/libwkhtmltox.dylib" Pack="true"
-      PackagePath="runtimes/osx-arm64/native/" />
-    <None Include="runtimes/win-x64/native/wkhtmltox.dll" Pack="true"
-      PackagePath="runtimes/win-x64/native/" />
-    <None Include="runtimes/win-arm64/native/wkhtmltox.dll" Pack="true"
-      PackagePath="runtimes/win-arm64/native/" />
-    <None Include="runtimes/win-x86/native/wkhtmltox.dll" Pack="true"
-      PackagePath="runtimes/win-x86/native/" />
+    <None Include="runtimes/linux-x64/native/libwkhtmltox.so" Pack="true" PackagePath="runtimes/linux-x64/native/" />
+    <None Include="runtimes/linux-x86/native/libwkhtmltox.so" Pack="true" PackagePath="runtimes/linux-x86/native/" />
+    <None Include="runtimes/osx-x64/native/libwkhtmltox.dylib" Pack="true" PackagePath="runtimes/osx-x64/native/" />
+    <None Include="runtimes/osx-arm64/native/libwkhtmltox.dylib" Pack="true" PackagePath="runtimes/osx-arm64/native/" />
+    <None Include="runtimes/win-x64/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-x64/native/" />
+    <None Include="runtimes/win-arm64/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-arm64/native/" />
+    <None Include="runtimes/win-x86/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-x86/native/" />
   </ItemGroup>
 
   <ItemGroup>
@@ -87,9 +80,7 @@
     </PackageReference>
   </ItemGroup>
   <Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences" Condition="'$(HUSKY)' != 0">
-    <Exec Command="dotnet tool restore" StandardOutputImportance="Low"
-      StandardErrorImportance="High" />
-    <Exec Command="dotnet husky install" StandardOutputImportance="Low"
-      StandardErrorImportance="High" WorkingDirectory=".." />
+    <Exec Command="dotnet tool restore" StandardOutputImportance="Low" StandardErrorImportance="High" />
+    <Exec Command="dotnet husky install" StandardOutputImportance="Low" StandardErrorImportance="High" WorkingDirectory=".." />
   </Target>
 </Project>

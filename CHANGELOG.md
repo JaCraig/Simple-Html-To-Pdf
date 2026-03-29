@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.20"></a>
+## [3.0.20](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.20) (2026-03-29)
+
+### Bug Fixes
+
+* **dependabot:** update schedule to weekly for NuGet and GitHub Actions ([35700a1](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/35700a112f50d83c32a70b4adfd34cd94af861ea))
+
 <a name="3.0.19"></a>
 ## [3.0.19](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.19) (2026-03-17)
 
