@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net9.0;net8.0;net10.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>SimpleHtmlToPdf</AssemblyName>
     <PackageId>SimpleHtmlToPdf</PackageId>
@@ -26,10 +26,11 @@
     <RepositoryUrl>https://github.com/JaCraig/SimpleHtmlToPdf</RepositoryUrl>
     <PackageReleaseNotes>https://github.com/JaCraig/Simple-Html-To-Pdf/blob/master/CHANGELOG.md</PackageReleaseNotes>
     <RootNamespace>SimpleHtmlToPdf</RootNamespace>
-    
+
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>
+      $(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
@@ -61,13 +62,20 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="runtimes/linux-x64/native/libwkhtmltox.so" Pack="true" PackagePath="runtimes/linux-x64/native/" />
-    <None Include="runtimes/linux-x86/native/libwkhtmltox.so" Pack="true" PackagePath="runtimes/linux-x86/native/" />
-    <None Include="runtimes/osx-x64/native/libwkhtmltox.dylib" Pack="true" PackagePath="runtimes/osx-x64/native/" />
-	<None Include="runtimes/osx-arm64/native/libwkhtmltox.dylib" Pack="true" PackagePath="runtimes/osx-arm64/native/" />
-    <None Include="runtimes/win-x64/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-x64/native/" />
-	<None Include="runtimes/win-arm64/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-arm64/native/" />
-    <None Include="runtimes/win-x86/native/wkhtmltox.dll" Pack="true" PackagePath="runtimes/win-x86/native/" />
+    <None Include="runtimes/linux-x64/native/libwkhtmltox.so" Pack="true"
+      PackagePath="runtimes/linux-x64/native/" />
+    <None Include="runtimes/linux-x86/native/libwkhtmltox.so" Pack="true"
+      PackagePath="runtimes/linux-x86/native/" />
+    <None Include="runtimes/osx-x64/native/libwkhtmltox.dylib" Pack="true"
+      PackagePath="runtimes/osx-x64/native/" />
+    <None Include="runtimes/osx-arm64/native/libwkhtmltox.dylib" Pack="true"
+      PackagePath="runtimes/osx-arm64/native/" />
+    <None Include="runtimes/win-x64/native/wkhtmltox.dll" Pack="true"
+      PackagePath="runtimes/win-x64/native/" />
+    <None Include="runtimes/win-arm64/native/wkhtmltox.dll" Pack="true"
+      PackagePath="runtimes/win-arm64/native/" />
+    <None Include="runtimes/win-x86/native/wkhtmltox.dll" Pack="true"
+      PackagePath="runtimes/win-x86/native/" />
   </ItemGroup>
 
   <ItemGroup>
@@ -79,7 +87,9 @@
     </PackageReference>
   </ItemGroup>
   <Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences" Condition="'$(HUSKY)' != 0">
-    <Exec Command="dotnet tool restore" StandardOutputImportance="Low" StandardErrorImportance="High" />
-    <Exec Command="dotnet husky install" StandardOutputImportance="Low" StandardErrorImportance="High" WorkingDirectory=".." />
+    <Exec Command="dotnet tool restore" StandardOutputImportance="Low"
+      StandardErrorImportance="High" />
+    <Exec Command="dotnet husky install" StandardOutputImportance="Low"
+      StandardErrorImportance="High" WorkingDirectory=".." />
   </Target>
 </Project>
