@@ -5,14 +5,13 @@ name: .NET Publish
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
 
 jobs:
   build:
-    uses: 'JaCraig/Centralized-Workflows/.github/workflows/dotnet-publish.yml@main'
+    uses: "JaCraig/Centralized-Workflows/.github/workflows/dotnet-publish.yml@main"
     with:
-      user: 'JaCraig'
-      user-email: 'JaCraig@users.noreply.github.com'
+      user: "JaCraig"
+      user-email: "JaCraig@users.noreply.github.com"
     secrets:
-      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
