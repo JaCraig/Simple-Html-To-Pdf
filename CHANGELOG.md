@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.33"></a>
+## [3.0.33](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.33) (2026-05-28)
+
+### Bug Fixes
+
+* **workflows:** clean up YAML formatting and remove unused secrets ([510c3c1](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/510c3c1fdbb324f6eec157e489e59607a070b18d))
+
+### Other
+
+* add copilot instructions for commit messages ([c47b3fe](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/c47b3fef2ccef30ef712963a598e503f7e03bc5a))
+
 <a name="3.0.32"></a>
 ## [3.0.32](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.32) (2026-05-15)
 
