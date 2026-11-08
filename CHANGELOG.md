@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.34"></a>
+## [3.0.34](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.34) (2026-11-08)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([a2e8c54](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/a2e8c541d72d7742e4df950f1af3cdd0bef2f3a6))
+* Bump the dependencies group with 1 update ([334d294](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/334d2943f06fe3c563e3fcd9064b9d6648189ebd))
+* Bump the dependencies group with 1 update ([30d8a5b](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/30d8a5b65856f9416ef47277a90d39e9e3bfb04b))
+* Bump the dependencies group with 1 update ([f0c1f4b](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/f0c1f4be14b79d99453457c980a55ae4f9bb8d43))
+* Bump the dependencies group with 1 update ([de98a2b](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/de98a2b71064fd2c185d20a157f7bf06275ed88d))
+* Bump the dependencies group with 2 updates ([afef13c](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/afef13c9095af043894e385f84e59f3d04be8861))
+* Bump the dependencies group with 2 updates ([3f2babf](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/3f2babfcb134363a8a8eab59988445ac9fdf7147))
+* Bump the dependencies group with 2 updates ([4b5b3cc](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/4b5b3cc27173e69033ddfedc3afc601e0a6525e8))
+* Bump the dependencies group with 2 updates ([38df8eb](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/38df8eb9c701954d9f9270cb3e0417a2fc7ea229))
+* Bump the dependencies group with 2 updates ([62bcc99](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/62bcc99aa41c8cf241969f0bfaec496b8e65d9fb))
+* **workflow:** update permissions and enhance publish steps ([91fffca](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/91fffca346e8c0d376c3edbe55fe74f2bd4c43fa))
+
+### Other
+
+* Merge pull request #112 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-8fb6fb061b ([41d936d](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/41d936d46467051b663a757826f594fb995083c6))
+* Merge pull request #113 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-991ee26f7c ([655b1e2](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/655b1e2523b89c9413358bc1c4c1db3b4477387c))
+* Merge pull request #114 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-5c1cd76f7e ([8aed12d](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/8aed12d441abbd184fce6d1d19a8eef006c9dc0e))
+* Merge pull request #115 from JaCraig/dependabot/nuget/dot-config/dependencies-d580172a4f ([6e20e16](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/6e20e166add15419df5259e54116dc9ecaff0c34))
+* Merge pull request #116 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-637020aa5a ([6ff66f1](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/6ff66f17d6d54f63c27deeb02317818b350e101c))
+* Merge pull request #117 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-0f43b74034 ([23e940b](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/23e940b2470171f4958d55ae36e00b88a0fe3eed))
+* Merge pull request #118 from JaCraig/dependabot/nuget/dot-config/dependencies-87dec4854d ([99f3854](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/99f3854bbf7a558ea30bc47704093dabe311525d))
+* Merge pull request #119 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-39d8d9731f ([20398b2](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/20398b2f9a58785dddc168fd08cd44e94797a04f))
+* Merge pull request #120 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-c1ede9f7c1 ([873982e](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/873982e6f416cd807c446f8d82646cc57dc97322))
+* Merge pull request #121 from JaCraig/dependabot/nuget/SimpleHtmlToPdf/dependencies-f4803d6dd8 ([8a7dc9b](https://www.github.com/JaCraig/Simple-Html-To-Pdf/commit/8a7dc9bb5c25b4b68334c2a313844334b2bf4d6f))
+
 <a name="3.0.33"></a>
 ## [3.0.33](https://www.github.com/JaCraig/Simple-Html-To-Pdf/releases/tag/v3.0.33) (2026-05-28)
 
